@@ -1,0 +1,61 @@
+name: Pflanze ändern
+description: Status, Standort, Foto oder Notizen einer vorhandenen Pflanze ändern
+title: "[Ändern] "
+body:
+  - type: markdown
+    attributes:
+      value: Nur ausfüllen, was sich ändert. Leere Felder bleiben unverändert.
+  - type: input
+    id: pflanzen_id
+    attributes:
+      label: Pflanzen-Nr.
+      placeholder: "7"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - unverändert
+        - Besitz
+        - Wunsch
+        - Löschen
+      default: 0
+  - type: input
+    id: name
+    attributes:
+      label: Name
+  - type: input
+    id: botanisch
+    attributes:
+      label: Botanischer Name
+  - type: input
+    id: standort
+    attributes:
+      label: Standort
+  - type: input
+    id: herkunft
+    attributes:
+      label: Herkunft
+  - type: input
+    id: kaufdatum
+    attributes:
+      label: Kaufdatum
+  - type: input
+    id: preis
+    attributes:
+      label: Preis
+  - type: input
+    id: etikett
+    attributes:
+      label: Etikett-Text
+  - type: textarea
+    id: foto
+    attributes:
+      label: Neues Foto
+  - type: textarea
+    id: notizen
+    attributes:
+      label: Notiz ergänzen
+      description: Wird mit Datum an die bestehenden Notizen angehängt.

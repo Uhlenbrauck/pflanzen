@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Unsere Pflanzen</title>
+<meta name="theme-color" content="#1f3a2e">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f4f1ea; --card:#fffdf8; --ink:#1d2a22; --muted:#5f6b62; --line:#e2ddd1;
+  --green:#1f3a2e; --leaf:#3f7a55; --leaf-soft:#e3eee4; --wish:#9a5b1e; --wish-soft:#f5e8d8;
+  --shadow:0 1px 2px rgba(30,40,30,.06),0 4px 14px rgba(30,40,30,.06);
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#121814; --card:#1a221d; --ink:#e7ece6; --muted:#9aa89e; --line:#2a352e;
+  --green:#0d1a13; --leaf:#7fc497; --leaf-soft:#1f3326; --wish:#e0a86a; --wish-soft:#33271a;
+  --shadow:none;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif}
+a{color:var(--leaf)}
+header{background:var(--green);color:#f1efe6;padding:calc(18px + env(safe-area-inset-top)) 16px 0}
+.wrap{max-width:760px;margin:0 auto}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:650;letter-spacing:-.01em;margin:0}
+h1{font-size:1.75rem}
+.sub{opacity:.75;font-size:.9rem;margin:.15rem 0 14px}
+.tabs{display:flex;gap:4px}
+.tab{flex:1;background:transparent;border:0;color:#f1efe6;opacity:.65;padding:12px 8px 14px;font:600 .95rem Inter,sans-serif;border-bottom:3px solid transparent;cursor:pointer}
+.tab[aria-selected=true]{opacity:1;border-color:#9fd6ae}
+.tab .n{font-weight:500;opacity:.7;margin-left:4px}
+main{padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
+.search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 4px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:6px 12px;font:500 .85rem Inter,sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--leaf);border-color:var(--leaf);color:#fff}
+.list{display:grid;gap:10px;margin-top:12px}
+.item{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:14px;padding:12px;box-shadow:var(--shadow);text-decoration:none;color:inherit;border:1px solid var(--line)}
+.thumb{flex:none;width:56px;height:56px;border-radius:10px;background:var(--leaf-soft);display:grid;place-items:center;overflow:hidden;font:600 .8rem Inter;color:var(--leaf)}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.wish .thumb{background:var(--wish-soft);color:var(--wish)}
+.item h3{font-size:1.1rem}
+.bot{font-style:italic;color:var(--muted);font-size:.9rem}
+.meta{color:var(--muted);font-size:.82rem;margin-top:2px}
+.empty{color:var(--muted);text-align:center;padding:40px 10px}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));background:var(--leaf);color:#fff;text-decoration:none;font-weight:600;padding:14px 20px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.2)}
+/* Detail */
+.back{display:inline-block;color:#f1efe6;text-decoration:none;opacity:.8;padding:4px 0 10px;font-weight:500}
+.hero{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;margin-bottom:14px}
+.badge{display:inline-block;font:600 .72rem Inter;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:6px;background:#9fd6ae;color:#123;margin-bottom:6px}
+.badge.w{background:#f0c48f}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0 0 18px}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.fact dt{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.fact dd{margin:2px 0 0;font-weight:500;overflow-wrap:anywhere}
+section{margin:22px 0}
+section h2{font-size:1.2rem;margin-bottom:10px}
+.care{display:grid;gap:8px}
+.care div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:grid;grid-template-columns:28px 1fr;gap:4px 10px}
+.care .ic{font-size:1.2rem;line-height:1.4}
+.care b{display:block;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+.note{background:var(--card);border-left:4px solid var(--leaf);border-radius:0 12px 12px 0;padding:12px 14px;white-space:pre-line}
+.btns{display:grid;gap:8px}
+.btn{display:block;text-align:center;text-decoration:none;padding:13px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-weight:600}
+.btn.primary{background:var(--leaf);border-color:var(--leaf);color:#fff}
+.dl{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.dl a{padding:12px 6px;font-size:.85rem}
+.src li{margin:4px 0}
+.hint{font-size:.82rem;color:var(--muted);margin-top:8px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+const REPO = "https://github.com/Uhlenbrauck/pflanzen";
+const PFLEGE = [
+  ["licht","☀️","Licht"],["temperatur","🌡️","Temperatur"],["feuchte","💧","Luftfeuchte"],
+  ["wasser","🚿","Gießen"],["substrat","🪴","Substrat"],["duengen","🧪","Düngen"],["besonderheiten","📌","Besonderheiten"]
+];
+let daten = [], tab = "besitz", suche = "", ort = "";
+const app = document.getElementById("app");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const url = u => /^(https?:)?\/\//.test(u) || /^fotos\//.test(u) ? u : "";
+
+async function laden(){
+  try{
+    const r = await fetch("pflanzen.json", {cache:"no-cache"});
+    daten = await r.json();
+  }catch(e){ app.innerHTML = '<p class="empty">Daten konnten nicht geladen werden.</p>'; return; }
+  zeigen();
+}
+
+function zeigen(){
+  const id = decodeURIComponent(location.hash.slice(1));
+  const p = id && daten.find(x => String(x.id) === id);
+  p ? detail(p) : liste();
+  window.scrollTo(0,0);
+}
+
+function liste(){
+  const n = s => daten.filter(p => p.status === s).length;
+  const orte = [...new Set(daten.filter(p => p.status === tab).map(p => p.standort).filter(Boolean))].sort();
+  if (ort && !orte.includes(ort)) ort = "";
+  app.innerHTML = `
+  <header><div class="wrap">
+    <h1>Unsere Pflanzen</h1><p class="sub">Sammlung &amp; Wunschliste</p>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="${tab==="besitz"}" data-tab="besitz">Pflanzen<span class="n">${n("besitz")}</span></button>
+      <button class="tab" role="tab" aria-selected="${tab==="wunsch"}" data-tab="wunsch">Wunschliste<span class="n">${n("wunsch")}</span></button>
+    </div>
+  </div></header>
+  <main class="wrap">
+    <input class="search" type="search" placeholder="Suchen …" value="${esc(suche)}" aria-label="Suchen">
+    ${orte.length > 1 ? `<div class="chips">${["",...orte].map(o => `<button class="chip" aria-pressed="${o===ort}" data-ort="${esc(o)}">${o ? esc(o) : "Alle Standorte"}</button>`).join("")}</div>` : ""}
+    <div class="list"></div>
+  </main>
+  <a class="fab" href="${REPO}/issues/new?template=neue-pflanze.yml&status=${tab === "wunsch" ? "Wunsch" : "Besitz"}">+ ${tab === "wunsch" ? "Wunsch" : "Pflanze"}</a>`;
+  app.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.tab; liste(); });
+  app.querySelectorAll(".chip").forEach(b => b.onclick = () => { ort = b.dataset.ort; liste(); });
+  const input = app.querySelector(".search");
+  input.oninput = () => { suche = input.value; treffer(); };
+  treffer();
+}
+
+function treffer(){
+  const q = suche.trim().toLowerCase();
+  const l = daten
+    .filter(p => p.status === tab && (!ort || p.standort === ort))
+    .filter(p => !q || [p.name,p.botanisch,p.standort,p.herkunft,p.notizen,"#"+p.id].join(" ").toLowerCase().includes(q))
+    .sort((a,b) => a.name.localeCompare(b.name, "de"));
+  app.querySelector(".list").innerHTML = l.length ? l.map(p => `
+    <a class="item ${p.status==="wunsch"?"wish":""}" href="#${p.id}">
+      <div class="thumb">${url(p.foto) ? `<img src="${esc(p.foto)}" alt="" loading="lazy">` : "#"+p.id}</div>
+      <div><h3>${esc(p.name)}</h3>
+      ${p.botanisch ? `<div class="bot">${esc(p.botanisch)}</div>` : ""}
+      <div class="meta">${[p.standort, p.status==="wunsch" && p.preis].filter(Boolean).map(esc).join(" · ")}</div></div>
+    </a>`).join("") : `<p class="empty">${daten.some(p=>p.status===tab) ? "Keine Treffer." : tab==="wunsch" ? "Noch keine Wünsche." : "Noch keine Pflanzen."}</p>`;
+}
+
+function detail(p){
+  const w = p.status === "wunsch";
+  const fakten = [
+    ["Nr.", "#"+p.id], ["Standort", p.standort], ["Herkunft", p.herkunft],
+    ["Gekauft", p.kaufdatum], ["Preis", p.preis],
+    ["Shop", p.shop_link && `<a href="${esc(p.shop_link)}" target="_blank" rel="noopener">Zum Shop ↗</a>`]
+  ].filter(f => f[1]);
+  const pflege = PFLEGE.filter(([k]) => p.pflege && p.pflege[k]);
+  const aendern = `${REPO}/issues/new?template=pflanze-aendern.yml&pflanzen_id=${p.id}&title=${encodeURIComponent("[Ändern] #"+p.id+" "+p.name)}`;
+  const base = `etiketten/${p.id}/${p.id}-`;
+  app.innerHTML = `
+  <header><div class="wrap" style="padding-bottom:18px">
+    <a class="back" href="#">← Alle Pflanzen</a><br>
+    <span class="badge ${w?"w":""}">${w ? "Wunschliste" : "Sammlung"}</span>
+    <h1>${esc(p.name)}</h1>
+    ${p.botanisch ? `<div class="bot" style="color:#cfe3d4">${esc(p.botanisch)}</div>` : ""}
+  </div></header>
+  <main class="wrap">
+    ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(p.name)}">` : ""}
+    <dl class="facts">${fakten.map(([k,v]) => `<div class="fact"><dt>${k}</dt><dd>${k==="Shop" ? v : esc(v)}</dd></div>`).join("")}</dl>
+    ${pflege.length ? `<section><h2>Pflege</h2><div class="care">${pflege.map(([k,ic,t]) =>
+      `<div><span class="ic">${ic}</span><span><b>${t}</b>${esc(p.pflege[k])}</span></div>`).join("")}</div></section>` : ""}
+    ${p.notizen ? `<section><h2>Notizen</h2><div class="note">${esc(p.notizen)}</div></section>` : ""}
+    ${p.quellen && p.quellen.length ? `<section><h2>Quellen</h2><ul class="src">${p.quellen.map(q =>
+      `<li><a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.titel || q.url)}</a></li>`).join("")}</ul></section>` : ""}
+    ${!w ? `<section><h2>Etiketten (3MF)</h2><div class="dl">
+      <a class="btn" href="${base}klebeschild.3mf" download>Klebeschild</a>
+      <a class="btn" href="${base}stecker.3mf" download>Stecker</a>
+      <a class="btn" href="${base}anhaenger.3mf" download>Anhänger</a></div>
+      <p class="hint">Filament 1 = Grundkörper (hell), Filament 2 = Code + Text (dunkel).</p></section>` : ""}
+    <section class="btns">
+      <a class="btn primary" href="${aendern}">${w ? "Gekauft / ändern" : "Ändern"}</a>
+    </section>
+  </main>`;
+}
+
+window.addEventListener("hashchange", zeigen);
+laden();
+</script>
+</body>
+</html>

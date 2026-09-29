@@ -1,0 +1,6 @@
+segno
+trimesh
+manifold3d
+shapely
+matplotlib
+pillow

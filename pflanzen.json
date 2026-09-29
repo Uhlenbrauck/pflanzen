@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "status": "besitz",
+    "name": "Testetikett",
+    "botanisch": "",
+    "etikett": "#1 Testetikett",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "Drucker",
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Nur zum Probedruck der drei Etikett-Varianten. Danach löschen oder durch eine echte Pflanze ersetzen.",
+    "pflege": {},
+    "quellen": []
+  },
+  {
+    "id": 2,
+    "status": "wunsch",
+    "name": "Kannenpflanze",
+    "botanisch": "Nepenthes spec.",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "Hängeampel (Lechuza Bola 32)",
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Für die Hängehaltung mit Dochtbewässerung. Hochland- oder Tieflandart? Entscheidet über die Temperaturansprüche.",
+    "pflege": {
+      "licht": "Hell, keine pralle Mittagssonne; Tieflandarten vertragen auch Halbschatten.",
+      "temperatur": "Hochland: 20–25 °C tags, 10–15 °C nachts (Nachtabsenkung nötig). Tiefland: ganzjährig 20–30 °C.",
+      "feuchte": "Über 60 % relative Luftfeuchte.",
+      "wasser": "Von oben gießen, keine dauerhafte Staunässe. Nur kalkarmes Wasser (Regen-, destilliertes oder Osmosewasser).",
+      "substrat": "Luftig: Torf, Sand, Perlite und Sphagnum gemischt.",
+      "duengen": "Nicht ins Substrat düngen; die Kannen versorgen die Pflanze.",
+      "besonderheiten": "Kannen nicht mit Fleisch füttern und nicht ausleeren."
+    },
+    "quellen": [
+      { "titel": "utricularien.de – Kultur Nepenthes", "url": "https://www.utricularien.de/startseite.php?go=karnivoren_kultur_nepenthes" },
+      { "titel": "hortica.de – Kannenpflanzen", "url": "https://hortica.de/pflanzen/kannenpflanzen-nepenthes/" }
+    ]
+  },
+  {
+    "id": 3,
+    "status": "wunsch",
+    "name": "Stachel-Begonie",
+    "botanisch": "Begonia ferox",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "Glasgefäß / Terrarium",
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Gefäß noch offen.",
+    "pflege": {
+      "licht": "Halbschatten bzw. mittleres LED-Licht im Terrarium.",
+      "temperatur": "Warm, normale Zimmertemperatur (tropische Art), keine kalten Nächte.",
+      "feuchte": "Sehr hoch, nahe 100 % – geschlossenes Gefäß, aber mit etwas Luftaustausch.",
+      "wasser": "Leicht antrocknen lassen, nie ganz austrocknen. Staunässe vermeiden.",
+      "substrat": "Lockere Erde mit ca. ⅓ Perlite, dazu etwas Kokosfaser.",
+      "duengen": "Etwa monatlich stark verdünnter (⅛–¼) harnstofffreier Orchideendünger.",
+      "besonderheiten": "Anfällig für Stammfäule bei stehender Nässe und fehlender Belüftung. Lässt sich gut über Blattstecklinge vermehren."
+    },
+    "quellen": [
+      { "titel": "American Begonia Society – Begonia ferox", "url": "https://www.begonias.org/begonia-ferox/" }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+name: Neue Pflanze
+description: Pflanze oder Wunsch hinzufügen
+title: "[Pflanze] "
+body:
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Besitz
+        - Wunsch
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Deutscher oder gebräuchlicher Name
+      placeholder: Kannenpflanze
+    validations:
+      required: true
+  - type: input
+    id: botanisch
+    attributes:
+      label: Botanischer Name
+      placeholder: Nepenthes ventricosa
+  - type: input
+    id: standort
+    attributes:
+      label: Standort
+      placeholder: Wohnzimmer Fenster
+  - type: input
+    id: herkunft
+    attributes:
+      label: Herkunft
+      placeholder: mybotanica, Baumarkt, Ableger …
+  - type: input
+    id: kaufdatum
+    attributes:
+      label: Kaufdatum
+      placeholder: 2026-09
+  - type: input
+    id: shop_link
+    attributes:
+      label: Shop-Link
+      description: Vor allem für die Wunschliste
+  - type: input
+    id: preis
+    attributes:
+      label: Preis
+      placeholder: 24,90 €
+  - type: input
+    id: etikett
+    attributes:
+      label: Etikett-Text
+      description: Optional, kurz halten. Leer = „#Nr Name“
+  - type: textarea
+    id: foto
+    attributes:
+      label: Foto
+      description: Einfach ein Bild hier hineinziehen bzw. am Handy über das Büroklammer-Symbol anhängen.
+  - type: textarea
+    id: notizen
+    attributes:
+      label: Notizen

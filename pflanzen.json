@@ -38,8 +38,14 @@
       "besonderheiten": "Kannen nicht mit Fleisch füttern und nicht ausleeren."
     },
     "quellen": [
-      { "titel": "utricularien.de – Kultur Nepenthes", "url": "https://www.utricularien.de/startseite.php?go=karnivoren_kultur_nepenthes" },
-      { "titel": "hortica.de – Kannenpflanzen", "url": "https://hortica.de/pflanzen/kannenpflanzen-nepenthes/" }
+      {
+        "titel": "utricularien.de – Kultur Nepenthes",
+        "url": "https://www.utricularien.de/startseite.php?go=karnivoren_kultur_nepenthes"
+      },
+      {
+        "titel": "hortica.de – Kannenpflanzen",
+        "url": "https://hortica.de/pflanzen/kannenpflanzen-nepenthes/"
+      }
     ]
   },
   {
@@ -65,7 +71,10 @@
       "besonderheiten": "Anfällig für Stammfäule bei stehender Nässe und fehlender Belüftung. Lässt sich gut über Blattstecklinge vermehren."
     },
     "quellen": [
-      { "titel": "American Begonia Society – Begonia ferox", "url": "https://www.begonias.org/begonia-ferox/" }
+      {
+        "titel": "American Begonia Society – Begonia ferox",
+        "url": "https://www.begonias.org/begonia-ferox/"
+      }
     ]
   }
 ]

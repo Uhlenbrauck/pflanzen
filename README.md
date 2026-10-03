@@ -30,3 +30,18 @@ Pro Pflanze gibt es drei 3MF-Dateien: Klebeschild (1,6 mm), Stecker (2,4 mm) und
 | `tools/build.py` | baut die Seite nach `_site/` |
 | `tools/issue.py` | übernimmt Formulare in `pflanzen.json` |
 | `.github/workflows/pflanzen.yml` | Automatik: Formular → Daten → Seite |
+
+## Gießübersicht
+
+Der Tab „Gießen“ fasst alle Pflanzen nach Standort zusammen. Die Angaben stehen je Pflanze im Feld `giessen` in `pflanzen.json`:
+
+| Feld | Werte |
+|---|---|
+| `wasser` | `weich` (Regen-, destilliertes, Osmosewasser) oder `leitung` |
+| `stufe` | `nass`, `feucht`, `antrocknen`, `trocken`, `tauchen` |
+| `methode` | frei, z. B. „Anstau“ |
+| `kurz`, `winter` | je ein Satz |
+
+## Recherche-Quellen
+
+Bestimmung und Namen: Fachgesellschaften (International Aroid Society, American Begonia Society, American Orchid Society, Bromeliad Society International, Gesneriad Reference Web, LLIFLE für Sukkulenten und Kakteen), dazu GBIF, Tropicos und die Biodiversity Heritage Library. Für Karnivoren zusätzlich die International Carnivorous Plant Society, für akzeptierte Namen Plants of the World Online (Kew).

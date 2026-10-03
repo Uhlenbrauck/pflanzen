@@ -1080,5 +1080,77 @@
         "url": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Crassulaceae/18609/Crassula_ovata"
       }
     ]
+  },
+  {
+    "id": 33,
+    "status": "wunsch",
+    "name": "Tillandsie 'Tannengrün'",
+    "botanisch": "Tillandsia aeranthos 'Tannengrün'",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/tillandsia-aeranthos-tannengruen",
+    "preis": "14,99 €",
+    "foto": "",
+    "notizen": "Seltene Form von T. aeranthos mit deutlich längeren Stämmen und kleinerem Durchmesser. Heimat Brasilien (São Paulo) und Nordargentinien. Am 03.10.2026 im Shop ausverkauft.",
+    "pflege": {
+      "licht": "Viel Sonne, Süd- oder Westfenster; unter Pflanzenlicht 5.000–20.000 Lux.",
+      "temperatur": "Optimal 25–30 °C; verträgt 5–10 °C, wenn sie ganz trocken ist.",
+      "feuchte": "Eher 60 % oder weniger; bei höherer Luftfeuchte unbedingt vollständig abtrocknen lassen.",
+      "wasser": "Mit kalkarmem Wasser besprühen und zwischen den Wassergaben ganz abtrocknen lassen. Im Sommer über 25 °C täglich, im lichtarmen Winter etwa wöchentlich.",
+      "substrat": "Keines – Aufsitzerpflanze.",
+      "duengen": "",
+      "besonderheiten": "Braucht Luftbewegung, damit sie nach dem Sprühen rasch trocknet."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "tauchen",
+      "methode": "sprühen",
+      "kurz": "Besprühen und danach ganz abtrocknen lassen; im Sommer über 25 °C täglich.",
+      "winter": "Etwa 1× pro Woche."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Tillandsia aeranthos 'Tannengrün'",
+        "url": "https://www.jungle-leaves.de/products/tillandsia-aeranthos-tannengruen"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "status": "wunsch",
+    "name": "Persian Shield",
+    "botanisch": "Strobilanthes auriculata var. dyeriana",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield",
+    "preis": "19,99 €",
+    "foto": "",
+    "notizen": "Lila-metallisch gestreifte Blätter, blauviolette Blüten. Beim Kauf etwa 20 cm, wird rund 1 m hoch und breit. Heimat Südostasien. Laut Shop wüchsig und einsteigerfreundlich.",
+    "pflege": {
+      "licht": "Sonniges Fenster; viel Licht ist nötig für die lila-metallische Blattfärbung.",
+      "temperatur": "Warm, Zimmertemperatur; nicht kühl stellen.",
+      "feuchte": "Mag höhere Luftfeuchte; bei trockener Heizungsluft rollen sich die Blätter.",
+      "wasser": "Gleichmäßig feucht halten, nicht austrocknen lassen und keine Staunässe.",
+      "substrat": "Humose, durchlässige Erde.",
+      "duengen": "Im Wachstum alle 2 Wochen.",
+      "besonderheiten": "Triebspitzen regelmäßig entspitzen, sonst wird sie sparrig. Kopfstecklinge bewurzeln leicht."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Gleichmäßig feucht, nicht austrocknen lassen.",
+      "winter": "Etwas weniger."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Persian Shield",
+        "url": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield"
+      }
+    ]
   }
 ]

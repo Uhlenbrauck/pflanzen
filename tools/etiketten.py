@@ -21,7 +21,7 @@ QR = 27.0            # Kantenlänge QR-Code
 RAND = 3.0           # Ruhezone um den Code
 W = QR + 2 * RAND    # Breite des Schilds (33)
 TEXT_H = 4.0         # max. Schrifthöhe
-TEXT_MIN_H = 2.5     # kleiner wird der Text nicht, sonst gekürzt
+TEXT_MIN_H = 2.1     # kleiner wird der Text nicht, sonst gekürzt
 KOPF_H = RAND + QR + 1.5 + TEXT_H + 2.5   # Höhe Schildkopf (38)
 INLAY = 0.6          # Tiefe der Einlage (3 Schichten à 0,2 mm)
 ECKE = 3.0           # Eckenradius
@@ -108,7 +108,7 @@ def etikett(url, text, variante):
     dicke = VARIANTEN[variante]["dicke"]
     umriss = _umriss(variante, dicke)
     qr, _, _ = _qr_flaeche(url, RAND, KOPF_H - RAND - QR)
-    txt = _text_flaeche(text, W - 2 * RAND, TEXT_H)
+    txt = _text_flaeche(text, W - 3.0, TEXT_H)
     tb = txt.bounds
     txt = translate(txt, W / 2 - (tb[0] + tb[2]) / 2, 2.5 - 0)
     einlage2d = qr.union(txt).intersection(umriss)

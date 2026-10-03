@@ -17,25 +17,25 @@
   },
   {
     "id": 2,
-    "status": "wunsch",
+    "status": "besitz",
     "name": "Kannenpflanze",
-    "botanisch": "Nepenthes spec.",
-    "etikett": "",
-    "herkunft": "",
-    "kaufdatum": "",
-    "standort": "Hängeampel (Lechuza Bola 32)",
+    "botanisch": "Nepenthes-Hybride (vermutlich 'Gaya')",
+    "etikett": "#2 Nepenthes",
+    "herkunft": "mybotanica (Händler unbekannt)",
+    "kaufdatum": "2026",
+    "standort": "Wohnzimmer Hängetopf",
     "shop_link": "",
-    "preis": "",
-    "foto": "",
-    "notizen": "Für die Hängehaltung mit Dochtbewässerung. Hochland- oder Tieflandart? Entscheidet über die Temperaturansprüche.",
+    "preis": "20 €",
+    "foto": "fotos/2.jpg",
+    "notizen": "Art am Foto nicht sicher bestimmbar; gelbgrüne, rotbraun gesprenkelte Kannen sprechen für die Gärtnerei-Hybride 'Gaya'. Soll in die Lechuza Bola 32 mit Dochtbewässerung umziehen.",
     "pflege": {
-      "licht": "Hell, keine pralle Mittagssonne; Tieflandarten vertragen auch Halbschatten.",
-      "temperatur": "Hochland: 20–25 °C tags, 10–15 °C nachts (Nachtabsenkung nötig). Tiefland: ganzjährig 20–30 °C.",
-      "feuchte": "Über 60 % relative Luftfeuchte.",
-      "wasser": "Von oben gießen, keine dauerhafte Staunässe. Nur kalkarmes Wasser (Regen-, destilliertes oder Osmosewasser).",
-      "substrat": "Luftig: Torf, Sand, Perlite und Sphagnum gemischt.",
+      "licht": "Sehr hell, gern etwas Morgen- oder Abendsonne; keine pralle Mittagssonne hinter Glas.",
+      "temperatur": "Robuste Hybride: Zimmertemperatur ganzjährig, keine Nachtabsenkung nötig. Nicht dauerhaft unter 15 °C.",
+      "feuchte": "Ab etwa 50 % zufrieden; höhere Luftfeuchte fördert die Kannenbildung.",
+      "wasser": "Von oben gießen, Substrat gleichmäßig feucht halten, keine dauerhafte Staunässe. Nur kalkarmes Wasser.",
+      "substrat": "Luftig: Torf, Perlite, Pinienrinde und Sphagnum gemischt.",
       "duengen": "Nicht ins Substrat düngen; die Kannen versorgen die Pflanze.",
-      "besonderheiten": "Kannen nicht mit Fleisch füttern und nicht ausleeren."
+      "besonderheiten": "Kannen nicht mit Fleisch füttern und nicht ausleeren. Bei Dochtbewässerung darauf achten, dass das Substrat nicht dauerhaft nass steht."
     },
     "quellen": [
       {
@@ -46,21 +46,28 @@
         "titel": "hortica.de – Kannenpflanzen",
         "url": "https://hortica.de/pflanzen/kannenpflanzen-nepenthes/"
       }
-    ]
+    ],
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Gleichmäßig feucht halten, nie im Wasser stehen lassen.",
+      "winter": "Etwas weniger, nie austrocknen."
+    }
   },
   {
     "id": 3,
     "status": "besitz",
     "name": "Stachel-Begonie",
     "botanisch": "Begonia ferox",
-    "etikett": "",
+    "etikett": "#3 Beg. ferox",
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
-    "standort": "Glasgefäß / Terrarium",
+    "standort": "Terrarium (Nano Cube 20 L)",
     "shop_link": "",
-    "preis": "10",
-    "foto": "",
-    "notizen": "Gefäß noch offen.",
+    "preis": "10 €",
+    "foto": "fotos/3.jpg",
+    "notizen": "Steht im Dennerle Nano Cube 20 L unter LED.",
     "pflege": {
       "licht": "Halbschatten bzw. mittleres LED-Licht im Terrarium.",
       "temperatur": "Warm, normale Zimmertemperatur (tropische Art), keine kalten Nächte.",
@@ -74,6 +81,1003 @@
       {
         "titel": "American Begonia Society – Begonia ferox",
         "url": "https://www.begonias.org/begonia-ferox/"
+      }
+    ],
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "direkt aufs Substrat",
+      "kurz": "Oberfläche leicht antrocknen lassen, nie ganz austrocknen. Nicht über die Blätter.",
+      "winter": "Sparsamer, Fäulnisgefahr."
+    }
+  },
+  {
+    "id": 4,
+    "status": "besitz",
+    "name": "Strahlenaralie",
+    "botanisch": "Schefflera arboricola",
+    "etikett": "#4 Schefflera",
+    "herkunft": "mybotanica (Jungle Leaves)",
+    "kaufdatum": "2026",
+    "standort": "Küche Arbeitsplatte",
+    "shop_link": "",
+    "preis": "29,99 €",
+    "foto": "fotos/4.jpg",
+    "notizen": "Auf Lavastein aufgesessen, Wurzeln laufen über den Stein in die Schale.",
+    "pflege": {
+      "licht": "Hell bis halbschattig, ohne pralle Mittagssonne.",
+      "temperatur": "Zimmertemperatur, im Winter nicht unter 12 °C.",
+      "feuchte": "Normale Zimmerluft genügt; gelegentliches Überbrausen tut gut.",
+      "wasser": "Stein und Wurzeln regelmäßig durchdringend wässern. Die Schale darf kurz Wasser halten, soll aber zwischendurch abtrocknen.",
+      "substrat": "Aufsitzend auf Lavagestein; die Wurzeln brauchen unten etwas Substrat oder Feuchte in der Schale.",
+      "duengen": "März bis Oktober alle 2–4 Wochen schwach flüssig düngen.",
+      "besonderheiten": "Wirft bei Staunässe oder Zugluft Blätter ab. Lässt sich gut zurückschneiden."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "über Stein und Wurzeln",
+      "kurz": "Durchdringend wässern, Schale zwischendurch abtrocknen lassen.",
+      "winter": "Seltener."
+    },
+    "quellen": []
+  },
+  {
+    "id": 5,
+    "status": "besitz",
+    "name": "Alocasia 'Flying Squid'",
+    "botanisch": "Alocasia 'Flying Squid'",
+    "etikett": "#5 Flying Squid",
+    "herkunft": "mybotanica (exotic-flowers.de)",
+    "kaufdatum": "2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "5 €",
+    "foto": "fotos/5.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell ohne direkte Sonne.",
+      "temperatur": "Warm, 20–28 °C; unter etwa 16 °C zieht sie ein.",
+      "feuchte": "Hoch (ab 60 %), deshalb gut im Gewächshaus aufgehoben.",
+      "substrat": "Sehr luftig: Aroid-Mix aus Rinde, Perlite/Bims und etwas Kokosfaser.",
+      "duengen": "Im Wachstum alle 2–4 Wochen schwach dosiert.",
+      "wasser": "Gleichmäßig leicht feucht; obere 1–2 cm antrocknen lassen. Staunässe lässt die Knolle faulen.",
+      "besonderheiten": "Bildet fast nur tentakelartige Blattstiele mit winziger Spreite. Kann bei Kälte oder Trockenheit einziehen und treibt aus der Knolle wieder aus."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "von oben",
+      "kurz": "Obere 1–2 cm antrocknen lassen, nie nass stehen.",
+      "winter": "Deutlich weniger, vor allem wenn sie einzieht."
+    },
+    "quellen": []
+  },
+  {
+    "id": 6,
+    "status": "besitz",
+    "name": "Stephania 'Nova'",
+    "botanisch": "Stephania kaweesakii ('Nova')",
+    "etikett": "#6 Stephania",
+    "herkunft": "mybotanica (bangkogberlinbotanics.de)",
+    "kaufdatum": "2026",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "65 €",
+    "foto": "fotos/6.jpg",
+    "notizen": "'Nova' ist der Handelsname; die Art wurde 2020 als Stephania kaweesakii beschrieben. Bestimmung nach Blattbild (dunkel, genoppt, rote Adern).",
+    "pflege": {
+      "licht": "Hell; an mehr Licht langsam gewöhnen, sonst bleichen die Blätter aus.",
+      "temperatur": "Warm, im Wachstum über 20 °C.",
+      "feuchte": "Zimmerluft genügt, etwas höher fördert den Austrieb.",
+      "wasser": "Im Wachstum erst gießen, wenn das Substrat ganz durchgetrocknet ist und der Topf leicht wirkt, dann durchdringend. Zieht die Ranke ein, Wasser stark reduzieren.",
+      "substrat": "Überwiegend mineralisch: Bims, Lava, Akadama.",
+      "duengen": "Nur im Wachstum und schwach; in der Ruhe gar nicht.",
+      "besonderheiten": "Knolle nur so tief setzen, dass sie stabil steht; der größte Teil bleibt über dem Substrat. Eine wurzellose Knolle nicht nass halten."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben, nicht über die Knolle",
+      "kurz": "Erst gießen, wenn das Substrat ganz durchgetrocknet ist.",
+      "winter": "In der Ruhe fast trocken."
+    },
+    "quellen": [
+      {
+        "titel": "Caudexology – Stephania kaweesakii (Nova) Care Guide",
+        "url": "https://caudexology.com/2026/01/21/stephania-kaweesakii-nova-care-guide/"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "status": "wunsch",
+    "name": "Juwelorchidee",
+    "botanisch": "Dossinia marmorata",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "",
+    "preis": "19,99 €",
+    "foto": "fotos/7.jpg",
+    "notizen": "Gesehen bei Jungle Leaves. Heimat Borneo, wächst dort im Tiefland auf Kalkstein in Laubstreu und Moos.",
+    "pflege": {
+      "licht": "Schattig bis halbschattig; verträgt mehr Licht als andere Juwelorchideen, aber keine direkte Sonne.",
+      "temperatur": "Warm, verträgt auch über 30 °C; nicht kühl stellen.",
+      "feuchte": "Hoch – Terrarium oder Gewächshaus.",
+      "wasser": "Gleichmäßig feucht, nicht nass.",
+      "substrat": "Locker und humos, z. B. feine Rinde mit Sphagnum und Perlite.",
+      "duengen": "Sehr schwach, etwa monatlich.",
+      "besonderheiten": "Wächst langsam; gilt unter den Juwelorchideen als pflegeleicht. Kleine weiße Blüten im Winter/Frühjahr."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Gleichmäßig feucht, nie nass.",
+      "winter": ""
+    },
+    "quellen": [
+      {
+        "titel": "Raingreen Tropicals – Culture of Dossinia",
+        "url": "https://raingreentropicals.com/culture-dossinia.htm"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "status": "besitz",
+    "name": "Tillandsien-Ball",
+    "botanisch": "Tillandsia ionantha (vermutlich)",
+    "etikett": "#8 Tillandsia",
+    "herkunft": "mybotanica (Händler unbekannt)",
+    "kaufdatum": "2026",
+    "standort": "Badezimmer Fenster",
+    "shop_link": "",
+    "preis": "30 €",
+    "foto": "fotos/8.jpg",
+    "notizen": "Art noch nachzuschauen; die kräftige Rotfärbung spricht für eine Form wie 'Rubra' oder 'Fuego'. Hängt am Fenster.",
+    "pflege": {
+      "licht": "Sehr hell, gern etwas Sonne.",
+      "temperatur": "Zimmertemperatur, nicht unter 10 °C.",
+      "feuchte": "Mag die Luftfeuchte im Bad; braucht aber Luftbewegung.",
+      "wasser": "1–2× pro Woche kräftig besprühen oder 10–20 Minuten tauchen, danach abschütteln. Muss innerhalb weniger Stunden wieder abtrocknen.",
+      "substrat": "Keines – Aufsitzerpflanze.",
+      "duengen": "Im Sommer monatlich stark verdünnter Tillandsien- oder Orchideendünger im Sprühwasser.",
+      "besonderheiten": "Im dichten Ball hält sich Wasser im Inneren lange – nach dem Tauchen gut abtropfen lassen, sonst Fäulnis."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "tauchen",
+      "methode": "tauchen oder sprühen",
+      "kurz": "1–2× pro Woche tauchen oder kräftig sprühen, danach rasch abtrocknen lassen.",
+      "winter": "Etwa 1× pro Woche."
+    },
+    "quellen": []
+  },
+  {
+    "id": 9,
+    "status": "besitz",
+    "name": "Sonnentau (Neukaledonien)",
+    "botanisch": "Drosera neocaledonica",
+    "etikett": "#9 D. neocaled.",
+    "herkunft": "mybotanica",
+    "kaufdatum": "2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "ca. 10 €",
+    "foto": "fotos/9.jpg",
+    "notizen": "Laut Etikett Blattsteckling vom 20.06.2022.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
+      "temperatur": "Warm, ganzjährig Zimmertemperatur; keine kühle Überwinterung.",
+      "feuchte": "Eher hoch.",
+      "wasser": "Ständig feucht bis nass, nur kalkarmes Wasser.",
+      "substrat": "Nährstoffarm: Weißtorf mit Quarzsand/Perlite, ungedüngt.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Tropischer Sonnentau ohne Ruhezeit."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau / dauerfeucht",
+      "kurz": "Ständig feucht bis nass.",
+      "winter": "Unverändert, warm halten."
+    },
+    "quellen": []
+  },
+  {
+    "id": 10,
+    "status": "besitz",
+    "name": "Zwergkrug",
+    "botanisch": "Cephalotus follicularis",
+    "etikett": "#10 Cephalotus",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "September 2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "17,99 €",
+    "foto": "fotos/10.jpg",
+    "notizen": "Heimat Westaustralien.",
+    "pflege": {
+      "licht": "Sehr hell, Südfenster oder LED; mit viel Licht färben sich die Krüge kräftig.",
+      "temperatur": "Gemäßigt; im Winter gern kühler.",
+      "feuchte": "Zimmerluft genügt.",
+      "wasser": "Gleichmäßig feucht mit etwa 1 cm Anstau, aber nicht versumpft. Topf gelegentlich durchspülen. Nur kalkarmes Wasser.",
+      "substrat": "Sehr sandig: etwa 20 % Torf oder gehacktes Sphagnum, 80 % Quarzsand.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Reagiert empfindlich auf stehende Nässe am Wurzelhals. Im Becken eher an eine höhere, gut drainierte Stelle setzen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "flacher Anstau (ca. 1 cm)",
+      "kurz": "Gleichmäßig feucht, nie versumpft.",
+      "winter": "Etwas trockener halten."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Cephalotus",
+        "url": "https://www.carnivorousplants.org/grow/guides/Cephalotus"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "status": "besitz",
+    "name": "Zwergsonnentau",
+    "botanisch": "Drosera scorpioides",
+    "etikett": "#11 D. scorpioid.",
+    "herkunft": "mybotanica",
+    "kaufdatum": "2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "ca. 10 €",
+    "foto": "fotos/11.jpg",
+    "notizen": "Im Topf wächst unten rechts ein zweiter, flacherer Zwergsonnentau mit (Art unbestimmt).",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
+      "temperatur": "Sommer warm, Winter gern kühler.",
+      "feuchte": "Zimmerluft genügt.",
+      "wasser": "Im Wachstum feucht im Anstau, nur kalkarmes Wasser.",
+      "substrat": "Sandig: 1 Teil Torf auf 2 Teile Quarzsand.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Sehr lange, feine Wurzeln – Umpflanzen wird schlecht vertragen. Bildet im Herbst/Winter Brutschuppen (Gemmen), über die man vermehrt; sie sind nur etwa einen Monat haltbar."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau",
+      "kurz": "Im Anstau feucht halten.",
+      "winter": "Weiter feucht; im Hochsommer bei Ruhe nur leicht feucht."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Pygmy Drosera",
+        "url": "https://www.carnivorousplants.org/grow/guides/PygmyDrosera"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "status": "besitz",
+    "name": "Fettkraut 'ex Carow'",
+    "botanisch": "Pinguicula moranensis 'ex Carow'",
+    "etikett": "#12 P. moranensis",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "September 2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "11,99 €",
+    "foto": "fotos/12.jpg",
+    "notizen": "Heimat Mexiko bis Honduras.",
+    "pflege": {
+      "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
+      "temperatur": "Sommer warm, Winter kühler und trockener.",
+      "feuchte": "Zimmerluft genügt.",
+      "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
+      "duengen": "Nicht düngen. Keine Fungizide verwenden.",
+      "wasser": "Sommer: feucht, flacher Anstau bis 2 cm. Winter (kleine Sukkulentenrosette): zwischen dem Gießen etwa eine Woche abtrocknen lassen.",
+      "besonderheiten": "Bildet im Winter eine kompakte, nicht fangende Rosette. Braucht dann Trockenheit – im dauerfeuchten Becken ist das der kritische Punkt."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "flacher Anstau",
+      "kurz": "Sommer feucht im flachen Anstau.",
+      "winter": "Winterrosette: fast trocken, nur gelegentlich."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
+        "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "status": "besitz",
+    "name": "Kuba-Zwergperlkraut",
+    "botanisch": "Hemianthus callitrichoides",
+    "etikett": "#13 Hemianthus",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "September 2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "5,99 €",
+    "foto": "fotos/13.jpg",
+    "notizen": "Als Bodendecker im Becken, Landform.",
+    "pflege": {
+      "licht": "Sehr hell.",
+      "temperatur": "Zimmertemperatur.",
+      "feuchte": "Hoch; trocknet an der Luft schnell ein.",
+      "wasser": "Dauerhaft nass. Im Karnivorenbecken mit demselben kalkarmen Wasser.",
+      "substrat": "Feinkörnig und nass.",
+      "duengen": "Im Karnivorenbecken nicht düngen.",
+      "besonderheiten": "Wächst emers flach und dicht; verträgt kein Austrocknen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "dauerfeucht",
+      "kurz": "Darf nie austrocknen.",
+      "winter": ""
+    },
+    "quellen": []
+  },
+  {
+    "id": 14,
+    "status": "besitz",
+    "name": "Kleine Tiefrote Ludwigie",
+    "botanisch": "Ludwigia palustris 'Super Red Mini'",
+    "etikett": "#14 Ludwigia",
+    "herkunft": "Garnelen-Guemmer",
+    "kaufdatum": "September 2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "ca. 6 €",
+    "foto": "fotos/14.jpg",
+    "notizen": "In-vitro-Becher; noch nicht eingesetzt.",
+    "pflege": {
+      "licht": "Hell; viel Licht fördert die Rotfärbung.",
+      "temperatur": "Zimmertemperatur.",
+      "feuchte": "Hoch bzw. im Wasser stehend.",
+      "wasser": "Sumpfpflanze: dauerhaft nass oder im flachen Wasser.",
+      "substrat": "Nass, feinkörnig.",
+      "duengen": "Im Karnivorenbecken nicht düngen.",
+      "besonderheiten": "Nährgel vor dem Einsetzen gründlich abspülen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "im Wasser / dauerfeucht",
+      "kurz": "Dauerhaft nass oder im flachen Wasser.",
+      "winter": ""
+    },
+    "quellen": []
+  },
+  {
+    "id": 15,
+    "status": "besitz",
+    "name": "Grasartiger Wasserschlauch",
+    "botanisch": "Utricularia graminifolia",
+    "etikett": "#15 Utricularia",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "September 2026",
+    "standort": "Carnivorenscape",
+    "shop_link": "",
+    "preis": "ca. 5 €",
+    "foto": "fotos/15.jpg",
+    "notizen": "Tropica 1-2-Grow, in vitro.",
+    "pflege": {
+      "licht": "Hell.",
+      "temperatur": "Zimmertemperatur.",
+      "feuchte": "Hoch.",
+      "wasser": "Dauerhaft nass, auch überflutet. Nur kalkarmes Wasser.",
+      "substrat": "Nasser Torf-Sand, nährstoffarm.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Karnivor: fängt mit winzigen Fangblasen im nassen Substrat. Nährgel vor dem Einsetzen abspülen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "dauerfeucht bis überflutet",
+      "kurz": "Dauerhaft nass.",
+      "winter": ""
+    },
+    "quellen": []
+  },
+  {
+    "id": 16,
+    "status": "besitz",
+    "name": "Buntwurz 'Scarlet Mary'",
+    "botanisch": "Caladium 'Scarlet Mary'",
+    "etikett": "#16 Caladium",
+    "herkunft": "mybotanica (exotic-flowers.de)",
+    "kaufdatum": "2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "5 €",
+    "foto": "fotos/16.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell ohne direkte Sonne.",
+      "temperatur": "Warm, über 20 °C.",
+      "feuchte": "Hoch.",
+      "wasser": "Im Wachstum gleichmäßig feucht. Wenn im Herbst das Laub einzieht, Gießen einstellen.",
+      "substrat": "Locker und humos mit Perlite.",
+      "duengen": "Im Wachstum alle 2 Wochen schwach.",
+      "besonderheiten": "Zieht im Winter ein: Knolle trocken und warm (nicht unter 18 °C) überwintern, im Frühjahr wieder angießen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Im Wachstum gleichmäßig feucht.",
+      "winter": "Ruhezeit: Knolle trocken halten."
+    },
+    "quellen": []
+  },
+  {
+    "id": 17,
+    "status": "besitz",
+    "name": "Alocasia 'Jacklyn'",
+    "botanisch": "Alocasia tandurusa 'Jacklyn'",
+    "etikett": "#17 Jacklyn",
+    "herkunft": "mybotanica",
+    "kaufdatum": "2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "8 €",
+    "foto": "fotos/17.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell ohne direkte Sonne.",
+      "temperatur": "Warm, 20–28 °C; unter etwa 16 °C zieht sie ein.",
+      "feuchte": "Hoch (ab 60 %), deshalb gut im Gewächshaus aufgehoben.",
+      "substrat": "Sehr luftig: Aroid-Mix aus Rinde, Perlite/Bims und etwas Kokosfaser.",
+      "duengen": "Im Wachstum alle 2–4 Wochen schwach dosiert.",
+      "wasser": "Gleichmäßig leicht feucht; obere 1–2 cm antrocknen lassen, keine Staunässe.",
+      "besonderheiten": "Anfällig für Spinnmilben bei trockener Luft. Kann bei Kälte einziehen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "von oben",
+      "kurz": "Obere 1–2 cm antrocknen lassen, nie nass stehen.",
+      "winter": "Weniger."
+    },
+    "quellen": []
+  },
+  {
+    "id": 18,
+    "status": "besitz",
+    "name": "Sonnentau (Woolly Sundew)",
+    "botanisch": "Drosera paradoxa",
+    "etikett": "#18 D. paradoxa",
+    "herkunft": "carnivory.eu",
+    "kaufdatum": "September 2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "11 €",
+    "foto": "fotos/18.jpg",
+    "notizen": "Bestimmung laut Händler; gehört zum Drosera-petiolaris-Komplex aus Nordaustralien. Blüht rosa, Blütenstiel wollig behaart.",
+    "pflege": {
+      "licht": "Sehr hell.",
+      "temperatur": "Ganzjährig warm: im Sommer um 30 °C ideal, im Winter nicht unter 18 °C.",
+      "feuchte": "Hoch.",
+      "wasser": "Kleiner Topf im Anstau. In der warmen Zeit hoher Wasserstand, in der kühleren Zeit zwischen dem Gießen leicht antrocknen lassen. Nur kalkarmes Wasser.",
+      "substrat": "Torf, Sand und Perlite.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Keine echte Ruhe, wächst im Winter nur langsamer. Wärme ist der entscheidende Punkt – im Gewächshaus richtig, im offenen Becken zu kühl."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau",
+      "kurz": "Im Anstau, bei Wärme hoher Wasserstand.",
+      "winter": "Etwas weniger, aber warm halten."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Drosera petiolaris complex",
+        "url": "https://www.carnivorousplants.org/grow/guides/Dpetiolaris"
+      }
+    ],
+    "weitere_fotos": [
+      "fotos/18-2.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "status": "besitz",
+    "name": "Nestfarn",
+    "botanisch": "Asplenium nidus (vermutlich 'Crispy Wave')",
+    "etikett": "#19 Nestfarn",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/19.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Halbschattig, keine direkte Sonne.",
+      "temperatur": "Zimmertemperatur, nicht unter 16 °C.",
+      "feuchte": "Mag höhere Luftfeuchte – Küche passt.",
+      "wasser": "Gleichmäßig feucht, nie ballentrocken und nie nass. Am Rand gießen, nicht in den Trichter.",
+      "substrat": "Locker und humos.",
+      "duengen": "April bis September monatlich in halber Dosis.",
+      "besonderheiten": "Wasser im Rosettentrichter führt zu Fäulnis. Die braunen Striche auf der Wedelunterseite sind Sporenlager, kein Schädling."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "am Topfrand, nicht in den Trichter",
+      "kurz": "Gleichmäßig feucht.",
+      "winter": "Etwas weniger."
+    },
+    "quellen": []
+  },
+  {
+    "id": 20,
+    "status": "besitz",
+    "name": "Forellenbegonie",
+    "botanisch": "Begonia maculata 'Wightii'",
+    "etikett": "#20 B. maculata",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/20.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell ohne Mittagssonne.",
+      "temperatur": "Zimmertemperatur, nicht unter 15 °C.",
+      "feuchte": "Etwas erhöht; nicht besprühen (Mehltau).",
+      "wasser": "Oberfläche antrocknen lassen, dann durchdringend gießen. Keine Staunässe.",
+      "substrat": "Lockere Erde mit Perlite.",
+      "duengen": "März bis September alle 2 Wochen schwach.",
+      "besonderheiten": "Lange Triebe stützen oder zurückschneiden; Kopfstecklinge bewurzeln leicht in Wasser."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "von oben, nicht über die Blätter",
+      "kurz": "Oberfläche antrocknen lassen.",
+      "winter": "Sparsamer."
+    },
+    "quellen": []
+  },
+  {
+    "id": 21,
+    "status": "besitz",
+    "name": "Fettkraut 'Tina'",
+    "botanisch": "Pinguicula 'Tina' (P. agnata × P. zecheri)",
+    "etikett": "#21 Ping. Tina",
+    "herkunft": "carnivory.eu",
+    "kaufdatum": "September 2026",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "15,99 €",
+    "foto": "fotos/21.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
+      "temperatur": "Sommer warm, Winter kühler und trockener.",
+      "feuchte": "Zimmerluft genügt.",
+      "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
+      "duengen": "Nicht düngen. Keine Fungizide verwenden.",
+      "wasser": "Sommer: feucht im flachen Anstau. Winter: sparsamer, Substrat zwischendurch abtrocknen lassen.",
+      "besonderheiten": "Robuste, blühfreudige Hybride; fängt Trauermücken."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "flacher Anstau",
+      "kurz": "Sommer feucht im flachen Anstau.",
+      "winter": "Sparsamer, zwischendurch abtrocknen lassen."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
+        "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "status": "besitz",
+    "name": "Fettkraut 'Aphrodite'",
+    "botanisch": "Pinguicula 'Aphrodite' (P. agnata × P. moctezumae)",
+    "etikett": "#22 Aphrodite",
+    "herkunft": "carnivory.eu",
+    "kaufdatum": "September 2026",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "ca. 10 €",
+    "foto": "fotos/22.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
+      "temperatur": "Sommer warm, Winter kühler und trockener.",
+      "feuchte": "Zimmerluft genügt.",
+      "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
+      "duengen": "Nicht düngen. Keine Fungizide verwenden.",
+      "wasser": "Sommer: feucht im flachen Anstau. Winter: sparsamer, Substrat zwischendurch abtrocknen lassen.",
+      "besonderheiten": "Lange, schmale Blätter; wächst meist das ganze Jahr durch."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "flacher Anstau",
+      "kurz": "Sommer feucht im flachen Anstau.",
+      "winter": "Sparsamer, zwischendurch abtrocknen lassen."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
+        "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "status": "besitz",
+    "name": "Fettkraut",
+    "botanisch": "Pinguicula esseriana",
+    "etikett": "#23 P. esseriana",
+    "herkunft": "carnivory.eu",
+    "kaufdatum": "September 2026",
+    "standort": "Küche Fenster",
+    "shop_link": "",
+    "preis": "ca. 10 €",
+    "foto": "fotos/23.jpg",
+    "notizen": "Heimat Mexiko.",
+    "pflege": {
+      "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
+      "temperatur": "Sommer warm, Winter kühler und trockener.",
+      "feuchte": "Zimmerluft genügt.",
+      "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
+      "duengen": "Nicht düngen. Keine Fungizide verwenden.",
+      "wasser": "Sommer: feucht im flachen Anstau. Winter (dichte Sukkulentenrosette): fast trocken.",
+      "besonderheiten": "Bildet im Winter eine sehr kompakte Rosette aus vielen kleinen Blättern; diese lassen sich einzeln abzupfen und bewurzeln."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "flacher Anstau",
+      "kurz": "Sommer feucht im flachen Anstau.",
+      "winter": "Winterrosette: fast trocken."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
+        "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "status": "besitz",
+    "name": "Kap-Sonnentau 'Alba'",
+    "botanisch": "Drosera capensis 'Alba'",
+    "etikett": "#24 D. capensis",
+    "herkunft": "carnivory.eu",
+    "kaufdatum": "September 2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "5 €",
+    "foto": "fotos/24.jpg",
+    "notizen": "",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
+      "temperatur": "10–35 °C, keine Ruhezeit nötig.",
+      "feuchte": "Zimmerluft bis hoch.",
+      "wasser": "Dauerhaft im Anstau, nur kalkarmes Wasser.",
+      "substrat": "Nährstoffarm: Weißtorf mit Quarzsand/Perlite, ungedüngt.",
+      "duengen": "Nicht düngen.",
+      "besonderheiten": "Sehr robust und sät sich in Nachbartöpfe aus – Blütenstiele vor der Samenreife abschneiden, wenn das nicht gewünscht ist."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau",
+      "kurz": "Dauerhaft im Anstau.",
+      "winter": ""
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Subtropical Drosera",
+        "url": "https://www.carnivorousplants.org/grow/guides/SubtropicalDrosera"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "status": "besitz",
+    "name": "Porzellanblume",
+    "botanisch": "Hoya carnosa",
+    "etikett": "#25 Hoya",
+    "herkunft": "Altbestand (Ableger)",
+    "kaufdatum": "",
+    "standort": "Küche Hängetopf",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/25.jpg",
+    "notizen": "Sehr alt, aus Ableger gezogen. Blüht weiß.",
+    "pflege": {
+      "licht": "Hell, etwas Morgen- oder Abendsonne fördert die Blüte.",
+      "temperatur": "Zimmertemperatur; im Winter etwas kühler (um 15 °C) fördert den Blütenansatz.",
+      "feuchte": "Zimmerluft genügt.",
+      "wasser": "Substrat zwischen dem Gießen gut abtrocknen lassen; die dicken Blätter speichern Wasser.",
+      "substrat": "Durchlässig, z. B. Erde mit Rinde und Perlite.",
+      "duengen": "April bis September monatlich schwach.",
+      "besonderheiten": "Alte Blütenstielchen nicht abschneiden – daran blüht sie wieder. Topf nach Knospenansatz nicht drehen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "von oben",
+      "kurz": "Gut abtrocknen lassen, dann durchdringend.",
+      "winter": "Sparsam."
+    },
+    "quellen": []
+  },
+  {
+    "id": 26,
+    "status": "besitz",
+    "name": "Madagaskarpalme",
+    "botanisch": "Pachypodium lamerei",
+    "etikett": "#26 Pachypodium",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/26.jpg",
+    "notizen": "Sehr alt. Hat 2026 zum ersten Mal geblüht (weiß mit gelbem Schlund).",
+    "pflege": {
+      "licht": "Volle Sonne bis leichter Schatten.",
+      "temperatur": "Warm; im Winter nicht kalt und nass zugleich.",
+      "feuchte": "Zimmerluft.",
+      "wasser": "Im warmen Sommer reichlich, wenn das Substrat abgetrocknet ist. Im Winter fast trocken – im Zweifel lieber zu trocken.",
+      "substrat": "Sehr durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger.",
+      "besonderheiten": "Wirft im Winter oft Blätter ab, das ist normal. Milchsaft und Dornen sind giftig bzw. spitz – Handschuhe."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben",
+      "kurz": "Sommer: reichlich, sobald abgetrocknet.",
+      "winter": "Fast trocken, Fäulnisgefahr."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Pachypodium lamerei",
+        "url": "https://llifle.com/Encyclopedia/TREES/Family/Apocynaceae/10823/Pachypodium_lamerei"
+      }
+    ],
+    "weitere_fotos": [
+      "fotos/26-2.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "status": "besitz",
+    "name": "Pfennigbaum",
+    "botanisch": "Crassula ovata",
+    "etikett": "#27 Crassula",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/27.jpg",
+    "notizen": "Auch Geldbaum oder Jadebaum.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Zimmertemperatur; ein kühler, heller Winterstand (10–15 °C) fördert die Blüte.",
+      "wasser": "Erst gießen, wenn das Substrat durchgetrocknet ist. Im Winter nur schluckweise.",
+      "besonderheiten": "Weiche, schrumpelige Blätter bedeuten Durst; glasige, abfallende Blätter zu viel Wasser."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben",
+      "kurz": "Erst gießen, wenn durchgetrocknet.",
+      "winter": "Nur schluckweise."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Crassula ovata (weiterführend)",
+        "url": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Crassulaceae/18609/Crassula_ovata"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "status": "besitz",
+    "name": "Elefantenfuß",
+    "botanisch": "Beaucarnea recurvata",
+    "etikett": "#28 Beaucarnea",
+    "herkunft": "Altbestand (Kleinanzeigen)",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/28.jpg",
+    "notizen": "In erbärmlichem Zustand von Kleinanzeigen übernommen. Mehrere Stämme (zwei große, ein kleiner) in einem Kübel.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Zimmertemperatur, im Winter gern kühler (ab 10 °C).",
+      "wasser": "Der verdickte Stammfuß speichert Wasser: durchdringend gießen und dann ganz durchtrocknen lassen.",
+      "besonderheiten": "Braune Blattspitzen kommen meist von Trockenluft oder Nässe im Wurzelbereich. Staunässe ist der häufigste Fehler."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben",
+      "kurz": "Durchdringend gießen, dann ganz durchtrocknen lassen.",
+      "winter": "Sehr sparsam."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Beaucarnea recurvata (weiterführend)",
+        "url": "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Dracaenaceae/20517/Beaucarnea_recurvata"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "status": "besitz",
+    "name": "Geisterpflanze",
+    "botanisch": "Graptopetalum paraguayense oder ×Graptoveria (unbestimmt)",
+    "etikett": "#29 Graptopet.",
+    "herkunft": "Geschenk von Emma",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer Fensterbank",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/29.jpg",
+    "notizen": "Art am Foto nicht sicher von den ×Graptoveria-Hybriden zu trennen. Der lange Stamm mit weit stehenden Blättern zeigt, dass sie zum Licht gewachsen ist.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Zimmertemperatur, im Winter gern kühler.",
+      "wasser": "Durchtrocknen lassen, dann durchdringend gießen. Nicht in die Rosette.",
+      "besonderheiten": "Den bläulichen Wachsbelag nicht abwischen. Kopf abschneiden und neu bewurzeln ergibt wieder eine kompakte Pflanze; abgefallene Blätter bewurzeln ebenfalls."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von unten oder am Rand",
+      "kurz": "Durchtrocknen lassen, nicht in die Rosette gießen.",
+      "winter": "Sehr sparsam."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Graptopetalum paraguayense (weiterführend)",
+        "url": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Crassulaceae/27644/Graptopetalum_paraguayense"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "status": "besitz",
+    "name": "Warzenkaktus",
+    "botanisch": "Mammillaria sp. (evtl. M. spinosissima)",
+    "etikett": "#30 Mammillaria",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer Fensterbank",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/30.jpg",
+    "notizen": "Blüten rotorange. M. spinosissima blüht meist karminrosa, daher Bestimmung unsicher – Foto zur Blütezeit würde helfen.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Sommer warm; Winter kühl (5–12 °C) und hell fördert die Blüte.",
+      "wasser": "Frühjahr bis Herbst gießen, sobald das Substrat durchgetrocknet ist. Im Winter trocken halten.",
+      "besonderheiten": "Blüht im Kranz unterhalb des Scheitels."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben, am Körper vorbei",
+      "kurz": "Sommer: gießen, sobald durchgetrocknet.",
+      "winter": "Trocken halten."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Mammillaria spinosissima (weiterführend)",
+        "url": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/13783/Mammillaria_spinosissima"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "status": "besitz",
+    "name": "Rebutie",
+    "botanisch": "Rebutia muscula",
+    "etikett": "#31 Rebutia",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer Fensterbank",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/31.jpg",
+    "notizen": "Blüht orange. Heute auch als Aylostera muscula geführt.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Sommer warm; Winter kühl (5–12 °C) und hell fördert die Blüte.",
+      "wasser": "Frühjahr bis Herbst gießen, sobald das Substrat durchgetrocknet ist. Im Winter trocken halten.",
+      "besonderheiten": "Braucht die kühle, trockene Winterruhe für die Blüte. Die gelbliche Färbung einzelner Köpfe im Auge behalten."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von unten oder am Rand",
+      "kurz": "Sommer: gießen, sobald durchgetrocknet.",
+      "winter": "Trocken halten."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Rebutia muscula (weiterführend)",
+        "url": "https://www.llifle.com/Encyclopedia/CACTI/Family/Cactaceae/4985/Rebutia_muscula"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "status": "besitz",
+    "name": "Pfennigbaum 'Hobbit'",
+    "botanisch": "Crassula ovata 'Hobbit' (oder 'Gollum')",
+    "etikett": "#32 Hobbit",
+    "herkunft": "Altbestand",
+    "kaufdatum": "",
+    "standort": "Wohnzimmer Fensterbank",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/32.jpg",
+    "notizen": "Sorte mit löffelartig eingerollten Blättern. Im Topf wächst eine kleine bläuliche Rosettensukkulente als Beipflanzung mit.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig.",
+      "feuchte": "Zimmerluft.",
+      "substrat": "Mineralisch-durchlässige Kakteenerde.",
+      "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
+      "temperatur": "Zimmertemperatur; kühler, heller Winterstand möglich.",
+      "wasser": "Erst gießen, wenn das Substrat durchgetrocknet ist. Im Winter nur schluckweise.",
+      "besonderheiten": "Wächst langsamer als die Normalform; bei viel Sonne färben sich die Blattspitzen rot."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben",
+      "kurz": "Erst gießen, wenn durchgetrocknet.",
+      "winter": "Nur schluckweise."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Crassula ovata (weiterführend)",
+        "url": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Crassulaceae/18609/Crassula_ovata"
       }
     ]
   }

@@ -51,7 +51,7 @@ main{padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
 .fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));background:var(--leaf);color:#fff;text-decoration:none;font-weight:600;padding:14px 20px;border-radius:999px;box-shadow:0 6px 20px rgba(0,0,0,.2)}
 /* Detail */
 .back{display:inline-block;color:#f1efe6;text-decoration:none;opacity:.8;padding:4px 0 10px;font-weight:500}
-.hero{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;margin-bottom:14px}
+.hero{width:100%;max-height:70vh;object-fit:cover;border-radius:16px;margin-bottom:14px}
 .badge{display:inline-block;font:600 .72rem Inter;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:6px;background:#9fd6ae;color:#123;margin-bottom:6px}
 .badge.w{background:#f0c48f}
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0 0 18px}
@@ -72,6 +72,24 @@ section h2{font-size:1.2rem;margin-bottom:10px}
 .dl a{padding:12px 6px;font-size:.85rem}
 .src li{margin:4px 0}
 .hint{font-size:.82rem;color:var(--muted);margin-top:8px}
+/* Gießen */
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.lv{display:inline-flex;align-items:center;gap:6px;font:600 .74rem Inter,sans-serif;padding:3px 9px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);white-space:nowrap}
+.lv i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.lv.nass{--c:#1d5fa8}.lv.feucht{--c:#3d9ad1}.lv.antrocknen{--c:#8fbf6a}.lv.trocken{--c:#d6a23c}.lv.tauchen{--c:#8a6fc9}
+.wt{font:600 .74rem Inter,sans-serif;padding:3px 9px;border-radius:999px;white-space:nowrap}
+.wt.weich{background:#dcebf7;color:#12406b}.wt.leitung{background:var(--line);color:var(--ink)}
+@media (prefers-color-scheme:dark){.wt.weich{background:#173550;color:#cfe5f7}}
+.ort{font-size:1.05rem;margin:22px 0 8px;display:flex;justify-content:space-between;align-items:baseline}
+.ort small{font:500 .8rem Inter,sans-serif;color:var(--muted)}
+.gi{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 13px;text-decoration:none;color:inherit;margin-bottom:8px}
+.gi .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.gi b{font-weight:600}
+.gi .tags{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0 6px}
+.gi p{margin:0;font-size:.9rem}
+.gi .w{color:var(--muted);font-size:.84rem;margin-top:3px}
+.more{display:grid;gap:10px;margin-bottom:14px}
+.more img{width:100%;border-radius:16px}
 </style>
 </head>
 <body>
@@ -82,7 +100,9 @@ const PFLEGE = [
   ["licht","☀️","Licht"],["temperatur","🌡️","Temperatur"],["feuchte","💧","Luftfeuchte"],
   ["wasser","🚿","Gießen"],["substrat","🪴","Substrat"],["duengen","🧪","Düngen"],["besonderheiten","📌","Besonderheiten"]
 ];
-let daten = [], tab = "besitz", suche = "", ort = "";
+const STUFEN = {nass:"Nass / Anstau", feucht:"Gleichmäßig feucht", antrocknen:"Antrocknen lassen", trocken:"Durchtrocknen lassen", tauchen:"Tauchen / Sprühen"};
+const WASSER = {weich:"Kalkarmes Wasser", leitung:"Leitungswasser"};
+let daten = [], tab = "besitz", suche = "", ort = "", gWasser = "", gStufe = "";
 const app = document.getElementById("app");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const url = u => /^(https?:)?\/\//.test(u) || /^fotos\//.test(u) ? u : "";
@@ -98,29 +118,68 @@ async function laden(){
 function zeigen(){
   const id = decodeURIComponent(location.hash.slice(1));
   const p = id && daten.find(x => String(x.id) === id);
-  p ? detail(p) : liste();
+  if (id === "giessen") tab = "giessen";
+  p ? detail(p) : tab === "giessen" ? giessen() : liste();
   window.scrollTo(0,0);
 }
 
-function liste(){
+function kopf(){
   const n = s => daten.filter(p => p.status === s).length;
-  const orte = [...new Set(daten.filter(p => p.status === tab).map(p => p.standort).filter(Boolean))].sort();
-  if (ort && !orte.includes(ort)) ort = "";
-  app.innerHTML = `
-  <header><div class="wrap">
+  return `<header><div class="wrap">
     <h1>Unsere Pflanzen</h1><p class="sub">Sammlung &amp; Wunschliste</p>
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" aria-selected="${tab==="besitz"}" data-tab="besitz">Pflanzen<span class="n">${n("besitz")}</span></button>
-      <button class="tab" role="tab" aria-selected="${tab==="wunsch"}" data-tab="wunsch">Wunschliste<span class="n">${n("wunsch")}</span></button>
+      <button class="tab" role="tab" aria-selected="${tab==="giessen"}" data-tab="giessen">Gießen</button>
+      <button class="tab" role="tab" aria-selected="${tab==="wunsch"}" data-tab="wunsch">Wünsche<span class="n">${n("wunsch")}</span></button>
     </div>
-  </div></header>
+  </div></header>`;
+}
+function tabsAn(){
+  app.querySelectorAll(".tab").forEach(b => b.onclick = () => {
+    tab = b.dataset.tab;
+    history.replaceState(null, "", tab === "giessen" ? "#giessen" : location.pathname + location.search);
+    tab === "giessen" ? giessen() : liste();
+  });
+}
+
+function giessen(){
+  const alle = daten.filter(p => p.status === "besitz" && p.giessen);
+  const ohne = daten.filter(p => p.status === "besitz" && !p.giessen);
+  const l = alle.filter(p => (!gWasser || p.giessen.wasser === gWasser) && (!gStufe || p.giessen.stufe === gStufe));
+  const orte = [...new Set(l.map(p => p.standort || "Ohne Standort"))].sort((a,b) => a.localeCompare(b,"de"));
+  const reihen = Object.keys(STUFEN);
+  const chip = (k, v, akt, attr) => `<button class="chip" aria-pressed="${akt}" data-${attr}="${k}">${v}</button>`;
+  app.innerHTML = kopf() + `<main class="wrap">
+    <div class="chips">${chip("", "Alle", !gWasser, "w")}${Object.entries(WASSER).map(([k,v]) => chip(k, v + " " + alle.filter(p => p.giessen.wasser===k).length, gWasser===k, "w")).join("")}</div>
+    <div class="chips" style="padding-top:4px">${chip("", "Jeder Bedarf", !gStufe, "s")}${reihen.filter(k => alle.some(p => p.giessen.stufe===k)).map(k => chip(k, STUFEN[k], gStufe===k, "s")).join("")}</div>
+    ${l.length ? "" : '<p class="empty">Keine Pflanze mit dieser Kombination.</p>'}
+    ${orte.map(o => { const ps = l.filter(p => (p.standort || "Ohne Standort") === o)
+        .sort((a,b) => reihen.indexOf(a.giessen.stufe) - reihen.indexOf(b.giessen.stufe) || a.name.localeCompare(b.name,"de"));
+      return `<h2 class="ort">${esc(o)}<small>${ps.length}</small></h2>` + ps.map(p => { const g = p.giessen; return `
+      <a class="gi" href="#${p.id}">
+        <div class="top"><b>${esc(p.name)}</b><span class="meta">#${p.id}</span></div>
+        <div class="tags"><span class="lv ${esc(g.stufe)}"><i></i>${STUFEN[g.stufe] || esc(g.stufe)}</span><span class="wt ${esc(g.wasser)}">${WASSER[g.wasser] || esc(g.wasser)}</span>${g.methode ? `<span class="wt leitung">${esc(g.methode)}</span>` : ""}</div>
+        <p>${esc(g.kurz)}</p>${g.winter ? `<p class="w">Winter: ${esc(g.winter)}</p>` : ""}
+      </a>`; }).join(""); }).join("")}
+    ${ohne.length && !gWasser && !gStufe ? `<h2 class="ort">Noch ohne Gießangaben<small>${ohne.length}</small></h2>` + ohne.map(p => `<a class="gi" href="#${p.id}"><b>${esc(p.name)}</b></a>`).join("") : ""}
+    <p class="hint">Kalkarmes Wasser = Regen-, destilliertes oder Osmosewasser.</p>
+  </main>`;
+  tabsAn();
+  app.querySelectorAll("[data-w]").forEach(b => b.onclick = () => { gWasser = b.dataset.w; giessen(); });
+  app.querySelectorAll("[data-s]").forEach(b => b.onclick = () => { gStufe = b.dataset.s; giessen(); });
+}
+
+function liste(){
+  const orte = [...new Set(daten.filter(p => p.status === tab).map(p => p.standort).filter(Boolean))].sort();
+  if (ort && !orte.includes(ort)) ort = "";
+  app.innerHTML = kopf() + `
   <main class="wrap">
     <input class="search" type="search" placeholder="Suchen …" value="${esc(suche)}" aria-label="Suchen">
     ${orte.length > 1 ? `<div class="chips">${["",...orte].map(o => `<button class="chip" aria-pressed="${o===ort}" data-ort="${esc(o)}">${o ? esc(o) : "Alle Standorte"}</button>`).join("")}</div>` : ""}
     <div class="list"></div>
   </main>
   <a class="fab" href="${REPO}/issues/new?template=neue-pflanze.yml&status=${tab === "wunsch" ? "Wunsch" : "Besitz"}">+ ${tab === "wunsch" ? "Wunsch" : "Pflanze"}</a>`;
-  app.querySelectorAll(".tab").forEach(b => b.onclick = () => { tab = b.dataset.tab; liste(); });
+  tabsAn();
   app.querySelectorAll(".chip").forEach(b => b.onclick = () => { ort = b.dataset.ort; liste(); });
   const input = app.querySelector(".search");
   input.oninput = () => { suche = input.value; treffer(); };
@@ -154,14 +213,18 @@ function detail(p){
   const base = `etiketten/${p.id}/${p.id}-`;
   app.innerHTML = `
   <header><div class="wrap" style="padding-bottom:18px">
-    <a class="back" href="#">← Alle Pflanzen</a><br>
+    <a class="back" href="${tab === "giessen" ? "#giessen" : "#"}">← ${tab === "giessen" ? "Gießübersicht" : "Alle Pflanzen"}</a><br>
     <span class="badge ${w?"w":""}">${w ? "Wunschliste" : "Sammlung"}</span>
     <h1>${esc(p.name)}</h1>
     ${p.botanisch ? `<div class="bot" style="color:#cfe3d4">${esc(p.botanisch)}</div>` : ""}
   </div></header>
   <main class="wrap">
     ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(p.name)}">` : ""}
+    ${(p.weitere_fotos || []).filter(url).length ? `<div class="more">${p.weitere_fotos.filter(url).map(f => `<img src="${esc(f)}" alt="" loading="lazy">`).join("")}</div>` : ""}
     <dl class="facts">${fakten.map(([k,v]) => `<div class="fact"><dt>${k}</dt><dd>${k==="Shop" ? v : esc(v)}</dd></div>`).join("")}</dl>
+    ${p.giessen ? `<section><h2>Gießen</h2><div class="gi" style="margin:0">
+      <div class="tags" style="margin-top:0"><span class="lv ${esc(p.giessen.stufe)}"><i></i>${STUFEN[p.giessen.stufe] || esc(p.giessen.stufe)}</span><span class="wt ${esc(p.giessen.wasser)}">${WASSER[p.giessen.wasser] || esc(p.giessen.wasser)}</span>${p.giessen.methode ? `<span class="wt leitung">${esc(p.giessen.methode)}</span>` : ""}</div>
+      <p>${esc(p.giessen.kurz)}</p>${p.giessen.winter ? `<p class="w">Winter: ${esc(p.giessen.winter)}</p>` : ""}</div></section>` : ""}
     ${pflege.length ? `<section><h2>Pflege</h2><div class="care">${pflege.map(([k,ic,t]) =>
       `<div><span class="ic">${ic}</span><span><b>${t}</b>${esc(p.pflege[k])}</span></div>`).join("")}</div></section>` : ""}
     ${p.notizen ? `<section><h2>Notizen</h2><div class="note">${esc(p.notizen)}</div></section>` : ""}

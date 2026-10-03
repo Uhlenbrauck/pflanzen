@@ -1152,5 +1152,41 @@
         "url": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield"
       }
     ]
+  },
+  {
+    "id": 35,
+    "status": "wunsch",
+    "name": "Moosfarn",
+    "botanisch": "Selaginella picta",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/selaginella-picta",
+    "preis": "19,99 €",
+    "foto": "",
+    "notizen": "Tiefgrüne Blätter mit weißen Streifen an rotbraunen Stängeln; laut Shop einer der schönsten Moosfarne. Im 7-cm-Topf, 10–20 cm hoch, wird etwa 30 cm. Heimat Vietnam, Myanmar und Südostchina. Auch als Didiclis picta geführt. Am 03.10.2026 von 29,99 € auf 19,99 € reduziert.",
+    "pflege": {
+      "licht": "Wenig Licht, 1.000–2.500 Lux; keine direkte Sonne.",
+      "temperatur": "Optimal 22–28 °C.",
+      "feuchte": "75 % und mehr – Terrarium oder Gewächshaus.",
+      "wasser": "Dauerhaft feucht halten, nie ganz austrocknen lassen. Weiches Wasser oder Regenwasser bevorzugt.",
+      "substrat": "Durchlässig und leicht sauer (pH 5,5–6,5), z. B. Kokosfaser oder Baumfarnfaser.",
+      "duengen": "Unter Pflanzenlicht alle 2–3 Wochen schwach mit Orchideendünger.",
+      "besonderheiten": "Verzeiht kein Austrocknen; am besten im feuchten Terrarium."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Dauerhaft feucht, nie austrocknen lassen.",
+      "winter": ""
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Selaginella picta",
+        "url": "https://www.jungle-leaves.de/products/selaginella-picta"
+      }
+    ]
   }
 ]

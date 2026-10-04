@@ -31,7 +31,7 @@
     "pflege": {
       "licht": "Sehr hell, gern etwas Morgen- oder Abendsonne; keine pralle Mittagssonne hinter Glas.",
       "temperatur": "Robuste Hybride: Zimmertemperatur ganzjährig, keine Nachtabsenkung nötig. Nicht dauerhaft unter 15 °C.",
-      "feuchte": "Ab etwa 50 % zufrieden; höhere Luftfeuchte fördert die Kannenbildung.",
+      "feuchte": "60–80 % (Jungle Leaves für N. × Gaya). Darunter bildet sie weniger Kannen.",
       "wasser": "Von oben gießen, Substrat gleichmäßig feucht halten, keine dauerhafte Staunässe. Nur kalkarmes Wasser.",
       "substrat": "Luftig: Torf, Perlite, Pinienrinde und Sphagnum gemischt.",
       "duengen": "Nicht ins Substrat düngen; die Kannen versorgen die Pflanze.",
@@ -45,6 +45,10 @@
       {
         "titel": "hortica.de – Kannenpflanzen",
         "url": "https://hortica.de/pflanzen/kannenpflanzen-nepenthes/"
+      },
+      {
+        "titel": "Jungle Leaves – Nepenthes × Gaya",
+        "url": "https://www.jungle-leaves.de/products/nepenthes-x-gaya"
       }
     ],
     "giessen": {
@@ -71,7 +75,7 @@
     "pflege": {
       "licht": "Halbschatten bzw. mittleres LED-Licht im Terrarium.",
       "temperatur": "Warm, normale Zimmertemperatur (tropische Art), keine kalten Nächte.",
-      "feuchte": "Sehr hoch, nahe 100 % – geschlossenes Gefäß, aber mit etwas Luftaustausch.",
+      "feuchte": "70–90 % und mehr (Jungle Leaves); die American Begonia Society nennt nahe 100 %. Geschlossenes Gefäß mit etwas Luftaustausch.",
       "wasser": "Leicht antrocknen lassen, nie ganz austrocknen. Staunässe vermeiden.",
       "substrat": "Lockere Erde mit ca. ⅓ Perlite, dazu etwas Kokosfaser.",
       "duengen": "Etwa monatlich stark verdünnter (⅛–¼) harnstofffreier Orchideendünger.",
@@ -81,6 +85,10 @@
       {
         "titel": "American Begonia Society – Begonia ferox",
         "url": "https://www.begonias.org/begonia-ferox/"
+      },
+      {
+        "titel": "Jungle Leaves – Begonia ferox",
+        "url": "https://www.jungle-leaves.de/products/begonia-ferox"
       }
     ],
     "giessen": {
@@ -107,7 +115,7 @@
     "pflege": {
       "licht": "Hell bis halbschattig, ohne pralle Mittagssonne.",
       "temperatur": "Zimmertemperatur, im Winter nicht unter 12 °C.",
-      "feuchte": "Normale Zimmerluft genügt; gelegentliches Überbrausen tut gut.",
+      "feuchte": "40–60 % (Richtwert, keine geprüfte Quelle). Normale Zimmerluft genügt.",
       "wasser": "Stein und Wurzeln regelmäßig durchdringend wässern. Die Schale darf kurz Wasser halten, soll aber zwischendurch abtrocknen.",
       "substrat": "Aufsitzend auf Lavagestein; die Wurzeln brauchen unten etwas Substrat oder Feuchte in der Schale.",
       "duengen": "März bis Oktober alle 2–4 Wochen schwach flüssig düngen.",
@@ -138,7 +146,7 @@
     "pflege": {
       "licht": "Hell ohne direkte Sonne.",
       "temperatur": "Warm, 20–28 °C; unter etwa 16 °C zieht sie ein.",
-      "feuchte": "Hoch (ab 60 %), deshalb gut im Gewächshaus aufgehoben.",
+      "feuchte": "60–80 % (Richtwert, keine geprüfte Quelle), angelehnt an verwandte Alocasien. Im Gewächshaus gut aufgehoben.",
       "substrat": "Sehr luftig: Aroid-Mix aus Rinde, Perlite/Bims und etwas Kokosfaser.",
       "duengen": "Im Wachstum alle 2–4 Wochen schwach dosiert.",
       "wasser": "Gleichmäßig leicht feucht; obere 1–2 cm antrocknen lassen. Staunässe lässt die Knolle faulen.",
@@ -169,7 +177,7 @@
     "pflege": {
       "licht": "Hell; an mehr Licht langsam gewöhnen, sonst bleichen die Blätter aus.",
       "temperatur": "Warm, im Wachstum über 20 °C.",
-      "feuchte": "Zimmerluft genügt, etwas höher fördert den Austrieb.",
+      "feuchte": "40–60 % (Richtwert, keine geprüfte Quelle). Zum Austrieb darf es etwas mehr sein.",
       "wasser": "Im Wachstum erst gießen, wenn das Substrat ganz durchgetrocknet ist und der Topf leicht wirkt, dann durchdringend. Zieht die Ranke ein, Wasser stark reduzieren.",
       "substrat": "Überwiegend mineralisch: Bims, Lava, Akadama.",
       "duengen": "Nur im Wachstum und schwach; in der Ruhe gar nicht.",
@@ -205,7 +213,7 @@
     "pflege": {
       "licht": "Schattig bis halbschattig; verträgt mehr Licht als andere Juwelorchideen, aber keine direkte Sonne.",
       "temperatur": "Warm, verträgt auch über 30 °C; nicht kühl stellen.",
-      "feuchte": "Hoch – Terrarium oder Gewächshaus.",
+      "feuchte": "70–90 % (Jungle Leaves: 70 % oder höher). Terrarium oder Gewächshaus.",
       "wasser": "Gleichmäßig feucht, nicht nass.",
       "substrat": "Locker und humos, z. B. feine Rinde mit Sphagnum und Perlite.",
       "duengen": "Sehr schwach, etwa monatlich.",
@@ -222,6 +230,10 @@
       {
         "titel": "Raingreen Tropicals – Culture of Dossinia",
         "url": "https://raingreentropicals.com/culture-dossinia.htm"
+      },
+      {
+        "titel": "Jungle Leaves – Dossinia marmorata",
+        "url": "https://www.jungle-leaves.de/products/dossinia-marmorata"
       }
     ],
     "bildnachweis": {
@@ -249,7 +261,7 @@
     "pflege": {
       "licht": "Sehr hell, gern etwas Sonne.",
       "temperatur": "Zimmertemperatur, nicht unter 10 °C.",
-      "feuchte": "Mag die Luftfeuchte im Bad; braucht aber Luftbewegung.",
+      "feuchte": "40–60 % (Jungle Leaves: 60 % oder weniger). Im feuchteren Bad nach jedem Wässern vollständig abtrocknen lassen.",
       "wasser": "1–2× pro Woche kräftig besprühen oder 10–20 Minuten tauchen, danach abschütteln. Muss innerhalb weniger Stunden wieder abtrocknen.",
       "substrat": "Keines – Aufsitzerpflanze.",
       "duengen": "Im Sommer monatlich stark verdünnter Tillandsien- oder Orchideendünger im Sprühwasser.",
@@ -262,7 +274,12 @@
       "kurz": "1–2× pro Woche tauchen oder kräftig sprühen, danach rasch abtrocknen lassen.",
       "winter": "Etwa 1× pro Woche."
     },
-    "quellen": []
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Tillandsia ionantha",
+        "url": "https://www.jungle-leaves.de/products/tillandsia-ionantha-xl"
+      }
+    ]
   },
   {
     "id": 9,
@@ -280,7 +297,7 @@
     "pflege": {
       "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
       "temperatur": "Warm, ganzjährig Zimmertemperatur; keine kühle Überwinterung.",
-      "feuchte": "Eher hoch.",
+      "feuchte": "60–80 % (Richtwert, keine geprüfte Quelle).",
       "wasser": "Ständig feucht bis nass, nur kalkarmes Wasser.",
       "substrat": "Nährstoffarm: Weißtorf mit Quarzsand/Perlite, ungedüngt.",
       "duengen": "Nicht düngen.",
@@ -311,7 +328,7 @@
     "pflege": {
       "licht": "Sehr hell, Südfenster oder LED; mit viel Licht färben sich die Krüge kräftig.",
       "temperatur": "Gemäßigt; im Winter gern kühler.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "45–85 %, ideal 65–75 % (Rainbow Carnivorous Plants).",
       "wasser": "Gleichmäßig feucht mit etwa 1 cm Anstau, aber nicht versumpft. Topf gelegentlich durchspülen. Nur kalkarmes Wasser.",
       "substrat": "Sehr sandig: etwa 20 % Torf oder gehacktes Sphagnum, 80 % Quarzsand.",
       "duengen": "Nicht düngen.",
@@ -328,6 +345,10 @@
       {
         "titel": "International Carnivorous Plant Society – Cephalotus",
         "url": "https://www.carnivorousplants.org/grow/guides/Cephalotus"
+      },
+      {
+        "titel": "Rainbow Carnivorous Plants – Cephalotus follicularis Care",
+        "url": "https://rainbowcarnivorousplants.com/pages/cephalotus-follicularis-care"
       }
     ]
   },
@@ -347,7 +368,7 @@
     "pflege": {
       "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
       "temperatur": "Sommer warm, Winter gern kühler.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "50–75 % (Curious Plant).",
       "wasser": "Im Wachstum feucht im Anstau, nur kalkarmes Wasser.",
       "substrat": "Sandig: 1 Teil Torf auf 2 Teile Quarzsand.",
       "duengen": "Nicht düngen.",
@@ -364,6 +385,10 @@
       {
         "titel": "International Carnivorous Plant Society – Pygmy Drosera",
         "url": "https://www.carnivorousplants.org/grow/guides/PygmyDrosera"
+      },
+      {
+        "titel": "Curious Plant – Drosera scorpioides",
+        "url": "https://curiousplant.com/product/sundews/drosera-scorpioides/"
       }
     ]
   },
@@ -383,7 +408,7 @@
     "pflege": {
       "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
       "temperatur": "Sommer warm, Winter kühler und trockener.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "Sommer 50–80 % (Richtwert, keine geprüfte Quelle); Winter 50–60 % (pinguicula.org), damit die Winterrosette nicht fault.",
       "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
       "duengen": "Nicht düngen. Keine Fungizide verwenden.",
       "wasser": "Sommer: feucht, flacher Anstau bis 2 cm. Winter (kleine Sukkulentenrosette): zwischen dem Gießen etwa eine Woche abtrocknen lassen.",
@@ -400,6 +425,10 @@
       {
         "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
         "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      },
+      {
+        "titel": "pinguicula.org – Growing Mexican Pinguicula",
+        "url": "https://www.pinguicula.org/cultivation/growing-mexican/"
       }
     ]
   },
@@ -419,7 +448,7 @@
     "pflege": {
       "licht": "Sehr hell.",
       "temperatur": "Zimmertemperatur.",
-      "feuchte": "Hoch; trocknet an der Luft schnell ein.",
+      "feuchte": "80–100 % (Richtwert, keine geprüfte Quelle) für die Landform. Trocknet an der Luft schnell ein.",
       "wasser": "Dauerhaft nass. Im Karnivorenbecken mit demselben kalkarmen Wasser.",
       "substrat": "Feinkörnig und nass.",
       "duengen": "Im Karnivorenbecken nicht düngen.",
@@ -450,7 +479,7 @@
     "pflege": {
       "licht": "Hell; viel Licht fördert die Rotfärbung.",
       "temperatur": "Zimmertemperatur.",
-      "feuchte": "Hoch bzw. im Wasser stehend.",
+      "feuchte": "70–100 % (Richtwert, keine geprüfte Quelle) für die Landform, oder im flachen Wasser stehend.",
       "wasser": "Sumpfpflanze: dauerhaft nass oder im flachen Wasser.",
       "substrat": "Nass, feinkörnig.",
       "duengen": "Im Karnivorenbecken nicht düngen.",
@@ -481,7 +510,7 @@
     "pflege": {
       "licht": "Hell.",
       "temperatur": "Zimmertemperatur.",
-      "feuchte": "Hoch.",
+      "feuchte": "70–100 % (Richtwert, keine geprüfte Quelle).",
       "wasser": "Dauerhaft nass, auch überflutet. Nur kalkarmes Wasser.",
       "substrat": "Nasser Torf-Sand, nährstoffarm.",
       "duengen": "Nicht düngen.",
@@ -512,7 +541,7 @@
     "pflege": {
       "licht": "Hell ohne direkte Sonne.",
       "temperatur": "Warm, über 20 °C.",
-      "feuchte": "Hoch.",
+      "feuchte": "60–80 % (Jungle Leaves für das verwandte Caladium humboldtii).",
       "wasser": "Im Wachstum gleichmäßig feucht. Wenn im Herbst das Laub einzieht, Gießen einstellen.",
       "substrat": "Locker und humos mit Perlite.",
       "duengen": "Im Wachstum alle 2 Wochen schwach.",
@@ -525,7 +554,12 @@
       "kurz": "Im Wachstum gleichmäßig feucht.",
       "winter": "Ruhezeit: Knolle trocken halten."
     },
-    "quellen": []
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Caladium humboldtii",
+        "url": "https://www.jungle-leaves.de/products/caladium-humboldtii"
+      }
+    ]
   },
   {
     "id": 17,
@@ -543,7 +577,7 @@
     "pflege": {
       "licht": "Hell ohne direkte Sonne.",
       "temperatur": "Warm, 20–28 °C; unter etwa 16 °C zieht sie ein.",
-      "feuchte": "Hoch (ab 60 %), deshalb gut im Gewächshaus aufgehoben.",
+      "feuchte": "60–95 % (Jungle Leaves: mindestens 60 %, optimal über 90 %).",
       "substrat": "Sehr luftig: Aroid-Mix aus Rinde, Perlite/Bims und etwas Kokosfaser.",
       "duengen": "Im Wachstum alle 2–4 Wochen schwach dosiert.",
       "wasser": "Gleichmäßig leicht feucht; obere 1–2 cm antrocknen lassen, keine Staunässe.",
@@ -556,7 +590,12 @@
       "kurz": "Obere 1–2 cm antrocknen lassen, nie nass stehen.",
       "winter": "Weniger."
     },
-    "quellen": []
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Alocasia tandurusa 'Jacklyn'",
+        "url": "https://www.jungle-leaves.de/products/alocasia-tandurusa-jacklyn"
+      }
+    ]
   },
   {
     "id": 18,
@@ -574,7 +613,7 @@
     "pflege": {
       "licht": "Sehr hell.",
       "temperatur": "Ganzjährig warm: im Sommer um 30 °C ideal, im Winter nicht unter 18 °C.",
-      "feuchte": "Hoch.",
+      "feuchte": "60–90 % (Richtwert, keine geprüfte Quelle). Die Quellen nennen nur „hohe Luftfeuchte“ ohne Zahl.",
       "wasser": "Kleiner Topf im Anstau. In der warmen Zeit hoher Wasserstand, in der kühleren Zeit zwischen dem Gießen leicht antrocknen lassen. Nur kalkarmes Wasser.",
       "substrat": "Torf, Sand und Perlite.",
       "duengen": "Nicht düngen.",
@@ -613,7 +652,7 @@
     "pflege": {
       "licht": "Halbschattig, keine direkte Sonne.",
       "temperatur": "Zimmertemperatur, nicht unter 16 °C.",
-      "feuchte": "Mag höhere Luftfeuchte – Küche passt.",
+      "feuchte": "50–70 % (Richtwert, keine geprüfte Quelle). Küche passt.",
       "wasser": "Gleichmäßig feucht, nie ballentrocken und nie nass. Am Rand gießen, nicht in den Trichter.",
       "substrat": "Locker und humos.",
       "duengen": "April bis September monatlich in halber Dosis.",
@@ -644,7 +683,7 @@
     "pflege": {
       "licht": "Hell ohne Mittagssonne.",
       "temperatur": "Zimmertemperatur, nicht unter 15 °C.",
-      "feuchte": "Etwas erhöht; nicht besprühen (Mehltau).",
+      "feuchte": "70–90 % optimal (Jungle Leaves). Am Zimmerfenster kommt sie erfahrungsgemäß auch ab etwa 50 % zurecht. Nicht besprühen (Mehltau).",
       "wasser": "Oberfläche antrocknen lassen, dann durchdringend gießen. Keine Staunässe.",
       "substrat": "Lockere Erde mit Perlite.",
       "duengen": "März bis September alle 2 Wochen schwach.",
@@ -657,7 +696,12 @@
       "kurz": "Oberfläche antrocknen lassen.",
       "winter": "Sparsamer."
     },
-    "quellen": []
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Begonia maculata",
+        "url": "https://www.jungle-leaves.de/products/begonia-maculata"
+      }
+    ]
   },
   {
     "id": 21,
@@ -675,7 +719,7 @@
     "pflege": {
       "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
       "temperatur": "Sommer warm, Winter kühler und trockener.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "Sommer 50–80 % (Richtwert, keine geprüfte Quelle); Winter 50–60 % (pinguicula.org), damit die Winterrosette nicht fault.",
       "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
       "duengen": "Nicht düngen. Keine Fungizide verwenden.",
       "wasser": "Sommer: feucht im flachen Anstau. Winter: sparsamer, Substrat zwischendurch abtrocknen lassen.",
@@ -692,6 +736,10 @@
       {
         "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
         "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      },
+      {
+        "titel": "pinguicula.org – Growing Mexican Pinguicula",
+        "url": "https://www.pinguicula.org/cultivation/growing-mexican/"
       }
     ]
   },
@@ -711,7 +759,7 @@
     "pflege": {
       "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
       "temperatur": "Sommer warm, Winter kühler und trockener.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "Sommer 50–80 % (Richtwert, keine geprüfte Quelle); Winter 50–60 % (pinguicula.org), damit die Winterrosette nicht fault.",
       "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
       "duengen": "Nicht düngen. Keine Fungizide verwenden.",
       "wasser": "Sommer: feucht im flachen Anstau. Winter: sparsamer, Substrat zwischendurch abtrocknen lassen.",
@@ -728,6 +776,10 @@
       {
         "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
         "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      },
+      {
+        "titel": "pinguicula.org – Growing Mexican Pinguicula",
+        "url": "https://www.pinguicula.org/cultivation/growing-mexican/"
       }
     ]
   },
@@ -747,7 +799,7 @@
     "pflege": {
       "licht": "Hell, gern mit etwas Sonne; die Tageslänge sollte mit der Jahreszeit schwanken.",
       "temperatur": "Sommer warm, Winter kühler und trockener.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "Sommer 50–80 % (Richtwert, keine geprüfte Quelle); Winter 50–60 % (pinguicula.org), damit die Winterrosette nicht fault.",
       "substrat": "Mineralisch und eher kalkhaltig: Torf, Sand und Perlite zu gleichen Teilen, mit etwas Dolomitkalk.",
       "duengen": "Nicht düngen. Keine Fungizide verwenden.",
       "wasser": "Sommer: feucht im flachen Anstau. Winter (dichte Sukkulentenrosette): fast trocken.",
@@ -764,6 +816,10 @@
       {
         "titel": "International Carnivorous Plant Society – Mexican Pinguicula",
         "url": "https://www.carnivorousplants.org/grow/guides/MexicanPinguicula"
+      },
+      {
+        "titel": "pinguicula.org – Growing Mexican Pinguicula",
+        "url": "https://www.pinguicula.org/cultivation/growing-mexican/"
       }
     ]
   },
@@ -783,7 +839,7 @@
     "pflege": {
       "licht": "Sehr hell bis sonnig; am Fenster oft zu dunkel, LED-Zusatzlicht hilft.",
       "temperatur": "10–35 °C, keine Ruhezeit nötig.",
-      "feuchte": "Zimmerluft bis hoch.",
+      "feuchte": "50–70 % (Mike's Carnivores); nicht zwingend, fördert aber Taubildung und Wuchs.",
       "wasser": "Dauerhaft im Anstau, nur kalkarmes Wasser.",
       "substrat": "Nährstoffarm: Weißtorf mit Quarzsand/Perlite, ungedüngt.",
       "duengen": "Nicht düngen.",
@@ -800,6 +856,10 @@
       {
         "titel": "International Carnivorous Plant Society – Subtropical Drosera",
         "url": "https://www.carnivorousplants.org/grow/guides/SubtropicalDrosera"
+      },
+      {
+        "titel": "Mike's Carnivores – Cape Sundew Care Sheet",
+        "url": "https://mikescarnivores.com/pages/cape-sundew-drosera-capensis-care-sheet"
       }
     ]
   },
@@ -819,7 +879,7 @@
     "pflege": {
       "licht": "Hell, etwas Morgen- oder Abendsonne fördert die Blüte.",
       "temperatur": "Zimmertemperatur; im Winter etwas kühler (um 15 °C) fördert den Blütenansatz.",
-      "feuchte": "Zimmerluft genügt.",
+      "feuchte": "40–60 % (Richtwert, keine geprüfte Quelle). Zimmerluft genügt.",
       "wasser": "Substrat zwischen dem Gießen gut abtrocknen lassen; die dicken Blätter speichern Wasser.",
       "substrat": "Durchlässig, z. B. Erde mit Rinde und Perlite.",
       "duengen": "April bis September monatlich schwach.",
@@ -850,7 +910,7 @@
     "pflege": {
       "licht": "Volle Sonne bis leichter Schatten.",
       "temperatur": "Warm; im Winter nicht kalt und nass zugleich.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "wasser": "Im warmen Sommer reichlich, wenn das Substrat abgetrocknet ist. Im Winter fast trocken – im Zweifel lieber zu trocken.",
       "substrat": "Sehr durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger.",
@@ -888,7 +948,7 @@
     "notizen": "Auch Geldbaum oder Jadebaum.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Zimmertemperatur; ein kühler, heller Winterstand (10–15 °C) fördert die Blüte.",
@@ -924,7 +984,7 @@
     "notizen": "In erbärmlichem Zustand von Kleinanzeigen übernommen. Mehrere Stämme (zwei große, ein kleiner) in einem Kübel.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Zimmertemperatur, im Winter gern kühler (ab 10 °C).",
@@ -960,7 +1020,7 @@
     "notizen": "Art am Foto nicht sicher von den ×Graptoveria-Hybriden zu trennen. Der lange Stamm mit weit stehenden Blättern zeigt, dass sie zum Licht gewachsen ist.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Zimmertemperatur, im Winter gern kühler.",
@@ -996,7 +1056,7 @@
     "notizen": "Blüten rotorange. M. spinosissima blüht meist karminrosa, daher Bestimmung unsicher – Foto zur Blütezeit würde helfen.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Sommer warm; Winter kühl (5–12 °C) und hell fördert die Blüte.",
@@ -1032,7 +1092,7 @@
     "notizen": "Blüht orange. Heute auch als Aylostera muscula geführt.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Sommer warm; Winter kühl (5–12 °C) und hell fördert die Blüte.",
@@ -1068,7 +1128,7 @@
     "notizen": "Sorte mit löffelartig eingerollten Blättern. Im Topf wächst eine kleine bläuliche Rosettensukkulente als Beipflanzung mit.",
     "pflege": {
       "licht": "Sehr hell bis sonnig.",
-      "feuchte": "Zimmerluft.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Trockene Zimmerluft ist ideal; hohe Luftfeuchte bei kühlem Stand fördert Fäulnis.",
       "substrat": "Mineralisch-durchlässige Kakteenerde.",
       "duengen": "Im Sommer monatlich Kakteendünger in halber Dosis.",
       "temperatur": "Zimmertemperatur; kühler, heller Winterstand möglich.",
@@ -1105,7 +1165,7 @@
     "pflege": {
       "licht": "Viel Sonne, Süd- oder Westfenster; unter Pflanzenlicht 5.000–20.000 Lux.",
       "temperatur": "Optimal 25–30 °C; verträgt 5–10 °C, wenn sie ganz trocken ist.",
-      "feuchte": "Eher 60 % oder weniger; bei höherer Luftfeuchte unbedingt vollständig abtrocknen lassen.",
+      "feuchte": "40–60 % (Jungle Leaves: eher 60 % oder weniger). Bei höherer Luftfeuchte unbedingt vollständig abtrocknen lassen.",
       "wasser": "Mit kalkarmem Wasser besprühen und zwischen den Wassergaben ganz abtrocknen lassen. Im Sommer über 25 °C täglich, im lichtarmen Winter etwa wöchentlich.",
       "substrat": "Keines – Aufsitzerpflanze.",
       "duengen": "",
@@ -1149,7 +1209,7 @@
     "pflege": {
       "licht": "Hell. Im Zimmer ein sonniges Fenster; die kräftigste Blattfärbung entsteht bei hellem Stand ohne pralle Mittagssonne.",
       "temperatur": "Tropisch, nicht frosthart (USDA-Zone 10–11). Ganzjährig warm, im Winter hell überwintern.",
-      "feuchte": "Mag höhere Luftfeuchte; bei trockener Heizungsluft rollen sich die Blätter.",
+      "feuchte": "50–70 % (Richtwert, keine geprüfte Quelle). Bei trockener Heizungsluft rollen sich die Blätter.",
       "wasser": "Gleichmäßig feucht halten in humoser, durchlässiger Erde; mittlerer Wasserbedarf, verträgt auch nasse Phasen.",
       "substrat": "Humusreich und durchlässig.",
       "duengen": "Im Wachstum alle 2 Wochen.",
@@ -1197,7 +1257,7 @@
     "pflege": {
       "licht": "Wenig Licht, 1.000–2.500 Lux; keine direkte Sonne.",
       "temperatur": "Optimal 22–28 °C.",
-      "feuchte": "75 % und mehr – Terrarium oder Gewächshaus.",
+      "feuchte": "75–95 % (Jungle Leaves: 75 % und mehr). Terrarium oder Gewächshaus.",
       "wasser": "Dauerhaft feucht halten, nie ganz austrocknen lassen. Weiches Wasser oder Regenwasser bevorzugt.",
       "substrat": "Durchlässig und leicht sauer (pH 5,5–6,5), z. B. Kokosfaser oder Baumfarnfaser.",
       "duengen": "Unter Pflanzenlicht alle 2–3 Wochen schwach mit Orchideendünger.",
@@ -1245,7 +1305,7 @@
     "pflege": {
       "licht": "Verträgt wenig Licht, wächst aber am besten hell ohne direkte Sonne. Direkte Sonne verbrennt die Blätter.",
       "temperatur": "Warm, normale Zimmertemperatur.",
-      "feuchte": "Niedrige Luftfeuchte genügt.",
+      "feuchte": "30–50 % (Richtwert, keine geprüfte Quelle). Verträgt trockene Luft (Jungle Leaves).",
       "wasser": "Durchdringend gießen und die Erde dazwischen abtrocknen lassen. Die Rhizome und dicken Blattstiele speichern Wasser; nasse Füße verträgt sie nicht.",
       "substrat": "Gut durchlässige Topferde.",
       "duengen": "April bis September monatlich verdünnter Zimmerpflanzendünger.",
@@ -1285,7 +1345,7 @@
     "pflege": {
       "licht": "Indirektes Licht. Mit wenig Licht bleiben die Blätter dunkel, an helleren Plätzen werden sie grüner.",
       "temperatur": "Ganzjährig 20–22 °C, im Winter nicht unter 18 °C.",
-      "feuchte": "Am Naturstandort 60–70 %. Blätter gelegentlich mit einem feuchten Tuch abwischen.",
+      "feuchte": "60–80 %; am Naturstandort 60–70 % (Aroidpedia). Blätter gelegentlich feucht abwischen.",
       "wasser": "Etwa wöchentlich von unten wässern und die Erde dazwischen abtrocknen lassen. Keine Staunässe.",
       "substrat": "Torffreier Erdmix.",
       "duengen": "Laut Shop organischer Dünger bei jedem Gießen.",

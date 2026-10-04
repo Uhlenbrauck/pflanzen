@@ -1188,5 +1188,41 @@
         "url": "https://www.jungle-leaves.de/products/selaginella-picta"
       }
     ]
+  },
+  {
+    "id": 36,
+    "status": "wunsch",
+    "name": "Schwarze Glücksfeder 'Raven'",
+    "botanisch": "Zamioculcas zamiifolia 'Raven'",
+    "etikett": "",
+    "herkunft": "Plantaddiction",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0",
+    "preis": "22,95 €",
+    "foto": "",
+    "notizen": "Dunkellaubige Sorte der Glücksfeder; neue Triebe erscheinen grün und dunkeln nach. Im 14-cm-Topf, 35–60 cm hoch. Laut Shop einsteigerfreundlich. Kommt in einem absichtlich eingedellten Topf – das zeigt die kräftigen Wurzeln.",
+    "pflege": {
+      "licht": "Verträgt wenig Licht; keine direkte Mittagssonne.",
+      "temperatur": "Warm, normale Zimmertemperatur.",
+      "feuchte": "Niedrige Luftfeuchte genügt.",
+      "wasser": "Sparsam gießen; die Erde zwischen dem Gießen abtrocknen lassen.",
+      "substrat": "Durchlässige Erde.",
+      "duengen": "April bis September monatlich verdünnter Zimmerpflanzendünger.",
+      "besonderheiten": "Mag es eng im Topf, selten umtopfen. Nicht zurückschneiden. Alle Pflanzenteile sind giftig und der Saft reizt Haut und Schleimhäute."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "von oben",
+      "kurz": "Sparsam; Erde zwischen dem Gießen abtrocknen lassen.",
+      "winter": "Noch seltener."
+    },
+    "quellen": [
+      {
+        "titel": "Plantaddiction – Zamioculcas zamiifolia 'Raven'",
+        "url": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0"
+      }
+    ]
   }
 ]

@@ -1256,5 +1256,41 @@
         "url": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0"
       }
     ]
+  },
+  {
+    "id": 37,
+    "status": "wunsch",
+    "name": "Alocasia 'Antoro Velvet'",
+    "botanisch": "Alocasia chienlii",
+    "etikett": "",
+    "herkunft": "Plantaddiction",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://plantaddiction.de/alocasia-antoro-velvet-alocasia-chienlii/530.117.100.0",
+    "preis": "39,95 €",
+    "foto": "",
+    "notizen": "Tiefschwarze, samtig behaarte Blätter mit metallischem Schimmer und kräftigen Blattadern. Heimat Borneo; laut Shop seit 2017 durch den indonesischen Sammler Antoro in Kultur. Im 14-cm-Topf, etwa 40 cm hoch. Wächst langsam.",
+    "pflege": {
+      "licht": "Indirektes Licht. Mit wenig Licht bleiben die Blätter dunkel, an helleren Plätzen werden sie grüner.",
+      "temperatur": "Ganzjährig 20–22 °C, im Winter nicht unter 18 °C.",
+      "feuchte": "Blätter gelegentlich mit einem feuchten Tuch abwischen.",
+      "wasser": "Etwa wöchentlich von unten wässern und die Erde dazwischen abtrocknen lassen. Keine Staunässe.",
+      "substrat": "Torffreier Erdmix.",
+      "duengen": "Laut Shop organischer Dünger bei jedem Gießen.",
+      "besonderheiten": "Umtopfen nur alle 2–3 Jahre. Blüht im Zimmer selten. Leicht giftig für Kinder und Haustiere."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "von unten",
+      "kurz": "Etwa wöchentlich von unten wässern, dazwischen abtrocknen lassen.",
+      "winter": "Seltener, nicht unter 18 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Plantaddiction – Alocasia 'Antoro Velvet' (Alocasia chienlii)",
+        "url": "https://plantaddiction.de/alocasia-antoro-velvet-alocasia-chienlii/530.117.100.0"
+      }
+    ]
   }
 ]

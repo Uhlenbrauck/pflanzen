@@ -165,9 +165,9 @@ function kopf(){
     <h1>Unsere Pflanzen</h1><p class="sub">Sammlung, Wünsche &amp; Merkliste</p>
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" aria-selected="${tab==="besitz"}" data-tab="besitz">Pflanzen<span class="n">${n("besitz")}</span></button>
-      <button class="tab" role="tab" aria-selected="${tab==="giessen"}" data-tab="giessen">Gießen</button>
       <button class="tab" role="tab" aria-selected="${tab==="wunsch"}" data-tab="wunsch">Wünsche<span class="n">${n("wunsch")}</span></button>
       <button class="tab" role="tab" aria-selected="${tab==="merkliste"}" data-tab="merkliste">Merkliste<span class="n">${merk.filter(m => !m.erledigt).length}</span></button>
+      <button class="tab" role="tab" aria-selected="${tab==="giessen"}" data-tab="giessen">Gießen</button>
     </div>
   </div></header>`;
 }

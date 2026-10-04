@@ -55,8 +55,58 @@ def foto_speichern(text, pid):
         return quelle
 
 
+MERK = ROOT / "merkliste.json"
+MERK_FELDER = {"Kategorie": "kategorie", "Titel": "titel", "Link": "link", "Datum": "datum", "Preis": "preis",
+               "Notiz": "notiz", "Notiz ergänzen": "notiz_neu", "Eintrag-Nr.": "id", "Aktion": "aktion"}
+
+
+def merkliste(titel, body):
+    w = {}
+    for block in re.split(r"^### ", body or "", flags=re.M)[1:]:
+        label, _, wert = block.partition("\n")
+        wert = wert.strip()
+        if label.strip() in MERK_FELDER and wert and wert != "_No response_":
+            w[MERK_FELDER[label.strip()]] = wert
+    liste = json.loads(MERK.read_text(encoding="utf-8")) if MERK.exists() else []
+    heute = datetime.date.today().isoformat()
+    if "id" in w:
+        mid = int(re.sub(r"\D", "", w["id"]) or -1)
+        m = next((x for x in liste if x["id"] == mid), None)
+        if not m:
+            raise SystemExit(f"Merklisten-Eintrag {mid} nicht gefunden.")
+        aktion = w.get("aktion", "unverändert")
+        if aktion == "Löschen":
+            liste.remove(m)
+            antwort = f"🗑️ „{m['titel']}“ wurde von der Merkliste entfernt."
+        else:
+            if aktion in ("Erledigt", "Wieder offen"):
+                m["erledigt"] = aktion == "Erledigt"
+            if "notiz_neu" in w:
+                m["notiz"] = (m.get("notiz", "") + "\n\n" + f"{heute}: {w['notiz_neu']}").strip()
+            for k in ("kategorie", "titel", "link", "datum", "preis"):
+                if k in w:
+                    m[k] = w[k]
+            antwort = f"✏️ „{m['titel']}“ wurde aktualisiert."
+    else:
+        if "titel" not in w and "link" not in w:
+            raise SystemExit("Weder Titel noch Link angegeben.")
+        mid = max([x["id"] for x in liste] + [0]) + 1
+        link = w.get("link", "")
+        m = {"id": mid, "kategorie": w.get("kategorie", "Sonstiges"), "titel": w.get("titel") or link,
+             "link": link, "datum": w.get("datum", ""), "preis": w.get("preis", ""),
+             "notiz": w.get("notiz", ""), "erledigt": False, "angelegt": heute}
+        liste.append(m)
+        antwort = f"📌 „{m['titel']}“ steht auf der Merkliste ({m['kategorie']})."
+    MERK.write_text(json.dumps(liste, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    antwort += "\n\nMerkliste (in 1–2 Minuten aktuell): https://uhlenbrauck.github.io/pflanzen/#merkliste"
+    (ROOT / "antwort.md").write_text(antwort, encoding="utf-8")
+    print(antwort)
+
+
 def main():
     titel = os.environ.get("ISSUE_TITLE", "")
+    if titel.startswith("[Merkliste"):
+        return merkliste(titel, os.environ.get("ISSUE_BODY", ""))
     w = parsen(os.environ.get("ISSUE_BODY", ""))
     pflanzen = json.loads(DATEI.read_text(encoding="utf-8"))
     heute = datetime.date.today().isoformat()

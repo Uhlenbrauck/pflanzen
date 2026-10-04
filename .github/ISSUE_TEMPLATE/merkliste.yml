@@ -1,0 +1,40 @@
+name: Merkliste – neuer Eintrag
+description: Zubehör, Händler, Veranstaltung, Internetseite oder Sonstiges merken
+title: "[Merkliste] "
+body:
+  - type: dropdown
+    id: kategorie
+    attributes:
+      label: Kategorie
+      options:
+        - Zubehör
+        - Händler
+        - Veranstaltung
+        - Internetseite
+        - Sonstiges
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: titel
+    attributes:
+      label: Titel
+      placeholder: Pflanzenbörse Dortmund
+  - type: input
+    id: link
+    attributes:
+      label: Link
+  - type: input
+    id: datum
+    attributes:
+      label: Datum
+      description: Für Veranstaltungen, am besten als JJJJ-MM-TT
+      placeholder: 2027-03-14
+  - type: input
+    id: preis
+    attributes:
+      label: Preis
+  - type: textarea
+    id: notiz
+    attributes:
+      label: Notiz

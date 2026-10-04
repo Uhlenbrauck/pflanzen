@@ -29,8 +29,9 @@ header{background:var(--green);color:#f1efe6;padding:calc(18px + env(safe-area-i
 h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:650;letter-spacing:-.01em;margin:0}
 h1{font-size:1.75rem}
 .sub{opacity:.75;font-size:.9rem;margin:.15rem 0 14px}
-.tabs{display:flex;gap:4px}
-.tab{flex:1;background:transparent;border:0;color:#f1efe6;opacity:.65;padding:12px 8px 14px;font:600 .95rem Inter,sans-serif;border-bottom:3px solid transparent;cursor:pointer}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:1;background:transparent;border:0;color:#f1efe6;opacity:.65;padding:12px 6px 14px;font:600 .86rem Inter,sans-serif;white-space:nowrap;border-bottom:3px solid transparent;cursor:pointer}
 .tab[aria-selected=true]{opacity:1;border-color:#9fd6ae}
 .tab .n{font-weight:500;opacity:.7;margin-left:4px}
 main{padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
@@ -88,6 +89,12 @@ section h2{font-size:1.2rem;margin-bottom:10px}
 .gi .tags{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0 6px}
 .gi p{margin:0;font-size:.9rem}
 .gi .w{color:var(--muted);font-size:.84rem;margin-top:3px}
+.mk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.mk h3{font:600 1rem Inter,sans-serif;letter-spacing:0}
+.mk h3 a{text-decoration:none}
+.mk p{margin:6px 0 0;font-size:.9rem;white-space:pre-line}
+.mk .foot{display:flex;justify-content:space-between;gap:10px;margin-top:8px;font-size:.82rem;color:var(--muted)}
+.mk.done{opacity:.55}.mk.done h3{text-decoration:line-through}
 .more{display:grid;gap:10px;margin-bottom:14px}
 .more img{width:100%;border-radius:16px}
 </style>
@@ -102,6 +109,7 @@ const PFLEGE = [
 ];
 const STUFEN = {nass:"Nass / Anstau", feucht:"Gleichmäßig feucht", antrocknen:"Antrocknen lassen", trocken:"Durchtrocknen lassen", tauchen:"Tauchen / Sprühen"};
 const WASSER = {weich:"Kalkarmes Wasser", leitung:"Leitungswasser"};
+let merk = [], mKat = "";
 let daten = [], tab = "besitz", suche = "", ort = "", gWasser = "", gStufe = "";
 const app = document.getElementById("app");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -111,6 +119,7 @@ async function laden(){
   try{
     const r = await fetch("pflanzen.json", {cache:"no-cache"});
     daten = await r.json();
+    try { merk = await (await fetch("merkliste.json", {cache:"no-cache"})).json(); } catch(e) { merk = []; }
   }catch(e){ app.innerHTML = '<p class="empty">Daten konnten nicht geladen werden.</p>'; return; }
   zeigen();
 }
@@ -118,27 +127,54 @@ async function laden(){
 function zeigen(){
   const id = decodeURIComponent(location.hash.slice(1));
   const p = id && daten.find(x => String(x.id) === id);
-  if (id === "giessen") tab = "giessen";
-  p ? detail(p) : tab === "giessen" ? giessen() : liste();
+  if (id === "giessen" || id === "merkliste") tab = id;
+  p ? detail(p) : ansicht();
   window.scrollTo(0,0);
+}
+
+function ansicht(){ tab === "giessen" ? giessen() : tab === "merkliste" ? merkliste() : liste(); }
+
+function merkliste(){
+  const kats = [...new Set(merk.map(m => m.kategorie || "Sonstiges"))].sort((a,b) => a.localeCompare(b,"de"));
+  if (mKat && !kats.includes(mKat)) mKat = "";
+  const l = merk.filter(m => !mKat || (m.kategorie || "Sonstiges") === mKat);
+  const karte = m => { const host = url(m.link) ? new URL(m.link).hostname.replace(/^www\./,"") : "";
+    return `<div class="mk ${m.erledigt ? "done" : ""}">
+      <h3>${url(m.link) ? `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.titel)} ↗</a>` : esc(m.titel)}</h3>
+      <div class="meta">${[String(m.datum||"").replace(/^(\d{4})-(\d{2})-(\d{2})$/,"$3.$2.$1"), m.preis, host].filter(Boolean).map(esc).join(" · ")}</div>
+      ${m.notiz ? `<p>${esc(m.notiz)}</p>` : ""}
+      <div class="foot"><span>${m.erledigt ? "Erledigt" : ""}</span>
+        <a href="${REPO}/issues/new?template=merkliste-aendern.yml&eintrag=${m.id}&title=${encodeURIComponent("[Merkliste ändern] "+m.titel)}">Erledigt / ändern</a></div>
+    </div>`; };
+  app.innerHTML = kopf() + `<main class="wrap">
+    ${kats.length > 1 ? `<div class="chips" style="padding-top:0">${["",...kats].map(k => `<button class="chip" aria-pressed="${k===mKat}" data-k="${esc(k)}">${k ? esc(k) : "Alles"}</button>`).join("")}</div>` : ""}
+    ${l.length ? "" : '<p class="empty">Noch nichts gemerkt.</p>'}
+    ${kats.filter(k => !mKat || k === mKat).map(k => { const ps = l.filter(m => (m.kategorie || "Sonstiges") === k)
+        .sort((a,b) => (a.erledigt - b.erledigt) || String(a.datum||"9").localeCompare(String(b.datum||"9")) || a.titel.localeCompare(b.titel,"de"));
+      return `<h2 class="ort">${esc(k)}<small>${ps.filter(m => !m.erledigt).length}</small></h2>` + ps.map(karte).join(""); }).join("")}
+  </main>
+  <a class="fab" href="${REPO}/issues/new?template=merkliste.yml">+ Eintrag</a>`;
+  tabsAn();
+  app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => { mKat = b.dataset.k; merkliste(); });
 }
 
 function kopf(){
   const n = s => daten.filter(p => p.status === s).length;
   return `<header><div class="wrap">
-    <h1>Unsere Pflanzen</h1><p class="sub">Sammlung &amp; Wunschliste</p>
+    <h1>Unsere Pflanzen</h1><p class="sub">Sammlung, Wünsche &amp; Merkliste</p>
     <div class="tabs" role="tablist">
       <button class="tab" role="tab" aria-selected="${tab==="besitz"}" data-tab="besitz">Pflanzen<span class="n">${n("besitz")}</span></button>
       <button class="tab" role="tab" aria-selected="${tab==="giessen"}" data-tab="giessen">Gießen</button>
       <button class="tab" role="tab" aria-selected="${tab==="wunsch"}" data-tab="wunsch">Wünsche<span class="n">${n("wunsch")}</span></button>
+      <button class="tab" role="tab" aria-selected="${tab==="merkliste"}" data-tab="merkliste">Merkliste<span class="n">${merk.filter(m => !m.erledigt).length}</span></button>
     </div>
   </div></header>`;
 }
 function tabsAn(){
   app.querySelectorAll(".tab").forEach(b => b.onclick = () => {
     tab = b.dataset.tab;
-    history.replaceState(null, "", tab === "giessen" ? "#giessen" : location.pathname + location.search);
-    tab === "giessen" ? giessen() : liste();
+    history.replaceState(null, "", tab === "giessen" || tab === "merkliste" ? "#" + tab : location.pathname + location.search);
+    ansicht();
   });
 }
 

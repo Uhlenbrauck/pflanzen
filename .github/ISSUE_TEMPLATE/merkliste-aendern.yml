@@ -1,0 +1,44 @@
+name: Merkliste – Eintrag ändern
+description: Eintrag abhaken, ändern oder löschen
+title: "[Merkliste ändern] "
+body:
+  - type: markdown
+    attributes:
+      value: Nur ausfüllen, was sich ändert. Leere Felder bleiben unverändert.
+  - type: input
+    id: eintrag
+    attributes:
+      label: Eintrag-Nr.
+    validations:
+      required: true
+  - type: dropdown
+    id: aktion
+    attributes:
+      label: Aktion
+      options:
+        - unverändert
+        - Erledigt
+        - Wieder offen
+        - Löschen
+      default: 0
+  - type: input
+    id: titel
+    attributes:
+      label: Titel
+  - type: input
+    id: link
+    attributes:
+      label: Link
+  - type: input
+    id: datum
+    attributes:
+      label: Datum
+  - type: input
+    id: preis
+    attributes:
+      label: Preis
+  - type: textarea
+    id: notiz
+    attributes:
+      label: Notiz ergänzen
+      description: Wird mit Datum angehängt.

@@ -1109,7 +1109,7 @@
       "wasser": "Mit kalkarmem Wasser besprühen und zwischen den Wassergaben ganz abtrocknen lassen. Im Sommer über 25 °C täglich, im lichtarmen Winter etwa wöchentlich.",
       "substrat": "Keines – Aufsitzerpflanze.",
       "duengen": "",
-      "besonderheiten": "Braucht Luftbewegung, damit sie nach dem Sprühen rasch trocknet."
+      "besonderheiten": "Braucht Luftbewegung, damit sie nach dem Sprühen rasch trocknet. Bildet nach der Blüte Kindel und mit der Zeit dichte Gruppen."
     },
     "giessen": {
       "wasser": "weich",
@@ -1147,13 +1147,13 @@
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/258952807/large.jpg",
     "notizen": "Lila-metallisch gestreifte Blätter, blauviolette Blüten. Beim Kauf etwa 20 cm, wird rund 1 m hoch und breit. Heimat Südostasien. Laut Shop wüchsig und einsteigerfreundlich.",
     "pflege": {
-      "licht": "Sonniges Fenster; viel Licht ist nötig für die lila-metallische Blattfärbung.",
-      "temperatur": "Warm, Zimmertemperatur; nicht kühl stellen.",
+      "licht": "Hell. Im Zimmer ein sonniges Fenster; die kräftigste Blattfärbung entsteht bei hellem Stand ohne pralle Mittagssonne.",
+      "temperatur": "Tropisch, nicht frosthart (USDA-Zone 10–11). Ganzjährig warm, im Winter hell überwintern.",
       "feuchte": "Mag höhere Luftfeuchte; bei trockener Heizungsluft rollen sich die Blätter.",
-      "wasser": "Gleichmäßig feucht halten, nicht austrocknen lassen und keine Staunässe.",
-      "substrat": "Humose, durchlässige Erde.",
+      "wasser": "Gleichmäßig feucht halten in humoser, durchlässiger Erde; mittlerer Wasserbedarf, verträgt auch nasse Phasen.",
+      "substrat": "Humusreich und durchlässig.",
       "duengen": "Im Wachstum alle 2 Wochen.",
-      "besonderheiten": "Triebspitzen regelmäßig entspitzen, sonst wird sie sparrig. Kopfstecklinge bewurzeln leicht."
+      "besonderheiten": "Triebe regelmäßig entspitzen, sonst wird sie sparrig. Ältere Pflanzen verholzen und verlieren an Schönheit – im Spätsommer Kopfstecklinge schneiden und so verjüngen. Im Zimmer anfällig für Spinnmilben. Die kleinen violetten Blüten erscheinen selten."
     },
     "giessen": {
       "wasser": "leitung",
@@ -1166,6 +1166,10 @@
       {
         "titel": "Jungle Leaves – Persian Shield",
         "url": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield"
+      },
+      {
+        "titel": "Missouri Botanical Garden – Strobilanthes dyerianus",
+        "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a122"
       }
     ],
     "bildnachweis": {
@@ -1189,7 +1193,7 @@
     "shop_link": "https://www.jungle-leaves.de/products/selaginella-picta",
     "preis": "19,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/283304460/large.jpeg",
-    "notizen": "Tiefgrüne Blätter mit weißen Streifen an rotbraunen Stängeln; laut Shop einer der schönsten Moosfarne. Im 7-cm-Topf, 10–20 cm hoch, wird etwa 30 cm. Heimat Vietnam, Myanmar und Südostchina. Auch als Didiclis picta geführt. Am 03.10.2026 von 29,99 € auf 19,99 € reduziert.",
+    "notizen": "Tiefgrüne Blätter mit weißen Streifen an rotbraunen Stängeln; laut Shop einer der schönsten Moosfarne. Im 7-cm-Topf, 10–20 cm hoch, wird etwa 30 cm. Heimat Vietnam, Myanmar und Südostchina. Auch als Didiclis picta geführt. Am 03.10.2026 von 29,99 € auf 19,99 € reduziert. In Kultur noch selten.",
     "pflege": {
       "licht": "Wenig Licht, 1.000–2.500 Lux; keine direkte Sonne.",
       "temperatur": "Optimal 22–28 °C.",
@@ -1197,7 +1201,7 @@
       "wasser": "Dauerhaft feucht halten, nie ganz austrocknen lassen. Weiches Wasser oder Regenwasser bevorzugt.",
       "substrat": "Durchlässig und leicht sauer (pH 5,5–6,5), z. B. Kokosfaser oder Baumfarnfaser.",
       "duengen": "Unter Pflanzenlicht alle 2–3 Wochen schwach mit Orchideendünger.",
-      "besonderheiten": "Verzeiht kein Austrocknen; am besten im feuchten Terrarium."
+      "besonderheiten": "Verzeiht kein Austrocknen; am besten im feuchten Terrarium. Vermehrung über Stecklinge oder Teilung."
     },
     "giessen": {
       "wasser": "weich",
@@ -1210,6 +1214,10 @@
       {
         "titel": "Jungle Leaves – Selaginella picta",
         "url": "https://www.jungle-leaves.de/products/selaginella-picta"
+      },
+      {
+        "titel": "Nursery Management – Selaginella (Spike moss)",
+        "url": "https://www.nurserymag.com/article/selaginella-spike-moss/"
       }
     ],
     "bildnachweis": {
@@ -1225,7 +1233,7 @@
     "id": 36,
     "status": "wunsch",
     "name": "Schwarze Glücksfeder 'Raven'",
-    "botanisch": "Zamioculcas zamiifolia 'Raven'",
+    "botanisch": "Zamioculcas zamiifolia 'Dowon' (Raven)",
     "etikett": "",
     "herkunft": "Plantaddiction",
     "kaufdatum": "",
@@ -1233,27 +1241,31 @@
     "shop_link": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0",
     "preis": "22,95 €",
     "foto": "",
-    "notizen": "Dunkellaubige Sorte der Glücksfeder; neue Triebe erscheinen grün und dunkeln nach. Im 14-cm-Topf, 35–60 cm hoch. Laut Shop einsteigerfreundlich. Kommt in einem absichtlich eingedellten Topf – das zeigt die kräftigen Wurzeln.",
+    "notizen": "Dunkellaubige Sorte der Glücksfeder: Neuaustrieb limettengrün, färbt sich beim Ausreifen purpurschwarz. Sortenname 'Dowon', Handelsname Raven. Wächst langsam, wird etwa 90 cm hoch und breit. Im 14-cm-Topf, 35–60 cm hoch. Kommt in einem absichtlich eingedellten Topf – das zeigt die kräftigen Wurzeln.",
     "pflege": {
-      "licht": "Verträgt wenig Licht; keine direkte Mittagssonne.",
+      "licht": "Verträgt wenig Licht, wächst aber am besten hell ohne direkte Sonne. Direkte Sonne verbrennt die Blätter.",
       "temperatur": "Warm, normale Zimmertemperatur.",
       "feuchte": "Niedrige Luftfeuchte genügt.",
-      "wasser": "Sparsam gießen; die Erde zwischen dem Gießen abtrocknen lassen.",
-      "substrat": "Durchlässige Erde.",
+      "wasser": "Durchdringend gießen und die Erde dazwischen abtrocknen lassen. Die Rhizome und dicken Blattstiele speichern Wasser; nasse Füße verträgt sie nicht.",
+      "substrat": "Gut durchlässige Topferde.",
       "duengen": "April bis September monatlich verdünnter Zimmerpflanzendünger.",
-      "besonderheiten": "Mag es eng im Topf, selten umtopfen. Nicht zurückschneiden. Alle Pflanzenteile sind giftig und der Saft reizt Haut und Schleimhäute."
+      "besonderheiten": "Mag es eng im Topf, selten umtopfen. Nicht zurückschneiden. Mittelgiftig für Menschen, Katzen und Hunde (Calciumoxalat-Kristalle): Saft kann die Haut reizen, Verzehr führt zu Durchfall. Gelegentlich Schildläuse, sonst kaum Probleme."
     },
     "giessen": {
       "wasser": "leitung",
       "stufe": "trocken",
       "methode": "von oben",
       "kurz": "Sparsam; Erde zwischen dem Gießen abtrocknen lassen.",
-      "winter": "Noch seltener."
+      "winter": "Etwa einmal im Monat."
     },
     "quellen": [
       {
         "titel": "Plantaddiction – Zamioculcas zamiifolia 'Raven'",
         "url": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0"
+      },
+      {
+        "titel": "NC State Extension – Zamioculcas zamiifolia Raven 'Dowon'",
+        "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia-raventm-dowon/common-name/jet-black-raven/"
       }
     ]
   },
@@ -1261,7 +1273,7 @@
     "id": 37,
     "status": "wunsch",
     "name": "Alocasia 'Antoro Velvet'",
-    "botanisch": "Alocasia chienlii",
+    "botanisch": "Alocasia sp. 'Antoro Velvet' (Handelsname „chienlii“)",
     "etikett": "",
     "herkunft": "Plantaddiction",
     "kaufdatum": "",
@@ -1269,11 +1281,11 @@
     "shop_link": "https://plantaddiction.de/alocasia-antoro-velvet-alocasia-chienlii/530.117.100.0",
     "preis": "39,95 €",
     "foto": "",
-    "notizen": "Tiefschwarze, samtig behaarte Blätter mit metallischem Schimmer und kräftigen Blattadern. Heimat Borneo; laut Shop seit 2017 durch den indonesischen Sammler Antoro in Kultur. Im 14-cm-Topf, etwa 40 cm hoch. Wächst langsam.",
+    "notizen": "Tiefschwarze, samtig behaarte Blätter mit metallischem Schimmer und kräftigen Blattadern. Der Name „Alocasia chienlii“ ist ein Handelsname – die Pflanze ist wissenschaftlich noch nicht gültig beschrieben. Entdeckt auf Borneo (Indonesien) von Sahmantoro (Antoro Flora), daher 'Antoro Velvet'. Im 14-cm-Topf, etwa 40 cm hoch. Wächst langsam.",
     "pflege": {
       "licht": "Indirektes Licht. Mit wenig Licht bleiben die Blätter dunkel, an helleren Plätzen werden sie grüner.",
       "temperatur": "Ganzjährig 20–22 °C, im Winter nicht unter 18 °C.",
-      "feuchte": "Blätter gelegentlich mit einem feuchten Tuch abwischen.",
+      "feuchte": "Am Naturstandort 60–70 %. Blätter gelegentlich mit einem feuchten Tuch abwischen.",
       "wasser": "Etwa wöchentlich von unten wässern und die Erde dazwischen abtrocknen lassen. Keine Staunässe.",
       "substrat": "Torffreier Erdmix.",
       "duengen": "Laut Shop organischer Dünger bei jedem Gießen.",
@@ -1290,6 +1302,10 @@
       {
         "titel": "Plantaddiction – Alocasia 'Antoro Velvet' (Alocasia chienlii)",
         "url": "https://plantaddiction.de/alocasia-antoro-velvet-alocasia-chienlii/530.117.100.0"
+      },
+      {
+        "titel": "Aroidpedia – Alocasia 'chienlii'",
+        "url": "https://www.aroidpedia.com/journal/alocasia-chienlii"
       }
     ]
   }

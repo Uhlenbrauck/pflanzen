@@ -52,4 +52,6 @@ Der Tab „Gießen“ fasst alle Pflanzen nach Standort zusammen. Die Angaben st
 
 ## Recherche-Quellen
 
+Wunschlisten-Einträge werden genauso gründlich recherchiert wie Pflanzen im Besitz: Shopseite plus mindestens eine unabhängige Quelle, Namen prüfen.
+
 Bestimmung und Namen: Fachgesellschaften (International Aroid Society, American Begonia Society, American Orchid Society, Bromeliad Society International, Gesneriad Reference Web, LLIFLE für Sukkulenten und Kakteen), dazu GBIF, Tropicos und die Biodiversity Heritage Library. Für Karnivoren zusätzlich die International Carnivorous Plant Society, für akzeptierte Namen Plants of the World Online (Kew).

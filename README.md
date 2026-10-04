@@ -31,6 +31,10 @@ Pro Pflanze gibt es drei 3MF-Dateien: Klebeschild (1,6 mm), Stecker (2,4 mm) und
 | `tools/issue.py` | übernimmt Formulare in `pflanzen.json` |
 | `.github/workflows/pflanzen.yml` | Automatik: Formular → Daten → Seite |
 
+## Fotos und Bildnachweis
+
+Eigene Fotos liegen unter `fotos/`. Fremde Bilder nur mit freier Lizenz (Creative Commons): `foto` zeigt dann direkt auf die Quelle, und `bildnachweis` (Urheber, Lizenz, Link) wird unter dem Bild angezeigt. Shop-Fotos nicht kopieren.
+
 ## Merkliste
 
 Der Tab „Merkliste“ sammelt Zubehör, Händler, Veranstaltungen, Internetseiten und Sonstiges. Neuer Eintrag über „+ Eintrag“, abhaken oder löschen über „Erledigt / ändern“. Die Daten liegen in `merkliste.json`.

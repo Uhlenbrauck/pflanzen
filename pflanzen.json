@@ -223,7 +223,15 @@
         "titel": "Raingreen Tropicals – Culture of Dossinia",
         "url": "https://raingreentropicals.com/culture-dossinia.htm"
       }
-    ]
+    ],
+    "bildnachweis": {
+      "urheber": "eigenes Foto",
+      "lizenz": "am Stand von Jungle Leaves aufgenommen",
+      "lizenz_url": "",
+      "quelle_url": "",
+      "via": "",
+      "hinweis": ""
+    }
   },
   {
     "id": 8,
@@ -1092,7 +1100,7 @@
     "standort": "",
     "shop_link": "https://www.jungle-leaves.de/products/tillandsia-aeranthos-tannengruen",
     "preis": "14,99 €",
-    "foto": "",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/610195358/large.jpg",
     "notizen": "Seltene Form von T. aeranthos mit deutlich längeren Stämmen und kleinerem Durchmesser. Heimat Brasilien (São Paulo) und Nordargentinien. Am 03.10.2026 im Shop ausverkauft.",
     "pflege": {
       "licht": "Viel Sonne, Süd- oder Westfenster; unter Pflanzenlicht 5.000–20.000 Lux.",
@@ -1115,7 +1123,15 @@
         "titel": "Jungle Leaves – Tillandsia aeranthos 'Tannengrün'",
         "url": "https://www.jungle-leaves.de/products/tillandsia-aeranthos-tannengruen"
       }
-    ]
+    ],
+    "bildnachweis": {
+      "urheber": "Rosario Douglas",
+      "lizenz": "CC BY 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by/4.0/",
+      "quelle_url": "https://www.inaturalist.org/photos/610195358",
+      "via": "iNaturalist",
+      "hinweis": "Zeigt die Art am Naturstandort, nicht die Form 'Tannengrün'"
+    }
   },
   {
     "id": 34,
@@ -1128,7 +1144,7 @@
     "standort": "",
     "shop_link": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield",
     "preis": "19,99 €",
-    "foto": "",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/258952807/large.jpg",
     "notizen": "Lila-metallisch gestreifte Blätter, blauviolette Blüten. Beim Kauf etwa 20 cm, wird rund 1 m hoch und breit. Heimat Südostasien. Laut Shop wüchsig und einsteigerfreundlich.",
     "pflege": {
       "licht": "Sonniges Fenster; viel Licht ist nötig für die lila-metallische Blattfärbung.",
@@ -1151,7 +1167,15 @@
         "titel": "Jungle Leaves – Persian Shield",
         "url": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield"
       }
-    ]
+    ],
+    "bildnachweis": {
+      "urheber": "Attila Oláh",
+      "lizenz": "CC BY 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by/4.0/",
+      "quelle_url": "https://www.inaturalist.org/photos/258952807",
+      "via": "iNaturalist",
+      "hinweis": ""
+    }
   },
   {
     "id": 35,
@@ -1164,7 +1188,7 @@
     "standort": "",
     "shop_link": "https://www.jungle-leaves.de/products/selaginella-picta",
     "preis": "19,99 €",
-    "foto": "",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/283304460/large.jpeg",
     "notizen": "Tiefgrüne Blätter mit weißen Streifen an rotbraunen Stängeln; laut Shop einer der schönsten Moosfarne. Im 7-cm-Topf, 10–20 cm hoch, wird etwa 30 cm. Heimat Vietnam, Myanmar und Südostchina. Auch als Didiclis picta geführt. Am 03.10.2026 von 29,99 € auf 19,99 € reduziert.",
     "pflege": {
       "licht": "Wenig Licht, 1.000–2.500 Lux; keine direkte Sonne.",
@@ -1187,7 +1211,15 @@
         "titel": "Jungle Leaves – Selaginella picta",
         "url": "https://www.jungle-leaves.de/products/selaginella-picta"
       }
-    ]
+    ],
+    "bildnachweis": {
+      "urheber": "小铖/Smalltown",
+      "lizenz": "CC BY-NC 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "quelle_url": "https://www.inaturalist.org/photos/283304460",
+      "via": "iNaturalist",
+      "hinweis": ""
+    }
   },
   {
     "id": 36,

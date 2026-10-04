@@ -95,6 +95,7 @@ section h2{font-size:1.2rem;margin-bottom:10px}
 .mk p{margin:6px 0 0;font-size:.9rem;white-space:pre-line}
 .mk .foot{display:flex;justify-content:space-between;gap:10px;margin-top:8px;font-size:.82rem;color:var(--muted)}
 .mk.done{opacity:.55}.mk.done h3{text-decoration:line-through}
+.credit{font-size:.78rem;color:var(--muted);margin:-8px 0 14px}
 .more{display:grid;gap:10px;margin-bottom:14px}
 .more img{width:100%;border-radius:16px}
 </style>
@@ -230,7 +231,7 @@ function treffer(){
     .sort((a,b) => a.name.localeCompare(b.name, "de"));
   app.querySelector(".list").innerHTML = l.length ? l.map(p => `
     <a class="item ${p.status==="wunsch"?"wish":""}" href="#${p.id}">
-      <div class="thumb">${url(p.foto) ? `<img src="${esc(p.foto)}" alt="" loading="lazy">` : "#"+p.id}</div>
+      <div class="thumb">${url(p.foto) ? `<img src="${esc(p.foto)}" alt="" loading="lazy" onerror="this.replaceWith('#${p.id}')">` : "#"+p.id}</div>
       <div><h3>${esc(p.name)}</h3>
       ${p.botanisch ? `<div class="bot">${esc(p.botanisch)}</div>` : ""}
       <div class="meta">${[p.standort, p.status==="wunsch" && p.preis].filter(Boolean).map(esc).join(" · ")}</div></div>
@@ -255,7 +256,8 @@ function detail(p){
     ${p.botanisch ? `<div class="bot" style="color:#cfe3d4">${esc(p.botanisch)}</div>` : ""}
   </div></header>
   <main class="wrap">
-    ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(p.name)}">` : ""}
+    ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(p.name)}" onerror="this.style.display='none'">` : ""}
+    ${url(p.foto) && p.bildnachweis ? (b => `<p class="credit">Foto: ${url(b.quelle_url) ? `<a href="${esc(b.quelle_url)}" target="_blank" rel="noopener">${esc(b.urheber)}</a>` : esc(b.urheber)}, ${url(b.lizenz_url) ? `<a href="${esc(b.lizenz_url)}" target="_blank" rel="noopener">${esc(b.lizenz)}</a>` : esc(b.lizenz)}${b.via ? `, via ${esc(b.via)}` : ""}${b.hinweis ? `. ${esc(b.hinweis)}` : ""}</p>`)(p.bildnachweis) : ""}
     ${(p.weitere_fotos || []).filter(url).length ? `<div class="more">${p.weitere_fotos.filter(url).map(f => `<img src="${esc(f)}" alt="" loading="lazy">`).join("")}</div>` : ""}
     <dl class="facts">${fakten.map(([k,v]) => `<div class="fact"><dt>${k}</dt><dd>${k==="Shop" ? v : esc(v)}</dd></div>`).join("")}</dl>
     ${p.giessen ? `<section><h2>Gießen</h2><div class="gi" style="margin:0">

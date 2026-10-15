@@ -199,17 +199,17 @@
   },
   {
     "id": 7,
-    "status": "wunsch",
+    "status": "besitz",
     "name": "Juwelorchidee",
     "botanisch": "Dossinia marmorata",
-    "etikett": "",
-    "herkunft": "Jungle Leaves",
-    "kaufdatum": "",
-    "standort": "",
+    "etikett": "#7 Dossinia",
+    "herkunft": "Schwerter Orchideenhandel",
+    "kaufdatum": "Oktober 2026",
+    "standort": "Gewächshaus Küche",
     "shop_link": "",
-    "preis": "19,99 €",
+    "preis": "19,95 €",
     "foto": "fotos/7.jpg",
-    "notizen": "Gesehen bei Jungle Leaves. Heimat Borneo, wächst dort im Tiefland auf Kalkstein in Laubstreu und Moos.",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel (vorher auf der Wunschliste, gesehen bei Jungle Leaves). Heimat Borneo, wächst dort im Tiefland auf Kalkstein in Laubstreu und Moos.",
     "pflege": {
       "licht": "Schattig bis halbschattig; verträgt mehr Licht als andere Juwelorchideen, aber keine direkte Sonne.",
       "temperatur": "Warm, verträgt auch über 30 °C; nicht kühl stellen.",
@@ -235,15 +235,7 @@
         "titel": "Jungle Leaves – Dossinia marmorata",
         "url": "https://www.jungle-leaves.de/products/dossinia-marmorata"
       }
-    ],
-    "bildnachweis": {
-      "urheber": "eigenes Foto",
-      "lizenz": "am Stand von Jungle Leaves aufgenommen",
-      "lizenz_url": "",
-      "quelle_url": "",
-      "via": "",
-      "hinweis": ""
-    }
+    ]
   },
   {
     "id": 8,
@@ -1366,6 +1358,94 @@
       {
         "titel": "Aroidpedia – Alocasia 'chienlii'",
         "url": "https://www.aroidpedia.com/journal/alocasia-chienlii"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "status": "besitz",
+    "name": "Juwelorchidee 'Red'",
+    "botanisch": "Anoectochilus roxburghii 'Red …' (Etikett teilweise unleserlich, evtl. 'Red Dragon')",
+    "etikett": "#38 Anoect. Red",
+    "herkunft": "Schwerter Orchideenhandel",
+    "kaufdatum": "Oktober 2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "12,95 €",
+    "foto": "fotos/38.jpg",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Dunkelgrüne Blätter mit goldgelbem Adernetz, rötliche Töne an Stiel und Blattbasis.",
+    "pflege": {
+      "licht": "Gedämpftes, indirektes Licht, keine direkte Sonne – das Händleretikett („hell und sonnig“) ist für Juwelorchideen zu viel. Zu viel Licht bleicht die Zeichnung aus, zu wenig macht die Triebe lang.",
+      "temperatur": "Etwa 18–25 °C, nachts einige Grad kühler, möglichst nicht unter 16 °C (Orchids-Shop); Araflora nennt 15–30 °C. Über 28 °C und Zugluft vermeiden.",
+      "feuchte": "60–90 %: Araflora nennt tagsüber 60–90 %, nachts 70–90 %; Orchids-Shop 60–80 %. Terrarium oder Gewächshaus, aber mit Luftaustausch.",
+      "wasser": "Gleichmäßig leicht feucht, nie nass und nie ganz trocken. Weiches Wasser direkt aufs Substrat, Blattachseln und Stängelbasis trocken halten. Nach Fingerprobe gießen statt nach festem Rhythmus.",
+      "substrat": "Locker, luftig und feuchtigkeitshaltend: feine Orchideenrinde, Sphagnum, Perlite, etwas Kokosfaser. Flacher Topf mit gutem Abzug; kriechenden Stängel nur auflegen, nicht vergraben.",
+      "duengen": "Schwach, etwa monatlich stark verdünnter Orchideendünger.",
+      "besonderheiten": "Empfindlich gegen Stammfäule bei stehender, nasser Luft. Heimat Himalaya bis Südostasien und China, meist an Gewässerufern in 300–1800 m Höhe (Araflora)."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig leicht feucht, nie nass; Blattachseln trocken halten.",
+      "winter": "Etwas sparsamer, nicht unter 16 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Araflora – Anoectochilus roxburghii",
+        "url": "https://www.araflora.com/p1273/orchid_anoectochilus_roxburghii"
+      },
+      {
+        "titel": "Orchids-Shop – Anoectochilus roxburghii 'Red Dragon'",
+        "url": "https://orchids-shop.com/products/anoectochilus-roxburghii-red-dragon"
+      },
+      {
+        "titel": "Plants of the World Online – Anoectochilus roxburghii",
+        "url": "https://powo.science.kew.org/taxon/20008194-1"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "status": "besitz",
+    "name": "Juwelorchidee 'Black'",
+    "botanisch": "Anoectochilus roxburghii 'Bl…' (Etikett teilweise unleserlich, vermutlich 'Black')",
+    "etikett": "#39 Anoect. Black",
+    "herkunft": "Schwerter Orchideenhandel",
+    "kaufdatum": "Oktober 2026",
+    "standort": "Gewächshaus Küche",
+    "shop_link": "",
+    "preis": "12,95 €",
+    "foto": "fotos/39.jpg",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Fast schwarze Blätter mit goldenem Adernetz. Langer, kriechender Stängel – beim Umtopfen flach auflegen.",
+    "pflege": {
+      "licht": "Gedämpftes, indirektes Licht, keine direkte Sonne – das Händleretikett („hell und sonnig“) ist für Juwelorchideen zu viel. Zu viel Licht bleicht die Zeichnung aus, zu wenig macht die Triebe lang.",
+      "temperatur": "Etwa 18–25 °C, nachts einige Grad kühler, möglichst nicht unter 16 °C (Orchids-Shop); Araflora nennt 15–30 °C. Über 28 °C und Zugluft vermeiden.",
+      "feuchte": "60–90 %: Araflora nennt tagsüber 60–90 %, nachts 70–90 %; Orchids-Shop 60–80 %. Terrarium oder Gewächshaus, aber mit Luftaustausch.",
+      "wasser": "Gleichmäßig leicht feucht, nie nass und nie ganz trocken. Weiches Wasser direkt aufs Substrat, Blattachseln und Stängelbasis trocken halten. Nach Fingerprobe gießen statt nach festem Rhythmus.",
+      "substrat": "Locker, luftig und feuchtigkeitshaltend: feine Orchideenrinde, Sphagnum, Perlite, etwas Kokosfaser. Flacher Topf mit gutem Abzug; kriechenden Stängel nur auflegen, nicht vergraben.",
+      "duengen": "Schwach, etwa monatlich stark verdünnter Orchideendünger.",
+      "besonderheiten": "Empfindlich gegen Stammfäule bei stehender, nasser Luft. Heimat Himalaya bis Südostasien und China, meist an Gewässerufern in 300–1800 m Höhe (Araflora)."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig leicht feucht, nie nass; Blattachseln trocken halten.",
+      "winter": "Etwas sparsamer, nicht unter 16 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Araflora – Anoectochilus roxburghii",
+        "url": "https://www.araflora.com/p1273/orchid_anoectochilus_roxburghii"
+      },
+      {
+        "titel": "Orchids-Shop – Anoectochilus roxburghii 'Red Dragon'",
+        "url": "https://orchids-shop.com/products/anoectochilus-roxburghii-red-dragon"
+      },
+      {
+        "titel": "Plants of the World Online – Anoectochilus roxburghii",
+        "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
     ]
   }

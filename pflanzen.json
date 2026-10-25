@@ -1448,5 +1448,65 @@
         "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
     ]
+  },
+  {
+    "id": 40,
+    "status": "wunsch",
+    "name": "Miniorchidee Schoenorchis",
+    "botanisch": "Schoenorchis seidenfadenii (Alternative: S. scolopendria)",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/schoenorchis-seidenfadenii",
+    "preis": "24,99 €",
+    "foto": "",
+    "notizen": "Gedacht als Aufsitzer an der Rückwand im oberen Drittel des geplanten Kallax-Terrariums, über den Juwelorchideen am Boden. Winzige, monopodiale Epiphyte, etwa 3–5 cm hoch, mit zweizeiligen, fleischigen Blättern, die sich bei viel Licht rot färben. Blüht rosa-weiß und duftend, im Frühjahr bis Sommer; 5 bis über 20 Blüten je Blütenstand, eine Blüte hält etwa 4 Wochen. Heimat Assam bis Myanmar, Thailand, Vietnam und Yunnan, warmes Hügelland um 550–600 m. Jungle Leaves liefert blühfähig auf Holz aufgebunden, Art aber noch nicht anhand der Blüte bestätigt (Sektion Pumila, etwa vier sehr ähnliche Arten). Akzeptierter Name laut POWO S. seidenfadenii; Synonym S. fragrans var. seidenfadenii. Am 25.10.2026 im Shop ausverkauft. Alternativen: S. scolopendria verträgt mehr Schatten und passt daher gut; S. fragrans braucht am meisten Licht und eignet sich weniger.",
+    "pflege": {
+      "licht": "Hell, indirekt, keine direkte Sonne. Lampe mindestens 10 cm entfernt (Araflora für die verwandte S. micrantha). Im Terrarium etwa 3.000–10.000 Lux (Richtwert, keine geprüfte Quelle) – also deutlich heller als für Juwelorchideen. Rötliche Blätter sind normal, gelbliche oder fleckige zeigen zu viel Licht.",
+      "temperatur": "Warm, etwa 19–29 °C (Orchid Digest); mindestens 20 °C, ideal um 25 °C, nachts um 20 °C fördert Wachstum und Blüte (Orchids-Shop).",
+      "feuchte": "70–90 %: Araflora nennt für S. micrantha tagsüber 60–90 %, nachts 70–90 %; Orchids-Shop nennt für Miniaturorchideen allgemein 80–95 %. Wichtig ist zugleich gute Luftbewegung, damit die Wurzeln abtrocknen.",
+      "wasser": "Aufgebunden täglich bis jeden zweiten Tag kräftig mit weichem Wasser sprühen. Die Wurzeln dürfen zwischendurch leicht antrocknen, aber nie ganz austrocknen; stehende Nässe führt zu Wurzelfäule.",
+      "substrat": "Aufgebunden auf Kork oder Holz, unter den Wurzeln höchstens eine dünne Lage Sphagnum. Alternativ kleiner Tontopf mit feiner Rinde oder Moos.",
+      "duengen": "Wenig oder gar nicht (Araflora); allenfalls gelegentlich stark verdünnter Orchideendünger ins Sprühwasser.",
+      "besonderheiten": "Im Terrarium oben nahe der Lüftung aufhängen, wo es heller ist und die Luft zieht. Frisch importierte Pflanzen haben anfangs schwache Wurzeln, die sich in einigen Monaten erholen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "antrocknen",
+      "methode": "sprühen (aufgebunden)",
+      "kurz": "Täglich bis alle 2 Tage sprühen, Wurzeln dazwischen leicht antrocknen lassen.",
+      "winter": "Etwas seltener, warm halten."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Schoenorchis seidenfadenii",
+        "url": "https://www.jungle-leaves.de/products/schoenorchis-seidenfadenii"
+      },
+      {
+        "titel": "Plants of the World Online – Schoenorchis seidenfadenii",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:657423-1"
+      },
+      {
+        "titel": "Orchid Digest – Schoenorchis seidenfadenii",
+        "url": "https://www.orchiddigest.org/schoenorchis-seidenfadenii"
+      },
+      {
+        "titel": "Internet Orchid Species Photo Encyclopedia – Schoenorchis seidenfadenii",
+        "url": "https://orchidspecies.com/schoenseidenfaddeeni.htm"
+      },
+      {
+        "titel": "Orchids-Shop – Schoenorchis seidenfadenii",
+        "url": "https://orchids-shop.com/products/schoenorchis-seidenfadenia"
+      },
+      {
+        "titel": "Araflora – Schoenorchis micrantha",
+        "url": "https://www.araflora.com/product/orchid-schoenorchis-micrantha/"
+      },
+      {
+        "titel": "Gardino Nursery – Schoenorchis scolopendria",
+        "url": "https://gardinonursery.com/?p=45212"
+      }
+    ]
   }
 ]

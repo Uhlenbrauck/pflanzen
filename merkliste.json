@@ -20,5 +20,27 @@
     "notiz": "Am 25.10.2026 bestellt für das Åkerbär-Gewächshaus in der Küche. Matte 30 × 20 cm, 23 W, mittig unter das Gewächshaus (unter die breite Befeuchterschale). Controller mit externem Fühler (1,5 m), regelt 20–50 °C. Einstellung 20 °C, Fühler auf Pflanzenhöhe ins Gewächshaus, nicht auf die Matte. Winterziel: tags 21–25 °C, nachts nicht unter 18 °C (Grenze Drosera paradoxa #18), nicht über 28 °C (Anoectochilus #38/#39). Geschätzter Verbrauch ca. 30 kWh/Jahr.",
     "erledigt": true,
     "angelegt": "2026-10-25"
+  },
+  {
+    "id": 3,
+    "kategorie": "Zubehör",
+    "titel": "Orchideendünger, harnstofffrei (auch für Tillandsien)",
+    "link": "https://www.aquasabi.com/Orchid-and-tillandsia-fertiliser-concentrate",
+    "datum": "",
+    "preis": "ca. 5–10 €",
+    "notiz": "Ein Flüssigdünger für Orchideen und Tillandsien, der sich zum Gießen und ins Sprühwasser geben lässt. Wichtig: harnstofffrei, weil Tillandsien und Aufsitzer Harnstoff kaum verwerten. Gebraucht für #3 Begonia ferox, #7 Dossinia, #8 Tillandsia, #38/#39 Anoectochilus sowie die Wünsche #40 Schoenorchis und #48 Selaginella; immer stark verdünnt. Kandidaten: Dötterer Orchideen- und Tillandsiendünger (Aquasabi) oder Gärtner's Orchideendünger 250 ml (Jungle Leaves, 4,49 €). Harnstofffreiheit vor dem Kauf auf dem Etikett prüfen. Nicht ins Karnivorenbecken.",
+    "erledigt": false,
+    "angelegt": "2026-10-27"
+  },
+  {
+    "id": 4,
+    "kategorie": "Zubehör",
+    "titel": "Leitfähigkeitsmessgerät (TDS/EC-Tester, Jungle Leaves)",
+    "link": "https://www.jungle-leaves.de/en/products/leitwert-messgeraet-tds-ec-tester",
+    "datum": "",
+    "preis": "9,99 €",
+    "notiz": "Stifttester 0–9999 µS/cm, Auflösung 1 µS/cm, ±2 %, automatische Temperaturkompensation, Anzeige auch als TDS; mit Etui und Batterien. Am 27.10.2026 lieferbar. Zum Prüfen des weichen Gießwassers für Karnivoren, Tillandsien und die Selaginella (Jungle Leaves nennt dafür etwa 20–100 µS/cm) sowie zum Kontrollieren der Düngerlösung.",
+    "erledigt": false,
+    "angelegt": "2026-10-27"
   }
 ]

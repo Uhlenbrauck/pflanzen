@@ -1508,5 +1508,333 @@
         "url": "https://gardinonursery.com/?p=45212"
       }
     ]
+  },
+  {
+    "id": 41,
+    "status": "wunsch",
+    "name": "Zwergspeerblatt 'Petite'",
+    "botanisch": "Anubias barteri var. nana 'Petite' (auch 'Bonsai')",
+    "etikett": "",
+    "herkunft": "Aquasabi",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.aquasabi.de/Anubias-barteri-var-nana-Petite",
+    "preis": "8,90 € (Topf)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: auf den Lavasteinen an der Wasserlinie. Kleinste Anubias: 3–6 cm hoch, 5–20 cm breit, Blattspreite etwa 2,5–3 cm. Herkunft unklar, vermutlich Kamerun oder Zuchtform. Am 27.10.2026 im Topf lieferbar, in vitro ausverkauft.",
+    "pflege": {
+      "licht": "Anspruchslos: wächst bei sehr wenig bis starkem Licht. Bei starkem Licht setzen sich auf den langsam wachsenden Blättern leicht Grünalgen fest; etwas Schatten hilft.",
+      "temperatur": "12–30 °C, optimal 22–26 °C (Flowgrow).",
+      "feuchte": "Untergetaucht ohne Bedeutung. Über Wasser 60–90 % (Richtwert, keine geprüfte Quelle) – im offenen Becken nur, wenn die Wurzeln im Wasser oder im Spritzbereich liegen.",
+      "wasser": "Unter oder an der Wasserlinie. pH 5–8, 0–21 °dKH; Leitungswasser geht.",
+      "substrat": "Keines: auf Lava binden oder kleben. Das Rhizom nie eingraben, sonst fault es.",
+      "duengen": "Nicht nötig; profitiert vom Aquasoil im Wasser. Eisen und Spurenelemente helfen gegen Grünalgen bei starkem Licht (Flowgrow).",
+      "besonderheiten": "Wächst sehr langsam. Vermehrung durch Teilen des Rhizoms. Blüht im Aquarium kaum."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "im Wasser / an der Wasserlinie",
+      "kurz": "Wurzeln dauerhaft im Wasser oder im Spritzbereich.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Aquasabi – Anubias barteri var. nana 'Petite'",
+        "url": "https://www.aquasabi.de/Anubias-barteri-var-nana-Petite"
+      },
+      {
+        "titel": "Flowgrow – Anubias barteri var. nana 'Petite' ('Bonsai')",
+        "url": "https://flowgrow.de/db/aquaticplants/anubias-barteri-var-nana-petite-bonsai"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "status": "wunsch",
+    "name": "Bucephalandra (Sorte offen)",
+    "botanisch": "Bucephalandra sp. (z. B. 'Brownie Blue')",
+    "etikett": "",
+    "herkunft": "Greenaqua (Stoffels, in vitro)",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://greenaqua.hu/en/stoffels-plant-bucephalandra-brownie-blue-in-vitro.html",
+    "preis": "9,45 € ('Brownie Blue', in vitro)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: auf dem Pumpenstein im Rieselwasser, das die fehlende Luftfeuchte ersetzt. Sorte noch offen; Kandidat 'Brownie Blue' mit dunklen, blau-grün schimmernden Blättern von 1–2 cm, 5–15 cm hoch. Heimat Borneo, wächst dort auf Steinen in schnell fließenden Bächen und ist bei Hochwasser monatelang überflutet. In vitro gezogen, daher frei von Schnecken und Algen.",
+    "pflege": {
+      "licht": "Gering bis hoch. Wenig Licht genügt, dann wächst sie sehr langsam und färbt kaum; mittleres Licht bringt Wuchs und Farbe (aquariumbreeder.com).",
+      "temperatur": "22–28 °C (aquariumbreeder.com).",
+      "feuchte": "Untergetaucht ohne Bedeutung. Emers über Wasser 70–90 % (Richtwert, keine geprüfte Quelle) – im offenen Becken daher nur im Rieselwasser oder an der Wasserlinie.",
+      "wasser": "pH 5–8, weiches Wasser wirkt etwas günstiger (aquariumbreeder.com). Braucht kräftige Wasserbewegung, daher ideal am Pumpenauslauf.",
+      "substrat": "Keines: auf poröse Lava mit Kleber, Gummiband oder Angelschnur befestigen; nach einigen Wochen greifen die Wurzeln selbst. Rhizom nie eingraben.",
+      "duengen": "Nicht nötig; CO₂ und Dünger fördern den Wuchs.",
+      "besonderheiten": "Nach Umstellung von emers auf submers oder nach dem Transport oft Blattverlust („Schmelzen“); neue Blätter folgen nach Wochen. Vermehrung durch Teilen des Rhizoms (Stücke über 4 cm). Langsamer Wuchs, Algen auf alten Blättern möglich."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "Rieselwasser / im Wasser",
+      "kurz": "Dauerhaft im Rieselwasser oder an der Wasserlinie.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Greenaqua – Stoffels Bucephalandra brownie 'Blue' in vitro",
+        "url": "https://greenaqua.hu/en/stoffels-plant-bucephalandra-brownie-blue-in-vitro.html"
+      },
+      {
+        "titel": "Aquarium Breeder – Bucephalandra Care Guide",
+        "url": "https://aquariumbreeder.com/bucephalandra-care-guide-planting-growing-and-propagation/"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "status": "wunsch",
+    "name": "Christmas Moss",
+    "botanisch": "Vesicularia montagnei",
+    "etikett": "",
+    "herkunft": "Aquasabi",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.aquasabi.de/Vesicularia-Christmas-Moss_1",
+    "preis": "ca. 6–10 € (1-2-GROW! bzw. in vitro XL)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: auf den Lavasteinen unter Wasser, über Wasser nur im Spritzbereich der Pumpe. Kriechendes Moos mit tannenzweigartigen, dicht verzweigten Trieben. Heimat tropisches Süd- und Südostasien, dort vor allem emers an feuchten, schattigen Flussufern. Im Handel werden auch andere Moose als „Christmas Moss“ verkauft.",
+    "pflege": {
+      "licht": "Schwach bis stark; volle Schönheit bei mittlerem bis starkem Licht, bei schwachem Licht verzweigt es schlecht (Flowgrow).",
+      "temperatur": "15–30 °C (Flowgrow).",
+      "feuchte": "Untergetaucht ohne Bedeutung. Emers 80–100 % (Richtwert, keine geprüfte Quelle) – Flowgrow nennt emerse Kultur auf feuchtem Substrat für Paludarien. Im offenen Becken über Wasser nur im Rieselwasser.",
+      "wasser": "Unter Wasser oder dauerhaft überrieselt. pH 5–7, 0–14 °dKH (Flowgrow).",
+      "substrat": "Keines: mit dünnem Nylonfaden oder Kleber auf die Lava.",
+      "duengen": "Nicht nötig; nimmt Nährstoffe aus dem Wasser.",
+      "besonderheiten": "Wächst langsam. Vermehrung durch Abtrennen von Stücken. Etwa so einfach wie Javamoos."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "untergetaucht / Rieselwasser",
+      "kurz": "Unter Wasser oder dauerhaft überrieselt.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Aquasabi – Vesicularia 'Christmas Moss'",
+        "url": "https://www.aquasabi.de/Vesicularia-Christmas-Moss_1"
+      },
+      {
+        "titel": "Flowgrow – Vesicularia montagnei 'Christmas Moss'",
+        "url": "https://www.flowgrow.de/db/aquaticplants/vesicularia-montagnei-christmas-moss"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "status": "wunsch",
+    "name": "Hobbit-Wasserkelch",
+    "botanisch": "Cryptocoryne walkeri 'Hobbit' (Handel: C. lutea 'Hobbit')",
+    "etikett": "",
+    "herkunft": "Aquasabi",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.aquasabi.de/Cryptocoryne-walkeri-Hobbit",
+    "preis": "7,90 € (Topf)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: im weißen Sand im Vordergrund des Wasserteils. Zwergform aus der Gärtnerei Dennerle, höchstens etwa 5 cm hoch; unter Wasser bei gutem Licht violett-braune Blätter. Am 27.10.2026 bei Aquasabi in allen Varianten ausverkauft (Topf 7,90 €, in vitro 8,90 €, XL 12,90 €).",
+    "pflege": {
+      "licht": "Mittel bis hoch; gutes Licht bringt die violett-braune Färbung (Dennerle). Aquasabi stuft den Bedarf als niedrig ein.",
+      "temperatur": "20–28 °C (Dennerle).",
+      "feuchte": "Untergetaucht ohne Bedeutung. Emers an der Wasserlinie 70–90 % (Richtwert, keine geprüfte Quelle); die Landform hat grüne Blätter (Aquasabi).",
+      "wasser": "Dauerhaft unter Wasser. pH 5–8, sehr weich bis hart (Dennerle).",
+      "substrat": "Im weißen Sand mit Düngekugeln an den Wurzeln, da Sand keine Nährstoffe liefert.",
+      "duengen": "Wurzeldüngung (Düngekugeln) alle paar Monate; Crypts sind Wurzelzehrer.",
+      "besonderheiten": "Wächst sehr langsam, viel langsamer als die Normalform. Vermehrung über Ausläufer. Nach dem Einsetzen nicht mehr umsetzen: Crypts reagieren auf Veränderungen oft mit Blattverlust und treiben danach neu aus."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "untergetaucht",
+      "kurz": "Dauerhaft unter Wasser, im Sand mit Düngekugeln.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Aquasabi – Cryptocoryne walkeri 'Hobbit'",
+        "url": "https://www.aquasabi.de/Cryptocoryne-walkeri-Hobbit"
+      },
+      {
+        "titel": "Dennerle Plants – Cryptocoryne lutea 'Hobbit'",
+        "url": "https://dennerleplants.com/en/plants/plantdetails/Cryptocoryne-lutea-'Hobbit'-(30031)/27842"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "status": "wunsch",
+    "name": "Rotwurzel-Schwimmpflanze",
+    "botanisch": "Phyllanthus fluitans",
+    "etikett": "",
+    "herkunft": "Aquasabi",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.aquasabi.de/Phyllanthus-fluitans_1",
+    "preis": "ca. 6–9 € (in vitro / 1-2-GROW!)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: Wasseroberfläche. Kleine Schwimmpflanze aus Südamerika mit runden, wasserabweisenden Blättern und fein verzweigten roten Wurzeln; einzige frei schwimmende Art ihrer Familie. Laut Aquasabi ausdrücklich für offene Becken und helle Paludarien, ungeeignet für abgedeckte Becken. Sehr transportempfindlich; Aquasabi erwägt, sie aus dem Sortiment zu nehmen.",
+    "pflege": {
+      "licht": "Mittel; je stärker das Licht, desto brauner bzw. roter die Blätter (Aquasabi, Tropica).",
+      "temperatur": "18–30 °C (Aquasabi).",
+      "feuchte": "40–70 % normale Raumluft (Richtwert, keine geprüfte Quelle). Wichtig ist eine offene Oberfläche: Tropfendes Kondenswasser unter Abdeckungen schadet ihr (Aquasabi).",
+      "wasser": "pH 5–8, 0–14 °dKH. In hartem Wasser bei starkem Licht gut, in weicherem Wasser eher bei schwächerem Licht (Aquasabi). Ruhige Oberfläche, nicht direkt in den Pumpenstrahl.",
+      "substrat": "Keines, frei schwimmend. Kann auf nassem, nährstoffreichem Substrat auch emers wachsen.",
+      "duengen": "Nicht nötig; zieht Nährstoffe aus dem Wasser und konkurriert so mit Algen.",
+      "besonderheiten": "Vermehrung durch Verzweigen und Zerfallen. Bildet gelegentlich winzige weiße Blüten. Überschuss abfischen und nicht in Gewässern im Freien entsorgen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "schwimmend",
+      "kurz": "Schwimmt frei; ruhige, offene Wasseroberfläche.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Aquasabi – Phyllanthus fluitans",
+        "url": "https://www.aquasabi.de/Phyllanthus-fluitans_1"
+      },
+      {
+        "titel": "Tropica – Phyllanthus fluitans",
+        "url": "https://tropica.com/en/plants/plantdetails/Phyllanthusfluitans(028TC)/22848"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "status": "wunsch",
+    "name": "Kleiner Büschelfarn",
+    "botanisch": "Salvinia minima",
+    "etikett": "",
+    "herkunft": "Aquasabi",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.aquasabi.de/Salvinia-minima",
+    "preis": "7,90 € (1-2-GROW!)",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: Wasseroberfläche. Schwimmfarn aus dem tropischen Amerika mit runden bis herzförmigen, behaarten Blättern von 1–1,5 cm; die „Wurzeln“ sind umgewandelte Unterwasserblätter. Wächst sehr schnell und nimmt überschüssige Nährstoffe auf. In den südlichen USA und in Südafrika invasiv.",
+    "pflege": {
+      "licht": "Mittel bis hoch (Flowgrow).",
+      "temperatur": "18–32 °C, optimal 24–28 °C (Flowgrow).",
+      "feuchte": "40–70 % normale Raumluft (Richtwert, keine geprüfte Quelle). Keine Abdeckglasscheibe: Kondenswasser schadet Schwimmpflanzen (Aquasabi).",
+      "wasser": "pH 5–8, 0–21 °dKH (Flowgrow). Ruhige Oberfläche mit wenig Strömung.",
+      "substrat": "Keines, frei schwimmend; kann nicht emers wachsen.",
+      "duengen": "Nicht nötig; nährstoffreiches Wasser beschleunigt das Wachstum.",
+      "besonderheiten": "Regelmäßig abfischen, damit Licht zu Moos und Crypt durchkommt. Überschuss nie in Gewässer im Freien geben. Die submerse Ware kann Schnecken mitbringen (Aquasabi)."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "nass",
+      "methode": "schwimmend",
+      "kurz": "Schwimmt frei; regelmäßig abfischen.",
+      "winter": "Unverändert."
+    },
+    "quellen": [
+      {
+        "titel": "Aquasabi – Salvinia minima",
+        "url": "https://www.aquasabi.de/Salvinia-minima"
+      },
+      {
+        "titel": "Flowgrow – Salvinia minima",
+        "url": "https://www.flowgrow.de/db/aquaticplants/salvinia-minima"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "status": "wunsch",
+    "name": "Schildkrötenranke",
+    "botanisch": "Callisia repens",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: auf den Lavasteinen und am Ufer über Wasser; die robusteste Wahl für Zimmerluft. Kriechende, leicht sukkulente Staude aus Mittel- und Südamerika mit kleinen runden Blättern, wurzelt an jedem Knoten. In tropischen Gegenden invasiv. Noch keinen deutschen Händler gefunden; Stecklinge gibt es oft privat.",
+    "pflege": {
+      "licht": "Hell, indirekt bis halbschattig (RHS). Bei mehr Licht kräftigere, teils rosa Töne, im Schatten gleichmäßig grün.",
+      "temperatur": "18–26 °C optimal (Secret Garden); nicht unter 10 °C (RHS, Winterhärte H1B).",
+      "feuchte": "40–60 % (Richtwert, keine geprüfte Quelle). Normale Zimmerluft genügt; zu hohe Feuchte bei wenig Licht lässt sie vergeilen (Secret Garden).",
+      "wasser": "Im Topf mäßig, Staunässe vermeiden. Im Paludarium nicht ins nasse Ufer setzen, sondern höher auf Stein oder Landteil, wo die Wurzeln Feuchte erreichen, aber nicht dauernass stehen (Einschätzung, ungeprüft).",
+      "substrat": "Gut durchlässig, z. B. Erde mit Splitt oder Perlite (RHS). Auf Lava in Spalten mit etwas Substrat.",
+      "duengen": "Im Wachstum monatlich schwach flüssig (RHS).",
+      "besonderheiten": "Wächst schnell; regelmäßig einkürzen, das hält sie buschig. Stecklinge bewurzeln leicht. Wird gern von Schnecken gefressen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "Wurzeln in feuchtem Substrat",
+      "kurz": "Leicht feucht, nicht dauernass.",
+      "winter": "Etwas trockener."
+    },
+    "quellen": [
+      {
+        "titel": "RHS – Callisia repens",
+        "url": "https://www.rhs.org.uk/plants/2685/callisia-repens/details"
+      },
+      {
+        "titel": "Secret Garden – Callisia repens",
+        "url": "https://secretgarden.ro/en/products/9264-callisia-repens"
+      },
+      {
+        "titel": "Wikipedia – Callisia repens",
+        "url": "https://en.wikipedia.org/wiki/Callisia_repens"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "status": "wunsch",
+    "name": "Pfauenmoos",
+    "botanisch": "Selaginella uncinata (ggf. künftig Didiclis uncinata)",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "Paludarium",
+    "shop_link": "https://www.jungle-leaves.de/products/selaginella-uncinata",
+    "preis": "8,99 € (Portion ca. 10 × 10 cm), große Pflanze 19,99 €",
+    "foto": "",
+    "notizen": "Engere Wahl (Okt 2026) für das geplante kleine, offene Paludarium: großer Wasserteil mit weißem Sand, Lavasteine als Inseln, Zentralstein mit Pumpe und Rieselwasser, etwa ⅓ Landteil mit Aquasoil, keine Garnelen. Platz: direkt an der Wasserlinie im Landteil, schattig im Schutz der Steine. Moosfarn aus Südchina, Taiwan und Südjapan mit blau schimmernden Blättern; der Schimmer entsteht durch Lichtinterferenz und zeigt sich bei wenig Licht am stärksten. Achtung: Jungle Leaves nennt mindestens 75 % Luftfeuchte – im offenen Becken also ein Versuch, kein sicherer Kandidat. Am 27.10.2026 ausverkauft.",
+    "pflege": {
+      "licht": "Wenig Licht, etwa 1.000–2.500 Lux; zu viel Licht macht die Blätter blass (Jungle Leaves). Tropica stuft den Bedarf als gering ein.",
+      "temperatur": "Am besten 22–28 °C; verträgt kühler als die meisten tropischen Moosfarne (Jungle Leaves). Draußen in milden Lagen teils winterhart.",
+      "feuchte": "75 % und mehr (Jungle Leaves); Tropica nennt feuchte tropische Terrarien. Im offenen Becken nur direkt an der Wasserlinie realistisch, braune Triebspitzen zeigen zu trockene Luft.",
+      "wasser": "Nie austrocknen lassen. Weiches Wasser (Osmose oder Regen, ca. 20–100 µS/cm) laut Jungle Leaves.",
+      "substrat": "Fein, durchlässig, gleichmäßig feucht, leicht sauer (pH 5,5–6,5), z. B. Kokosfaser; Sphagnum allein trägt sie nicht dauerhaft (Jungle Leaves). Das nasse Aquasoil-Ufer passt.",
+      "duengen": "Unter Pflanzenlicht alle 2–3 Wochen halbe Dosis harnstofffreier Orchideendünger (Jungle Leaves).",
+      "besonderheiten": "Wächst nach dem Anwachsen kräftig und kann Nachbarn überwuchern; lässt sich gut schneiden (Tropica). Zweige brechen beim Versand leicht."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "dauerfeucht am Ufer",
+      "kurz": "Nie austrocknen lassen, Ufer dauerfeucht.",
+      "winter": "Unverändert; auf trockene Heizungsluft achten."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Selaginella uncinata",
+        "url": "https://www.jungle-leaves.de/products/selaginella-uncinata"
+      },
+      {
+        "titel": "Tropica – Selaginella uncinata",
+        "url": "https://tropica.com/en/plants/plantdetails/Selaginellauncinata(406TC)(1)/31324"
+      },
+      {
+        "titel": "RHS – Selaginella uncinata",
+        "url": "https://www.rhs.org.uk/plants/103264/wd/details"
+      }
+    ]
   }
 ]

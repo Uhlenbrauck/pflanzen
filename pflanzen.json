@@ -1960,5 +1960,61 @@
         "url": "https://en.wikipedia.org/wiki/Marcgraviaceae"
       }
     ]
+  },
+  {
+    "id": 50,
+    "status": "wunsch",
+    "name": "Geo-Pflanze",
+    "botanisch": "Geogenanthus ciliatus",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/geogenanthus-ciliatus",
+    "preis": "24,99 €",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/322624638/large.jpeg",
+    "notizen": "Kommelinengewächs (Commelinaceae) aus Oberamazonien: Osthänge der Anden in Ecuador bis ins Tiefland Nordperus, laut Jungle Leaves auch Kolumbien. Wächst als Bodendecker am Boden von Primärregenwäldern im tiefen Schatten, mit kriechendem Rhizom. Dicke, fleischige Blätter, oben glänzend dunkelgrün bis purpur-bläulich, unten samtig dunkelviolett; je Spross meist nur ein Blatt. Kurzlebige violette Blüten mit perlartig bewimperten Kronblättern. Dicke orange Wurzeln und Rhizom speichern Wasser für die kurze Trockenzeit. Bei Jungle Leaves ausgewachsene Pflanze im 14-cm-Topf, Blätter etwa 20 cm, selten bis 30 cm; Pflegestufe mittel, als Zimmerpflanze „bedingt“ geeignet, geeignet für Terrarium oder Pflanzenvitrine. Wächst langsam, gilt aber als recht robust. Am 29.10.2026 bei Jungle Leaves ausverkauft. In den USA wurde sie ab 2023 von Costa Farms als „Geo“ eingeführt, dort ist sie inzwischen wieder aus dem Sortiment.",
+    "pflege": {
+      "licht": "Schattig bis hell indirekt, z. B. Nord- oder Ostfenster (Clemson); Costa Farms nennt mittleres bis helles indirektes Licht. Keine direkte Sonne – sie verbrennt die Blätter, braune Flecken zeigen zu viel Licht.",
+      "temperatur": "18–24 °C (Clemson: 65–75 °F); nicht unter 10 °C.",
+      "feuchte": "50–80 % (Clemson). Kommt laut Costa Farms mit normaler Zimmerluft aus, bevorzugt aber höhere Feuchte; braune Blattränder zeigen zu trockene Luft. Gewächshaus, Vitrine oder Glasglocke sind ideal.",
+      "wasser": "Gleichmäßig feucht, nicht nass; obere ca. 2 cm zwischen den Wassergaben antrocknen lassen, etwa wöchentlich prüfen (Clemson, Costa Farms). Lässt bei Trockenheit deutlich die Blätter hängen, erholt sich nach dem Gießen aber rasch.",
+      "substrat": "Humos, feuchtigkeitshaltend und gut durchlässig: Torf oder Kokosfaser mit feinem Vermiculit, Perlite und etwas Wurmhumus (Clemson). Wegen des kriechenden Rhizoms eher breite, flache Schale.",
+      "duengen": "Schwachzehrer: Frühling und Sommer monatlich Zimmerpflanzendünger in halber Dosis, Herbst und Winter nicht (Clemson). Zu viel Dünger führt zu Salzablagerungen.",
+      "besonderheiten": "Rückschnitt nicht nötig, nur welke Blätter entfernen. Schädlinge: Spinnmilben und Wollläuse. Clemson führt sie als haustierfreundlich; Costa Farms macht keine Angabe und rät allgemein, sie nicht anknabbern zu lassen."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Gleichmäßig feucht, obere 2 cm antrocknen lassen.",
+      "winter": "Etwas weniger, nicht austrocknen."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Geogenanthus ciliatus",
+        "url": "https://www.jungle-leaves.de/products/geogenanthus-ciliatus"
+      },
+      {
+        "titel": "Clemson Cooperative Extension (HGIC) – Geo Plants (Geogenanthus spp.)",
+        "url": "https://hgic.clemson.edu/factsheet/how-to-grow-and-care-for-geo-plants-geogenanthus-spp/"
+      },
+      {
+        "titel": "Costa Farms – Geo (Geogenanthus ciliatus)",
+        "url": "https://costafarms.com/plants/geo"
+      },
+      {
+        "titel": "Wikipedia – Geogenanthus ciliatus",
+        "url": "https://en.wikipedia.org/wiki/Geogenanthus_ciliatus"
+      }
+    ],
+    "bildnachweis": {
+      "urheber": "Megan Hanson",
+      "lizenz": "CC BY-NC 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "quelle_url": "https://www.inaturalist.org/photos/322624638",
+      "via": "iNaturalist",
+      "hinweis": "Naturstandort in Orellana, Ecuador"
+    }
   }
 ]

@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATEI = ROOT / "pflanzen.json"
 
 FELDER = {
-    "Status": "status", "Name": "name", "Botanischer Name": "botanisch", "Standort": "standort",
+    "Status": "status", "Name": "name", "Deutscher Name": "name", "Botanischer Name": "botanisch", "Standort": "standort",
     "Herkunft": "herkunft", "Kaufdatum": "kaufdatum", "Shop-Link": "shop_link", "Preis": "preis",
     "Etikett-Text": "etikett", "Foto": "foto", "Neues Foto": "foto", "Notizen": "notizen",
     "Notiz ergänzen": "notiz_neu", "Pflanzen-Nr.": "id",
@@ -103,6 +103,11 @@ def merkliste(titel, body):
     print(antwort)
 
 
+def bez(p):
+    """Anzeigename: botanischer Name, sonst deutscher Name."""
+    return p.get("botanisch") or p.get("name") or f"#{p['id']}"
+
+
 def main():
     titel = os.environ.get("ISSUE_TITLE", "")
     if titel.startswith("[Merkliste"):
@@ -119,7 +124,7 @@ def main():
         status = w.pop("status", "unverändert")
         if status == "Löschen":
             pflanzen.remove(p)
-            antwort = f"🗑️ #{pid} {p['name']} wurde entfernt."
+            antwort = f"🗑️ #{pid} {bez(p)} wurde entfernt."
         else:
             if status in ("Besitz", "Wunsch"):
                 p["status"] = status.lower()
@@ -133,22 +138,22 @@ def main():
             for k, v in w.items():
                 if k != "id":
                     p[k] = v
-            antwort = f"✏️ #{pid} {p['name']} wurde aktualisiert."
+            antwort = f"✏️ #{pid} {bez(p)} wurde aktualisiert."
     else:
-        if "name" not in w:
+        if "botanisch" not in w and "name" not in w:
             raise SystemExit("Kein Name angegeben.")
         pid = max([x["id"] for x in pflanzen] + [0]) + 1
         foto = foto_speichern(w.get("foto", ""), pid)
         p = {
-            "id": pid, "status": w.get("status", "Besitz").lower(), "name": w["name"],
+            "id": pid, "status": w.get("status", "Besitz").lower(), "name": w.get("name", ""),
             "botanisch": w.get("botanisch", ""), "etikett": w.get("etikett", ""),
             "herkunft": w.get("herkunft", ""), "kaufdatum": w.get("kaufdatum", ""),
             "standort": w.get("standort", ""), "shop_link": w.get("shop_link", ""),
             "preis": w.get("preis", ""), "foto": foto, "notizen": w.get("notizen", ""),
-            "pflege": {}, "quellen": [],
+            "pflege": {}, "quellen": [], "angelegt": heute,
         }
         pflanzen.append(p)
-        antwort = f"🌱 {p['name']} ist jetzt #{pid} ({'Wunschliste' if p['status'] == 'wunsch' else 'Sammlung'})."
+        antwort = f"🌱 {bez(p)} ist jetzt #{pid} ({'Wunschliste' if p['status'] == 'wunsch' else 'Sammlung'})."
 
     DATEI.write_text(json.dumps(pflanzen, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     seite = "https://uhlenbrauck.github.io/pflanzen/"

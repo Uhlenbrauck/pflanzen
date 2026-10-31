@@ -35,6 +35,9 @@ h1{font-size:1.75rem}
 .tab[aria-selected=true]{opacity:1;border-color:#9fd6ae}
 .tab .n{font-weight:500;opacity:.7;margin-left:4px}
 main{padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
+.bar{display:flex;gap:8px;align-items:center}
+.bar .search{flex:1;min-width:0}
+.sort{flex:none;max-width:55%;padding:11px 6px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:500 .8rem Inter,sans-serif}
 .search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:12px 0 4px;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
@@ -46,6 +49,8 @@ main{padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
 .thumb img{width:100%;height:100%;object-fit:cover}
 .wish .thumb{background:var(--wish-soft);color:var(--wish)}
 .item h3{font-size:1.1rem}
+.sci{font-style:italic}
+.de{color:var(--muted);font-size:.9rem}
 .bot{font-style:italic;color:var(--muted);font-size:.9rem}
 .meta{color:var(--muted);font-size:.82rem;margin-top:2px}
 .empty{color:var(--muted);text-align:center;padding:40px 10px}
@@ -112,6 +117,24 @@ const STUFEN = {nass:"Nass / Anstau", feucht:"Gleichmäßig feucht", antrocknen:
 const WASSER = {weich:"Kalkarmes Wasser", leitung:"Leitungswasser"};
 let merk = [], mKat = "";
 let daten = [], tab = "besitz", suche = "", ort = "", gWasser = "", gStufe = "";
+// Sortierung je Liste; "Hinzugefügt" = Reihenfolge der Nummern (werden fortlaufend vergeben)
+const SORT_BASIS = {az:"A–Z (botanisch)", neu:"Zuletzt hinzugefügt", alt:"Zuerst hinzugefügt"};
+const SORTEN = {
+  besitz: SORT_BASIS, wunsch: SORT_BASIS,
+  giessen: {bedarf:"Nach Gießbedarf", ...SORT_BASIS},
+  merkliste: {datum:"Nach Datum", az:"A–Z", neu:"Zuletzt hinzugefügt", alt:"Zuerst hinzugefügt"}
+};
+const sortierung = {besitz:"az", wunsch:"az", giessen:"bedarf", merkliste:"datum"};
+try { Object.assign(sortierung, JSON.parse(localStorage.getItem("sortierung") || "{}")); } catch(e) {}
+const sortMerken = () => { try { localStorage.setItem("sortierung", JSON.stringify(sortierung)); } catch(e) {} };
+const sortWahl = t => `<select class="sort" data-sort="${t}" aria-label="Sortieren">${Object.entries(SORTEN[t]).map(([k,v]) =>
+  `<option value="${k}" ${sortierung[t]===k ? "selected" : ""}>${v}</option>`).join("")}</select>`;
+const sortAn = neu => app.querySelectorAll("[data-sort]").forEach(s => s.onchange = () => { sortierung[s.dataset.sort] = s.value; sortMerken(); neu(); });
+// Anzeige: wissenschaftlicher Name zuerst, deutscher Name als Zusatz
+const titel = p => p.botanisch || p.name || "#" + p.id;
+const zusatz = p => p.botanisch && p.name && p.name !== p.botanisch ? p.name : "";
+const abc = (a,b) => a.localeCompare(b, "de", {sensitivity:"base"});
+const vergleich = modus => (a,b) => modus === "neu" ? b.id - a.id : modus === "alt" ? a.id - b.id : abc(titel(a), titel(b));
 const app = document.getElementById("app");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const url = u => /^(https?:)?\/\//.test(u) || /^fotos\//.test(u) ? u : "";
@@ -148,15 +171,20 @@ function merkliste(){
         <a href="${REPO}/issues/new?template=merkliste-aendern.yml&eintrag=${m.id}&title=${encodeURIComponent("[Merkliste ändern] "+m.titel)}">Erledigt / ändern</a></div>
     </div>`; };
   app.innerHTML = kopf() + `<main class="wrap">
-    ${kats.length > 1 ? `<div class="chips" style="padding-top:0">${["",...kats].map(k => `<button class="chip" aria-pressed="${k===mKat}" data-k="${esc(k)}">${k ? esc(k) : "Alles"}</button>`).join("")}</div>` : ""}
+    <div class="bar" style="justify-content:flex-end">${sortWahl("merkliste")}</div>
+    ${kats.length > 1 ? `<div class="chips">${["",...kats].map(k => `<button class="chip" aria-pressed="${k===mKat}" data-k="${esc(k)}">${k ? esc(k) : "Alles"}</button>`).join("")}</div>` : ""}
     ${l.length ? "" : '<p class="empty">Noch nichts gemerkt.</p>'}
     ${kats.filter(k => !mKat || k === mKat).map(k => { const ps = l.filter(m => (m.kategorie || "Sonstiges") === k)
-        .sort((a,b) => (a.erledigt - b.erledigt) || String(a.datum||"9").localeCompare(String(b.datum||"9")) || a.titel.localeCompare(b.titel,"de"));
+        .sort((a,b) => (a.erledigt - b.erledigt) || ({
+          datum: () => String(a.datum||"9").localeCompare(String(b.datum||"9")) || abc(a.titel, b.titel),
+          az: () => abc(a.titel, b.titel), neu: () => b.id - a.id, alt: () => a.id - b.id
+        }[sortierung.merkliste] || (() => 0))());
       return `<h2 class="ort">${esc(k)}<small>${ps.filter(m => !m.erledigt).length}</small></h2>` + ps.map(karte).join(""); }).join("")}
   </main>
   <a class="fab" href="${REPO}/issues/new?template=merkliste.yml">+ Eintrag</a>`;
   tabsAn();
   app.querySelectorAll("[data-k]").forEach(b => b.onclick = () => { mKat = b.dataset.k; merkliste(); });
+  sortAn(merkliste);
 }
 
 function kopf(){
@@ -187,23 +215,27 @@ function giessen(){
   const reihen = Object.keys(STUFEN);
   const chip = (k, v, akt, attr) => `<button class="chip" aria-pressed="${akt}" data-${attr}="${k}">${v}</button>`;
   app.innerHTML = kopf() + `<main class="wrap">
+    <div class="bar" style="justify-content:flex-end">${sortWahl("giessen")}</div>
     <div class="chips">${chip("", "Alle", !gWasser, "w")}${Object.entries(WASSER).map(([k,v]) => chip(k, v + " " + alle.filter(p => p.giessen.wasser===k).length, gWasser===k, "w")).join("")}</div>
     <div class="chips" style="padding-top:4px">${chip("", "Jeder Bedarf", !gStufe, "s")}${reihen.filter(k => alle.some(p => p.giessen.stufe===k)).map(k => chip(k, STUFEN[k], gStufe===k, "s")).join("")}</div>
     ${l.length ? "" : '<p class="empty">Keine Pflanze mit dieser Kombination.</p>'}
     ${orte.map(o => { const ps = l.filter(p => (p.standort || "Ohne Standort") === o)
-        .sort((a,b) => reihen.indexOf(a.giessen.stufe) - reihen.indexOf(b.giessen.stufe) || a.name.localeCompare(b.name,"de"));
+        .sort((a,b) => sortierung.giessen === "bedarf"
+          ? reihen.indexOf(a.giessen.stufe) - reihen.indexOf(b.giessen.stufe) || abc(titel(a), titel(b))
+          : vergleich(sortierung.giessen)(a,b));
       return `<h2 class="ort">${esc(o)}<small>${ps.length}</small></h2>` + ps.map(p => { const g = p.giessen; return `
       <a class="gi" href="#${p.id}">
-        <div class="top"><b>${esc(p.name)}</b><span class="meta">#${p.id}</span></div>
+        <div class="top"><b class="sci">${esc(titel(p))}</b><span class="meta">#${p.id}</span></div>${zusatz(p) ? `<div class="de">${esc(zusatz(p))}</div>` : ""}
         <div class="tags"><span class="lv ${esc(g.stufe)}"><i></i>${STUFEN[g.stufe] || esc(g.stufe)}</span><span class="wt ${esc(g.wasser)}">${WASSER[g.wasser] || esc(g.wasser)}</span>${g.methode ? `<span class="wt leitung">${esc(g.methode)}</span>` : ""}</div>
         <p>${esc(g.kurz)}</p>${g.winter ? `<p class="w">Winter: ${esc(g.winter)}</p>` : ""}
       </a>`; }).join(""); }).join("")}
-    ${ohne.length && !gWasser && !gStufe ? `<h2 class="ort">Noch ohne Gießangaben<small>${ohne.length}</small></h2>` + ohne.map(p => `<a class="gi" href="#${p.id}"><b>${esc(p.name)}</b></a>`).join("") : ""}
+    ${ohne.length && !gWasser && !gStufe ? `<h2 class="ort">Noch ohne Gießangaben<small>${ohne.length}</small></h2>` + ohne.sort(vergleich(sortierung.giessen === "bedarf" ? "az" : sortierung.giessen)).map(p => `<a class="gi" href="#${p.id}"><b class="sci">${esc(titel(p))}</b></a>`).join("") : ""}
     <p class="hint">Kalkarmes Wasser = Regen-, destilliertes oder Osmosewasser.</p>
   </main>`;
   tabsAn();
   app.querySelectorAll("[data-w]").forEach(b => b.onclick = () => { gWasser = b.dataset.w; giessen(); });
   app.querySelectorAll("[data-s]").forEach(b => b.onclick = () => { gStufe = b.dataset.s; giessen(); });
+  sortAn(giessen);
 }
 
 function liste(){
@@ -211,13 +243,14 @@ function liste(){
   if (ort && !orte.includes(ort)) ort = "";
   app.innerHTML = kopf() + `
   <main class="wrap">
-    <input class="search" type="search" placeholder="Suchen …" value="${esc(suche)}" aria-label="Suchen">
+    <div class="bar"><input class="search" type="search" placeholder="Suchen …" value="${esc(suche)}" aria-label="Suchen">${sortWahl(tab)}</div>
     ${orte.length > 1 ? `<div class="chips">${["",...orte].map(o => `<button class="chip" aria-pressed="${o===ort}" data-ort="${esc(o)}">${o ? esc(o) : "Alle Standorte"}</button>`).join("")}</div>` : ""}
     <div class="list"></div>
   </main>
   <a class="fab" href="${REPO}/issues/new?template=neue-pflanze.yml&status=${tab === "wunsch" ? "Wunsch" : "Besitz"}">+ ${tab === "wunsch" ? "Wunsch" : "Pflanze"}</a>`;
   tabsAn();
   app.querySelectorAll(".chip").forEach(b => b.onclick = () => { ort = b.dataset.ort; liste(); });
+  app.querySelector("[data-sort]").onchange = e => { sortierung[tab] = e.target.value; sortMerken(); treffer(); };
   const input = app.querySelector(".search");
   input.oninput = () => { suche = input.value; treffer(); };
   treffer();
@@ -228,12 +261,12 @@ function treffer(){
   const l = daten
     .filter(p => p.status === tab && (!ort || p.standort === ort))
     .filter(p => !q || [p.name,p.botanisch,p.standort,p.herkunft,p.notizen,"#"+p.id].join(" ").toLowerCase().includes(q))
-    .sort((a,b) => a.name.localeCompare(b.name, "de"));
+    .sort(vergleich(sortierung[tab]));
   app.querySelector(".list").innerHTML = l.length ? l.map(p => `
     <a class="item ${p.status==="wunsch"?"wish":""}" href="#${p.id}">
       <div class="thumb">${url(p.foto) ? `<img src="${esc(p.foto)}" alt="" loading="lazy" onerror="this.replaceWith('#${p.id}')">` : "#"+p.id}</div>
-      <div><h3>${esc(p.name)}</h3>
-      ${p.botanisch ? `<div class="bot">${esc(p.botanisch)}</div>` : ""}
+      <div><h3 class="sci">${esc(titel(p))}</h3>
+      ${zusatz(p) ? `<div class="de">${esc(zusatz(p))}</div>` : ""}
       <div class="meta">${[p.standort, p.status==="wunsch" && p.preis].filter(Boolean).map(esc).join(" · ")}</div></div>
     </a>`).join("") : `<p class="empty">${daten.some(p=>p.status===tab) ? "Keine Treffer." : tab==="wunsch" ? "Noch keine Wünsche." : "Noch keine Pflanzen."}</p>`;
 }
@@ -246,17 +279,17 @@ function detail(p){
     ["Shop", p.shop_link && `<a href="${esc(p.shop_link)}" target="_blank" rel="noopener">Zum Shop ↗</a>`]
   ].filter(f => f[1]);
   const pflege = PFLEGE.filter(([k]) => p.pflege && p.pflege[k]);
-  const aendern = `${REPO}/issues/new?template=pflanze-aendern.yml&pflanzen_id=${p.id}&title=${encodeURIComponent("[Ändern] #"+p.id+" "+p.name)}`;
+  const aendern = `${REPO}/issues/new?template=pflanze-aendern.yml&pflanzen_id=${p.id}&title=${encodeURIComponent("[Ändern] #"+p.id+" "+titel(p))}`;
   const base = `etiketten/${p.id}/${p.id}-`;
   app.innerHTML = `
   <header><div class="wrap" style="padding-bottom:18px">
     <a class="back" href="${tab === "giessen" ? "#giessen" : "#"}">← ${tab === "giessen" ? "Gießübersicht" : "Alle Pflanzen"}</a><br>
     <span class="badge ${w?"w":""}">${w ? "Wunschliste" : "Sammlung"}</span>
-    <h1>${esc(p.name)}</h1>
-    ${p.botanisch ? `<div class="bot" style="color:#cfe3d4">${esc(p.botanisch)}</div>` : ""}
+    <h1 class="sci">${esc(titel(p))}</h1>
+    ${zusatz(p) ? `<div style="color:#cfe3d4">${esc(zusatz(p))}</div>` : ""}
   </div></header>
   <main class="wrap">
-    ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(p.name)}" onerror="this.style.display='none'">` : ""}
+    ${url(p.foto) ? `<img class="hero" src="${esc(p.foto)}" alt="${esc(titel(p))}" onerror="this.style.display='none'">` : ""}
     ${url(p.foto) && p.bildnachweis ? (b => `<p class="credit">Foto: ${url(b.quelle_url) ? `<a href="${esc(b.quelle_url)}" target="_blank" rel="noopener">${esc(b.urheber)}</a>` : esc(b.urheber)}, ${url(b.lizenz_url) ? `<a href="${esc(b.lizenz_url)}" target="_blank" rel="noopener">${esc(b.lizenz)}</a>` : esc(b.lizenz)}${b.via ? `, via ${esc(b.via)}` : ""}${b.hinweis ? `. ${esc(b.hinweis)}` : ""}</p>`)(p.bildnachweis) : ""}
     ${(p.weitere_fotos || []).filter(url).length ? `<div class="more">${p.weitere_fotos.filter(url).map(f => `<img src="${esc(f)}" alt="" loading="lazy">`).join("")}</div>` : ""}
     <dl class="facts">${fakten.map(([k,v]) => `<div class="fact"><dt>${k}</dt><dd>${k==="Shop" ? v : esc(v)}</dd></div>`).join("")}</dl>

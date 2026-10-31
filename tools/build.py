@@ -27,7 +27,7 @@ def main():
     for p in pflanzen:
         if p.get("status") != "besitz":
             continue
-        text = p.get("etikett") or f"#{p['id']} {p['name']}"
+        text = p.get("etikett") or f"#{p['id']} {p.get('botanisch') or p['name']}"
         url = f"{BASIS_URL}#{p['id']}"
         ordner = SITE / "etiketten" / str(p["id"])
         ordner.mkdir(parents=True)

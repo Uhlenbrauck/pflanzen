@@ -2304,42 +2304,107 @@
   {
     "id": 57,
     "status": "besitz",
-    "name": "Juwelorchidee (unbestimmt)",
-    "botanisch": "Macodes petola 'Dark' (unbestätigt)",
-    "etikett": "#57 Juwelorch.",
+    "name": "Juwelorchidee (rotadrig)",
+    "botanisch": "Anoectochilus roxburghii (rotadrige Form, unbestätigt)",
+    "etikett": "#57 Anoectoch.",
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
     "shop_link": "https://www.jungle-leaves.de/en/products/macodes-petola",
-    "preis": "14,99 € (Shop-Preis)",
+    "preis": "",
     "foto": "fotos/57.jpg",
-    "notizen": "Am 31.10.2026 bei Jungle Leaves gekauft, ohne Etikett. Fast schwarze Blätter mit feinem kupfer- bis goldfarbenem Adernetz, rötliche Stiele. Passt am besten zum Klon 'Dark' von Macodes petola (laut Jungle Leaves schwarze Grundfarbe, sehr feine goldene Adern, wird größer als die anderen Klone); möglich ist auch eine Anoectochilus wie #39. Bestimmung offen. Pflege wie #53.",
+    "notizen": "Am 31.10.2026 bei Jungle Leaves gekauft, ohne Etikett. Fast schwarze Blätter mit feinem kupfer- bis rötlichem Adernetz, rötliche Stiele. Vermutlich Anoectochilus roxburghii in einer rotadrigen Form (ähnlich #38 'Red Dragon'); möglich ist auch Macodes petola 'Dark'. Bestimmung offen, Preis unbekannt. Pflege wie #39 Anoectochilus roxburghii 'Black'.",
     "pflege": {
-      "licht": "Wenig Licht: 1.500–3.000 Lux bzw. 35–70 PPFD genügen; mit weniger Licht beste Färbung, aber langsameres Wachstum (Jungle Leaves). Keine direkte Sonne, sie verbrennt die Blätter und bleicht das Muster (Araflora). Kunstlicht 20–40 cm über der Pflanze (Araflora).",
-      "temperatur": "Bestes Wachstum bei 22–28 °C (Jungle Leaves); Araflora nennt 18–25 °C, Minimum 15 °C, Maximum 30 °C. Bei sehr nassem Substrat besonders warm halten, sonst droht Wurzelfäule.",
-      "feuchte": "70–100 %: Jungle Leaves nennt 70 % oder mehr, auch 100 % in stiller Luft möglich; Araflora tagsüber 70–90 %, nachts 80–100 %. Dann aber darauf achten, dass kein Wasser auf den Blättern stehen bleibt.",
-      "wasser": "Nie ganz austrocknen lassen, aber keine Staunässe; die Oberfläche darf antrocknen. Weiches Wasser (Osmose oder Regen), Leitwert etwa 20–100 µS/cm (Jungle Leaves).",
-      "substrat": "Grob, luftig, gleichmäßig feucht, leicht sauer (pH ca. 5,5–6,5): Kokoschips mit etwas Sphagnum oder Baumfarnfaser, auch rein mineralisch möglich. Flache, breite Schale. Stamm nie eingraben, nur auflegen. Nach dem Kauf nicht sofort umtopfen (Jungle Leaves).",
-      "duengen": "Unter Pflanzenlampe ganzjährig etwa alle 2–3 Wochen harnstofffreier Orchideendünger in halber Dosis (ca. 300 µS/cm); im eingefahrenen bioaktiven Terrarium nicht nötig (Jungle Leaves).",
-      "besonderheiten": "Nasse Blätter über längere Zeit führen zu Fäulnis, daher Luftbewegung. Verblühte Stiele entfernen (Araflora). Gleiche Ansprüche wie #53 Macodes petola 'Gold' und #38/#39 Anoectochilus."
+      "licht": "Gedämpftes, indirektes Licht, keine direkte Sonne – das Händleretikett („hell und sonnig“) ist für Juwelorchideen zu viel. Zu viel Licht bleicht die Zeichnung aus, zu wenig macht die Triebe lang.",
+      "temperatur": "Etwa 18–25 °C, nachts einige Grad kühler, möglichst nicht unter 16 °C (Orchids-Shop); Araflora nennt 15–30 °C. Über 28 °C und Zugluft vermeiden.",
+      "feuchte": "60–90 %: Araflora nennt tagsüber 60–90 %, nachts 70–90 %; Orchids-Shop 60–80 %. Terrarium oder Gewächshaus, aber mit Luftaustausch.",
+      "wasser": "Gleichmäßig leicht feucht, nie nass und nie ganz trocken. Weiches Wasser direkt aufs Substrat, Blattachseln und Stängelbasis trocken halten. Nach Fingerprobe gießen statt nach festem Rhythmus.",
+      "substrat": "Locker, luftig und feuchtigkeitshaltend: feine Orchideenrinde, Sphagnum, Perlite, etwas Kokosfaser. Flacher Topf mit gutem Abzug; kriechenden Stängel nur auflegen, nicht vergraben.",
+      "duengen": "Schwach, etwa monatlich stark verdünnter Orchideendünger.",
+      "besonderheiten": "Empfindlich gegen Stammfäule bei stehender, nasser Luft. Heimat Himalaya bis Südostasien und China, meist an Gewässerufern in 300–1800 m Höhe (Araflora)."
     },
     "giessen": {
       "wasser": "weich",
       "stufe": "feucht",
-      "methode": "von oben aufs Substrat, Blätter trocken halten",
-      "kurz": "Gleichmäßig leicht feucht, Oberfläche darf antrocknen, keine Staunässe.",
-      "winter": "Unverändert, nicht unter 18 °C."
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig leicht feucht, nie nass; Blattachseln trocken halten.",
+      "winter": "Etwas sparsamer, nicht unter 16 °C."
     },
     "quellen": [
       {
-        "titel": "Jungle Leaves – Macodes petola",
-        "url": "https://www.jungle-leaves.de/en/products/macodes-petola"
+        "titel": "Araflora – Anoectochilus roxburghii",
+        "url": "https://www.araflora.com/p1273/orchid_anoectochilus_roxburghii"
       },
       {
-        "titel": "Araflora – Macodes petola",
-        "url": "https://www.araflora.com/product/macodes-petola-jewel-orchid-care-buy/"
+        "titel": "Orchids-Shop – Anoectochilus roxburghii 'Red Dragon'",
+        "url": "https://orchids-shop.com/products/anoectochilus-roxburghii-red-dragon"
+      },
+      {
+        "titel": "Plants of the World Online – Anoectochilus roxburghii",
+        "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
     ],
     "angelegt": "2026-10-31"
+  },
+  {
+    "id": 58,
+    "status": "besitz",
+    "name": "Frauenschuh",
+    "botanisch": "Paphiopedilum micranthum var. eburneum (unbestätigt)",
+    "etikett": "#58 Paph. micr.",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "31.10.2026",
+    "standort": "Kallax-Terrarium",
+    "shop_link": "https://www.jungle-leaves.de/en/products/paphiopedilum-micranthum-var-eburneum",
+    "preis": "29,99 € (Shop-Preis)",
+    "foto": "fotos/58.jpg",
+    "angelegt": "2026-10-31",
+    "notizen": "Am 31.10.2026 bei Jungle Leaves gekauft, ohne Etikett; nach Blattbild und Topfgröße als P. micranthum var. eburneum angenommen (Jungle Leaves hatte diese und P. bellatulum im Angebot). Art erst mit der Blüte sicher. Jungpflanze im 6-cm-Topf in Rinde, laut Jungle Leaves in etwa 12 Monaten blühfähig. Zwerg-Frauenschuh (Untergattung Parvisepalum), Blattspanne nur 10–15 cm; Blätter hell-dunkelgrün gemustert, unterseits purpurn, liegen in der Natur flach. Heimat SO-Yunnan, SW-Guangxi, Guizhou (China) bis Nordvietnam, in schattigen, humusgefüllten Spalten steiler, bemooster Kalkfelswände, 360–1700 m. Blüten 6–8 cm, im Verhältnis riesig, mit aufgeblähter Lippe; var. eburneum mit gelblichen Blütenblättern und fast weißem Schuh; Blüte Spätwinter bis Frühsommer. Wichtig: Braucht für die Blüte eine kühlere, etwas trockenere Winterruhe – im dauerwarmen Terrarium blüht sie meist nicht. Im Terrarium ist Aufbinden an der Rückwand („Steilwand“) wie in der Natur möglich (Jungle Leaves).",
+    "pflege": {
+      "licht": "Schattig bis hell indirekt, keine direkte Sonne (Jungle Leaves: Schattenpflanze); RHS: im Sommer helles, gefiltertes Licht. Etwa 12.000–20.000 Lux werden für die Art genannt (Slippertalk, Kulturtabelle).",
+      "temperatur": "Sommer tags um 27–29 °C, nachts 21–22 °C; Winter tags 15–16 °C, nachts 8–10 °C (Travaldo nach Standortklima). Verträgt in der Winterruhe kurzzeitig 2–4 °C (Slippertalk-Erfahrungen). Für das Kallax-Terrarium heißt das: im Winter (etwa Dez.–Feb.) einige Wochen kühler stellen, z. B. auf eine kühle, helle Fensterbank.",
+      "feuchte": "60–80 % (Orchids-Shop); allgemein für Paphiopedilum 50–70 % (Nurseries Online). Im Sommer eher höher, im Winter etwas niedriger, aber bei Zimmerhaltung nicht zu trocken (Slippertalk).",
+      "wasser": "Gleichmäßig leicht feucht, nie ganz austrocknen, keine Staunässe; Wasser nicht in der Blattrosette stehen lassen. In der Winterruhe deutlich weniger gießen, aber nicht austrocknen (Travaldo, Slippertalk).",
+      "substrat": "Rindenbasierte Orchideenmischung mit etwas Sphagnum und Perlite, gern mit zerkleinertem Kalksplitt (RHS) – die Art wächst auf Kalkfels und mag einen höheren pH-Wert (Wikipedia). Etwa alle 2 Jahre umtopfen (Nurseries Online).",
+      "duengen": "Während des Wachstums schwach dosiert; im Spätsommer etwas phosphorbetont für die Blüte, im Winter nicht düngen (Travaldo).",
+      "besonderheiten": "Geschützte Art (CITES Anhang I) – nur mit Herkunftsnachweis handeln. Gute Luftbewegung wichtig (Nurseries Online). Ohne kühle Winterruhe meist keine Blüte."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat, nicht in die Rosette",
+      "kurz": "Leicht feucht halten, nie austrocknen, keine Staunässe.",
+      "winter": "Kühl (tags ca. 15 °C, nachts 8–10 °C) und sparsamer gießen."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Paphiopedilum micranthum var. eburneum",
+        "url": "https://www.jungle-leaves.de/en/products/paphiopedilum-micranthum-var-eburneum"
+      },
+      {
+        "titel": "RHS – Paphiopedilum micranthum",
+        "url": "https://www.rhs.org.uk/Plants/12270/wd/Details"
+      },
+      {
+        "titel": "Travaldo – Paphiopedilum micranthum care",
+        "url": "https://travaldo.blogspot.com/2017/12/grow-and-care-paphiopedilum-micranthum-orchid.html"
+      },
+      {
+        "titel": "Slippertalk – Paphiopedilum micranthum culture",
+        "url": "https://slippertalk.com/threads/paphiopedilum-micranthum-culture.58245/latest"
+      },
+      {
+        "titel": "Slippertalk – Kulturtabelle Parvisepalum",
+        "url": "https://slippertalk.com/threads/paph-micranthum-in-sheath.57445/post-771575"
+      },
+      {
+        "titel": "Orchids-Shop – Paphiopedilum micranthum",
+        "url": "https://orchids-shop.com/products/paphiopedilum-micranthum-clumb"
+      },
+      {
+        "titel": "Wikipedia – Paphiopedilum micranthum",
+        "url": "https://en.wikipedia.org/wiki/Paphiopedilum_micranthum"
+      }
+    ]
   }
 ]

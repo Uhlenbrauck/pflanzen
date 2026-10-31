@@ -2406,5 +2406,107 @@
         "url": "https://en.wikipedia.org/wiki/Paphiopedilum_micranthum"
       }
     ]
+  },
+  {
+    "id": 59,
+    "status": "besitz",
+    "name": "Schwarzer Schlangenbart",
+    "botanisch": "Ophiopogon planiscapus 'Nigrescens'",
+    "etikett": "#59 Ophiopogon",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "31.10.2026",
+    "standort": "",
+    "shop_link": "",
+    "preis": "5,99 €",
+    "foto": "fotos/59.jpg",
+    "angelegt": "2026-10-31",
+    "notizen": "Am 31.10.2026 bei Jungle Leaves gekauft (Etikett: Staude, winterhart, immergrün). Auch als 'Kokuryu', 'Black Dragon', 'Nigra' oder 'Ebony Knight' gehandelt; RHS Award of Garden Merit. Kein Gras, sondern ein Spargelgewächs (Asparagaceae, Nolinoideae); die Art stammt aus Japan, von offenen und bewaldeten Hängen. Horstig, 15–30 cm hoch, breitet sich langsam über kurze Ausläufer aus. Blätter treiben grün aus und werden dann fast schwarz. Im Sommer kurze Trauben kleiner rosa-lila Glöckchen, danach glänzende schwarzblaue Beeren. Einige Blätter dieser Pflanze sind hellgrün-weiß gestreift – vermutlich jüngere, noch nicht ausgefärbte oder zurückschlagende Triebe; beobachten. Als Zimmerpflanze nur bedingt geeignet: braucht eine kühle Winterruhe, sonst Kümmerwuchs und braune Spitzen. Standort noch offen.",
+    "pflege": {
+      "licht": "Sonne bis Halbschatten (RHS); je mehr Licht, desto schwärzer die Blätter (Dobbies), im tiefen Schatten vergrünt sie. Im Zimmer sehr hell mit etwas direkter Sonne.",
+      "temperatur": "Winterhart bis etwa −15 °C (RHS H5; World Plants: −15 bis −9 °C). Braucht im Winter einige Wochen bei etwa 5–10 °C; dauerhaft 20 °C im Zimmer schwächt sie. Topf im Winter auf Balkon/Terrasse oder kühl und hell stellen; bei Kahlfrost im Kübel leicht schützen.",
+      "feuchte": "Keine besonderen Ansprüche: Freilandstaude, kommt mit normaler Außen- und Zimmerluft aus (Richtwert ca. 40–70 %, keine Fachquelle mit Zahlen gefunden). Trockene Heizungsluft im Winter meiden, sie fördert braune Spitzen.",
+      "wasser": "Feucht, aber gut durchlässig (RHS): gleichmäßig leicht feucht, nie nass und nie ganz trocken; im kühlen Winter sparsam.",
+      "substrat": "Humose, durchlässige Erde, sauer bis neutral (RHS); im Topf Blumenerde mit Sand oder Perlite, Abzugsloch.",
+      "duengen": "Schwachzehrer: im Frühjahr etwas Langzeit- oder Flüssigdünger, sonst nicht nötig.",
+      "besonderheiten": "Sehr robust, kaum Schädlinge. Vermehrung durch Teilung im Frühjahr; aus Samen fallen nicht alle Sämlinge schwarz aus. Langsamwüchsig (RHS: 2–5 Jahre bis zur Endgröße)."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "feucht",
+      "methode": "von oben",
+      "kurz": "Leicht feucht halten, keine Staunässe.",
+      "winter": "Kühl (5–10 °C) und sparsam gießen."
+    },
+    "quellen": [
+      {
+        "titel": "RHS – Ophiopogon planiscapus 'Nigrescens'",
+        "url": "https://www.rhs.org.uk/plants/93120/ophiopogon-planiscapus-nigrescens/details"
+      },
+      {
+        "titel": "Wikipedia – Ophiopogon planiscapus",
+        "url": "https://en.wikipedia.org/wiki/Ophiopogon_planiscapus"
+      },
+      {
+        "titel": "World Plants – Ophiopogon planiscapus 'Nigrescens'",
+        "url": "https://www.worldplants.ca/display.php?id=1575"
+      },
+      {
+        "titel": "Dobbies – Ophiopogon Nigrescens",
+        "url": "https://www.dobbies.com/ophiopogon-nigrescens-1-5ltr/5637698829.p"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "status": "besitz",
+    "name": "Schwarze Zamie 'Raven'",
+    "botanisch": "Zamioculcas zamiifolia 'Dowon' (Raven®)",
+    "etikett": "#60 ZZ Raven",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "31.10.2026",
+    "standort": "",
+    "shop_link": "",
+    "preis": "9,99 € (Sonderpreis)",
+    "foto": "fotos/60.jpg",
+    "angelegt": "2026-10-31",
+    "notizen": "Am 31.10.2026 bei Jungle Leaves zum Sonderpreis gekauft; große Pflanze im Tontopf, mehrere Triebe bis etwa 1 m, mit Kordel gestützt. Sortenname 'Dowon', Handelsname Raven® (Costa Farms, im Handel seit 2019). Aronstabgewächs (Araceae) aus Ostafrika; einzige Art der Gattung. Neue Triebe erscheinen leuchtend hellgrün und dunkeln über einige Wochen zu fast Schwarz nach. Speichert Wasser in kartoffelartigen Rhizomen und dicken Stielen. Alle Teile enthalten Calciumoxalat – giftig für Haustiere und Kinder. Standort noch offen.",
+    "pflege": {
+      "licht": "Hell indirekt ideal (Foliage Factory: ca. 10.000–20.000 Lux), verträgt aber auch wenig Licht (Costa Farms); bei dauerhaft dunklem Stand vergeilt sie. Keine pralle Mittagssonne.",
+      "temperatur": "18–26 °C (Foliage Factory); nicht unter 15 °C (Foliage Factory, Clemson). Kälteempfindlich, keine Zugluft.",
+      "feuchte": "30–50 % genügen (Soltech; Foliage Factory 40–50 %); normale Zimmerluft reicht, kein Sprühen nötig – nasse Blätter können Pilzbefall fördern (Plantly).",
+      "wasser": "Durchdringend gießen, dann komplett austrocknen lassen; im Durchschnitt etwa alle 3–4 Wochen, im Winter noch seltener (Soltech). Staunässe ist die häufigste Todesursache (Rhizomfäule).",
+      "substrat": "Luftig, grob und schnell abtrocknend, eher mineralisch: Grünpflanzenerde mit viel Perlite, Bims oder Sand (Foliage Factory). Topf mit Abzugsloch.",
+      "duengen": "Schwachzehrer: im Frühjahr und Sommer etwa monatlich verdünnter Grünpflanzendünger, im Winter nicht.",
+      "besonderheiten": "Giftig (Calciumoxalat), beim Umtopfen ggf. Handschuhe. Vermehrung durch Teilung der Rhizome oder Blattstecklinge (dauert lange). Langsamwüchsig."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "durchdringend, dann austrocknen lassen",
+      "kurz": "Erst gießen, wenn die Erde ganz trocken ist (ca. alle 3–4 Wochen).",
+      "winter": "Noch seltener."
+    },
+    "quellen": [
+      {
+        "titel": "Costa Farms – Raven® ZZ Plant",
+        "url": "https://costafarms.com/plants/raven-zz-plant"
+      },
+      {
+        "titel": "Foliage Factory – Zamioculcas zamiifolia 'Raven'",
+        "url": "https://foliage-factory.com/products/zamioculcas-zamiifolia-raven"
+      },
+      {
+        "titel": "Soltech – ZZ 'Raven' Care",
+        "url": "https://soltech.com/products/zz-raven-care"
+      },
+      {
+        "titel": "Clemson HGIC – ZZ Plant",
+        "url": "https://hgic.clemson.edu/factsheet/zz-plant-zamioculcas-zamiifolia-indoor-care-growing-tips-plant-guide/"
+      },
+      {
+        "titel": "Plantly – Raven ZZ",
+        "url": "https://plantly.io/plant-care/raven-zz/"
+      }
+    ]
   }
 ]

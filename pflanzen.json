@@ -2016,5 +2016,105 @@
       "via": "iNaturalist",
       "hinweis": "Naturstandort in Orellana, Ecuador"
     }
+  },
+  {
+    "id": 51,
+    "status": "wunsch",
+    "name": "Samt-Korbmarante",
+    "botanisch": "Goeppertia warszewiczii (syn. Calathea warszewiczii)",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/goeppertia-warszewiczii",
+    "preis": "14,99 € (14-cm-Topf) · 24,99 € (19-cm-Topf)",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/654041736/large.jpg",
+    "notizen": "Pfeilwurzgewächs (Marantaceae), Englisch „Jungle Velvet“. Heimat Mittelamerika: feuchte Tropenwälder in Costa Rica, Nicaragua und Panama, oft an Flussufern und Lichtungsrändern (Monaco Nature Encyclopedia); NC State nennt zusätzlich El Salvador und Honduras. Benannt nach Józef Warszewicz, der sie in Berlin in Kultur brachte. Horstig aus einem unterirdischen Rhizom, wächst aufrechter als die meisten Korbmaranten und wird etwa 0,5–1,2 m hoch. Lange, samtig behaarte, dunkelgrüne Blätter mit hellgrüner Fischgrätenzeichnung entlang der Mittelrippe und gewelltem Rand, Unterseite und Stiele purpurn. Blütenstand aus weißen, später purpurrötlich werdenden Hochblättern mit cremeweißen Röhrenblüten; blüht – für die Gattung ungewöhnlich – auch im Zimmer. Blätter falten sich nachts auf. Am 31.10.2026 bei Jungle Leaves in beiden Größen ausverkauft. Für die Größe eher Zimmerstandort mit Luftbefeuchter als Terrarium.",
+    "pflege": {
+      "licht": "Hell, aber ohne direkte Sonne (Monaco Nature Encyclopedia); toleriert Halbschatten (NC State). Zu viel Sonne verbrennt die Blätter, zu wenig Licht lässt die Zeichnung verblassen.",
+      "temperatur": "Ideal 20–26 °C, im Winter nicht unter 16 °C (Monaco Nature Encyclopedia); NC State nennt stabile 18–24 °C. Keine Zugluft, keine plötzlichen Temperaturwechsel.",
+      "feuchte": "60–80 %: NC State empfiehlt über 60 %, die Monaco Nature Encyclopedia 70–80 %. Unter etwa 50 % braune Blattspitzen und eingerollte Blätter. Wegen der Größe eher Luftbefeuchter als Vitrine.",
+      "wasser": "Gleichmäßig feucht, nie nass und nie ganz trocken; Staunässe führt zu Wurzelfäule. Regen- oder entmineralisiertes Wasser, Leitungswasser (Fluorid, Kalk) verursacht braune Blattränder (NC State, Monaco Nature Encyclopedia).",
+      "substrat": "Humos, luftig und gut durchlässig, leicht sauer: torf- oder kokosbasierte Erde mit Perlite und Vermiculit (NC State).",
+      "duengen": "Frühling bis Sommer monatlich ausgewogener Flüssigdünger, schwach dosiert (Monaco: ¼ der Packungsangabe); im Winter nicht.",
+      "besonderheiten": "Ungiftig für Katzen und Hunde (NC State). Anfällig für Spinnmilben bei trockener Luft, außerdem Wollläuse, Blattläuse und Schildläuse; Blattflecken bei nassem Laub und schlechter Luftbewegung. Vermehrung durch Teilung des Rhizoms im Frühjahr."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig feucht, nie nass, nie austrocknen; weiches Wasser.",
+      "winter": "Etwas weniger, Ballen nicht austrocknen lassen; nicht unter 16 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Calathea warszewiczii",
+        "url": "https://www.jungle-leaves.de/products/goeppertia-warszewiczii"
+      },
+      {
+        "titel": "NC State Extension – Goeppertia warszewiczii",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-warszewiczii"
+      },
+      {
+        "titel": "Monaco Nature Encyclopedia – Goeppertia warszewiczii",
+        "url": "https://www.monaconatureencyclopedia.com/goeppertia-warszewiczii/?lang=en"
+      },
+      {
+        "titel": "Wikipedia – Goeppertia warszewiczii",
+        "url": "https://en.wikipedia.org/wiki/Goeppertia_warszewiczii"
+      }
+    ],
+    "bildnachweis": {
+      "urheber": "Cody Hinchliff",
+      "lizenz": "CC BY 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by/4.0/",
+      "quelle_url": "https://www.inaturalist.org/observations/358525233",
+      "via": "iNaturalist",
+      "hinweis": "Naturstandort in Sarapiquí, Heredia, Costa Rica"
+    }
+  },
+  {
+    "id": 52,
+    "status": "wunsch",
+    "name": "Korbmarante 'Surprise Star'",
+    "botanisch": "Goeppertia roseopicta 'Surprise Star' (syn. Calathea roseopicta 'Surprise Star')",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Sorte der Rosen-Korbmarante, auch als 'Princess Jessie' gehandelt. Die Art Goeppertia roseopicta stammt aus den Regenwäldern im Westen Südamerikas und Westbrasiliens (NC State: Nord- und West-Zentral-Brasilien, Kolumbien, Ecuador, Peru). Kompakt und horstig, laut RHS 10–50 cm hoch und breit, braucht 5–10 Jahre bis zur Endgröße. Breite, ovale, dunkelgrüne bis fast schwarz-weinrote Blätter mit rosa Rand und rosa Mittelrippe, Unterseite purpurn; gelegentlich kleine rosa-weiße Blüten im Sommer (RHS). Blätter falten sich abends auf. Gilt als heikle Calathea: Die rosa Ränder werden bei zu trockener Luft oder hartem Wasser schnell braun. Mit 30–50 cm eher für Vitrine oder großes Terrarium geeignet als die Samt-Korbmarante #51. Händler noch offen.",
+    "pflege": {
+      "licht": "Hell indirekt, laut RHS Ost-, Nord- oder Westfenster; keine direkte Sonne, die dunklen Blätter verbrennen leicht. Zu dunkel verblasst die Färbung (NC State).",
+      "temperatur": "Etwa 18–24 °C (NC State), nie unter 16 °C (RHS: Winterhärte H1A, ganzjährig unter Glas über 15 °C). Zugluftgeschützt.",
+      "feuchte": "60–80 %: NC State empfiehlt über 60 %, Soltech 60–80 %. Unter 50 % werden laut Soltech die rosa Ränder innerhalb weniger Tage braun. Gewächshaus, Vitrine oder Luftbefeuchter.",
+      "wasser": "Gleichmäßig feucht, nicht nass; im Winter nur knapp feucht halten (RHS). Regen- oder entmineralisiertes Wasser, da Fluorid im Leitungswasser braune Blätter verursacht (NC State).",
+      "substrat": "Humos, durchlässig, leicht sauer: torf- oder kokosbasierte Erde mit Perlite oder Vermiculit (NC State); RHS rät zu torffreier Kübelerde.",
+      "duengen": "Frühling bis Sommer monatlich ausgewogener Flüssigdünger (NC State, RHS), im Winter nicht.",
+      "besonderheiten": "Ungiftig für Katzen und Hunde (NC State). Schädlinge: Spinnmilben, Weiße Fliege (RHS), Wollläuse, Blattläuse, Schildläuse. Nasses Laub begünstigt Blattflecken. Vermehrung durch Teilung im späten Frühjahr; kein Rückschnitt nötig."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig feucht, nie nass; weiches Wasser.",
+      "winter": "Nur knapp feucht, nicht unter 16 °C."
+    },
+    "quellen": [
+      {
+        "titel": "RHS – Goeppertia roseopicta 'Surprise Star'",
+        "url": "https://www.rhs.org.uk/plants/371064/goeppertia-roseopicta-surprise-star/details"
+      },
+      {
+        "titel": "NC State Extension – Goeppertia roseopicta",
+        "url": "https://plants.ces.ncsu.edu/plants/goeppertia-roseopicta"
+      },
+      {
+        "titel": "Soltech – Calathea 'Surprisestar' Care",
+        "url": "https://soltech.com/products/calathea-roseopicta-surprisestar-care"
+      }
+    ]
   }
 ]

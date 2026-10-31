@@ -2300,5 +2300,46 @@
       }
     ],
     "angelegt": "2026-10-31"
+  },
+  {
+    "id": 57,
+    "status": "besitz",
+    "name": "Juwelorchidee 'Gold'",
+    "botanisch": "Macodes petola 'Gold'",
+    "etikett": "#57 Macodes Gold",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "31.10.2026",
+    "standort": "Kallax-Terrarium",
+    "shop_link": "https://www.jungle-leaves.de/en/products/macodes-petola",
+    "preis": "14,99 € (Shop-Preis)",
+    "foto": "fotos/57.jpg",
+    "notizen": "Am 31.10.2026 bei Jungle Leaves gekauft, ohne Etikett; laut eigener Angabe die Variante 'Gold' der Macodes petola. Fast schwarze Blätter mit kupfer- bis goldfarbenem Adernetz, rötliche Stiele; deutlich dunkler als #53 (grüne Blätter, gelbgrüne Adern). Jungle Leaves führt die Klone Standard, Gold und Dark. Art: Heimat Thailand und Malesien, wächst an sehr schattigen Stellen meist lithophytisch auf feuchtem Fels; 5–10 cm hoch, Blätter 3–5 cm. Nach der Blüte stirbt der Trieb langsam ab, bildet aber Ausläufer, sodass dichte Matten entstehen (Jungle Leaves). Pflege wie #53.",
+    "pflege": {
+      "licht": "Wenig Licht: 1.500–3.000 Lux bzw. 35–70 PPFD genügen; mit weniger Licht beste Färbung, aber langsameres Wachstum (Jungle Leaves). Keine direkte Sonne, sie verbrennt die Blätter und bleicht das Muster (Araflora). Kunstlicht 20–40 cm über der Pflanze (Araflora).",
+      "temperatur": "Bestes Wachstum bei 22–28 °C (Jungle Leaves); Araflora nennt 18–25 °C, Minimum 15 °C, Maximum 30 °C. Bei sehr nassem Substrat besonders warm halten, sonst droht Wurzelfäule.",
+      "feuchte": "70–100 %: Jungle Leaves nennt 70 % oder mehr, auch 100 % in stiller Luft möglich; Araflora tagsüber 70–90 %, nachts 80–100 %. Dann aber darauf achten, dass kein Wasser auf den Blättern stehen bleibt.",
+      "wasser": "Nie ganz austrocknen lassen, aber keine Staunässe; die Oberfläche darf antrocknen. Weiches Wasser (Osmose oder Regen), Leitwert etwa 20–100 µS/cm (Jungle Leaves).",
+      "substrat": "Grob, luftig, gleichmäßig feucht, leicht sauer (pH ca. 5,5–6,5): Kokoschips mit etwas Sphagnum oder Baumfarnfaser, auch rein mineralisch möglich. Flache, breite Schale. Stamm nie eingraben, nur auflegen. Nach dem Kauf nicht sofort umtopfen (Jungle Leaves).",
+      "duengen": "Unter Pflanzenlampe ganzjährig etwa alle 2–3 Wochen harnstofffreier Orchideendünger in halber Dosis (ca. 300 µS/cm); im eingefahrenen bioaktiven Terrarium nicht nötig (Jungle Leaves).",
+      "besonderheiten": "Nasse Blätter über längere Zeit führen zu Fäulnis, daher Luftbewegung. Verblühte Stiele entfernen (Araflora). Gleiche Ansprüche wie #53 Macodes petola und #38/#39 Anoectochilus."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat, Blätter trocken halten",
+      "kurz": "Gleichmäßig leicht feucht, Oberfläche darf antrocknen, keine Staunässe.",
+      "winter": "Unverändert, nicht unter 18 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Macodes petola",
+        "url": "https://www.jungle-leaves.de/en/products/macodes-petola"
+      },
+      {
+        "titel": "Araflora – Macodes petola",
+        "url": "https://www.araflora.com/product/macodes-petola-jewel-orchid-care-buy/"
+      }
+    ],
+    "angelegt": "2026-10-31"
   }
 ]

@@ -2508,5 +2508,66 @@
         "url": "https://plantly.io/plant-care/raven-zz/"
       }
     ]
+  },
+  {
+    "id": 61,
+    "status": "wunsch",
+    "name": "Südseepalme",
+    "botanisch": "Biophytum sensitivum",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/biophytum-sensitivum-suedseepalme",
+    "preis": "7,99 €",
+    "foto": "",
+    "notizen": "Keine Palme, sondern ein Sauerkleegewächs (Oxalidaceae; Synonym Oxalis sensitiva). Heimat laut POWO das tropische und subtropische Asien (Indien, Nepal, Südchina, Taiwan, Indochina, Malesien bis Philippinen und Sulawesi), überwiegend im feuchten Tropenbiom; wächst an schattigen Stellen, Flussufern, in feuchtem Gebüsch und auf Brachland (PROSEA). Unverzweigter Stamm mit einer Rosette gefiederter Blätter an der Spitze, dadurch Mini-Palmen-Optik; in Kultur meist 10–20 cm, max. ca. 35–40 cm. Die Fiederblättchen klappen bei Berührung und nachts nach unten (wie Mimose). Blüht in Kultur fast ganzjährig klein gelb, weiß oder rosa und sät sich selbst aus – in Terrarien entstehen so laufend Jungpflanzen. Botanisch einjährig: Einzelpflanzen leben oft nur 1–2 Jahre, Bestand wird über Sämlinge erhalten. Jungle Leaves weist darauf hin, dass ihre Pflanzen möglicherweise B. dendroides sind (rosa Blüten, Merkmale beider Arten). Dort 7,99 € für eine Jungpflanze (5–10 cm, 7-cm-Vierkanttopf), Stand Nov 2026 ausverkauft. Gut geeignet für ein geschlossenes Tropenterrarium.",
+    "pflege": {
+      "licht": "Hell bis halbschattig, keine direkte Mittagssonne (Araflora). Kommt als Bodenbewohner auch mit weniger Licht aus; im Terrarium unter LED gut zu halten, Lampenabstand etwa 30–60 cm (Araflora).",
+      "temperatur": "Tagsüber etwa 18–28 °C, nachts 15–25 °C (Araflora, Plants for All Seasons, GrowTropicals). Dauerhaft nicht unter 15 °C; absolutes Minimum ca. 10 °C (Araflora). Kalte Zugluft und Temperatursprünge führen zu Blattabwurf.",
+      "feuchte": "60–80 %, ideal bis 90 %: Araflora nennt tagsüber 60–90 %, nachts 70–100 %; GrowTropicals 70–90 %, Foliage Factory und Plants for All Seasons 60–80 %. Unter ca. 50 % kümmert sie und wird anfällig für Spinnmilben – daher klar ein Terrarien- bzw. Vitrinenkandidat.",
+      "wasser": "Gleichmäßig feucht, nie nass oder im Wasser stehend (Araflora). Oberste 0,5–1 cm leicht antrocknen lassen (Plants for All Seasons). Möglichst weiches Wasser (Regen- oder gefiltertes Wasser); im Winter etwas sparsamer.",
+      "substrat": "Locker, humos, feuchtigkeitshaltend und gut drainiert, leicht sauer (pH 5–7, torf- bzw. torfersatzbasiert; Araflora). Im Terrarium z. B. ABG-Mix oder faserige Tropenmischung (Terrarium Tribe). Jährlich umtopfen bzw. Substrat erneuern.",
+      "duengen": "Wenig: in der Wachstumszeit alle 2–4 Wochen stark verdünnter Flüssigdünger (Plants for All Seasons), im Winter seltener.",
+      "besonderheiten": "Reagiert auf Berührung (Thigmonastie) und schläft nachts (Nyktinastie); Bewegung langsamer als bei Mimosa pudica. Hört sie auf zu reagieren oder wirft Blätter ab, ist das ein frühes Stresszeichen. In Kultur besonders anfällig für Spinnmilben (Wikipedia/ukhouseplants), sonst Blattläuse, Wollläuse. Samenkapseln schleudern Samen aus; Sämlinge keimen in 1–2 Wochen auf feuchtem Substrat. Toxizität nicht sicher belegt – vorsorglich außer Reichweite von Haustieren."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig feucht, oberste 0,5–1 cm antrocknen lassen; nie nass.",
+      "winter": "Etwas sparsamer, nicht unter 15 °C."
+    },
+    "quellen": [
+      {
+        "titel": "POWO (Kew) – Biophytum sensitivum",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:371965-1"
+      },
+      {
+        "titel": "PROSEA (Pl@ntUse) – Biophytum sensitivum",
+        "url": "https://uses.plantnet-project.org/en/Biophytum_sensitivum_(PROSEA)"
+      },
+      {
+        "titel": "GBIF – Biophytum sensitivum",
+        "url": "https://www.gbif.org/species/3628231"
+      },
+      {
+        "titel": "Araflora – Biophytum sensitivum",
+        "url": "https://www.araflora.com/product/biophytum-sensitivum/"
+      },
+      {
+        "titel": "Plants for All Seasons – Biophytum sensitivum Care Guide",
+        "url": "https://www.plantsforallseasons.co.uk/products/biophytum-sensitivum-9cm-pot-15cm-height-house-plant"
+      },
+      {
+        "titel": "Terrarium Tribe – Biophytum sensitivum",
+        "url": "https://terrariumtribe.com/terrarium-plants/biophytum-sensitivum-little-tree-plant/"
+      },
+      {
+        "titel": "Jungle Leaves – Biophytum sensitivum (Südseepalme)",
+        "url": "https://www.jungle-leaves.de/products/biophytum-sensitivum-suedseepalme"
+      }
+    ],
+    "angelegt": "2026-11-03"
   }
 ]

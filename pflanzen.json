@@ -205,11 +205,11 @@
     "etikett": "#7 Dossinia",
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
-    "standort": "Gewächshaus Küche",
+    "standort": "Kallax-Terrarium",
     "shop_link": "",
     "preis": "19,95 €",
     "foto": "fotos/7.jpg",
-    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel (vorher auf der Wunschliste, gesehen bei Jungle Leaves). Heimat Borneo, wächst dort im Tiefland auf Kalkstein in Laubstreu und Moos.",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel (vorher auf der Wunschliste, gesehen bei Jungle Leaves). Heimat Borneo, wächst dort im Tiefland auf Kalkstein in Laubstreu und Moos.\n\n2026-11-04: Umgezogen von „Gewächshaus Küche“ ins Kallax-Terrarium.",
     "pflege": {
       "licht": "Schattig bis halbschattig; verträgt mehr Licht als andere Juwelorchideen, aber keine direkte Sonne.",
       "temperatur": "Warm, verträgt auch über 30 °C; nicht kühl stellen.",
@@ -235,6 +235,9 @@
         "titel": "Jungle Leaves – Dossinia marmorata",
         "url": "https://www.jungle-leaves.de/products/dossinia-marmorata"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {
@@ -1377,11 +1380,11 @@
     "etikett": "#38 Red Dragon",
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
-    "standort": "Gewächshaus Küche",
+    "standort": "Kallax-Terrarium",
     "shop_link": "",
     "preis": "12,95 €",
     "foto": "fotos/38.jpg",
-    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Dunkelgrüne Blätter mit goldgelbem Adernetz, rötliche Töne an Stiel und Blattbasis.",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Dunkelgrüne Blätter mit goldgelbem Adernetz, rötliche Töne an Stiel und Blattbasis.\n\n2026-11-04: Umgezogen von „Gewächshaus Küche“ ins Kallax-Terrarium.",
     "pflege": {
       "licht": "Gedämpftes, indirektes Licht, keine direkte Sonne – das Händleretikett („hell und sonnig“) ist für Juwelorchideen zu viel. Zu viel Licht bleicht die Zeichnung aus, zu wenig macht die Triebe lang.",
       "temperatur": "Etwa 18–25 °C, nachts einige Grad kühler, möglichst nicht unter 16 °C (Orchids-Shop); Araflora nennt 15–30 °C. Über 28 °C und Zugluft vermeiden.",
@@ -1411,6 +1414,9 @@
         "titel": "Plants of the World Online – Anoectochilus roxburghii",
         "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {
@@ -1421,11 +1427,11 @@
     "etikett": "#39 Anoect. Black",
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
-    "standort": "Gewächshaus Küche",
+    "standort": "Kallax-Terrarium",
     "shop_link": "",
     "preis": "12,95 €",
     "foto": "fotos/39.jpg",
-    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Fast schwarze Blätter mit goldenem Adernetz. Langer, kriechender Stängel – beim Umtopfen flach auflegen.",
+    "notizen": "Gekauft im Oktober 2026 beim Schwerter Orchideenhandel. Fast schwarze Blätter mit goldenem Adernetz. Langer, kriechender Stängel – beim Umtopfen flach auflegen.\n\n2026-11-04: Umgezogen von „Gewächshaus Küche“ ins Kallax-Terrarium.",
     "pflege": {
       "licht": "Gedämpftes, indirektes Licht, keine direkte Sonne – das Händleretikett („hell und sonnig“) ist für Juwelorchideen zu viel. Zu viel Licht bleicht die Zeichnung aus, zu wenig macht die Triebe lang.",
       "temperatur": "Etwa 18–25 °C, nachts einige Grad kühler, möglichst nicht unter 16 °C (Orchids-Shop); Araflora nennt 15–30 °C. Über 28 °C und Zugluft vermeiden.",
@@ -1455,6 +1461,9 @@
         "titel": "Plants of the World Online – Anoectochilus roxburghii",
         "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {
@@ -1515,6 +1524,9 @@
         "titel": "Gardino Nursery – Schoenorchis scolopendria",
         "url": "https://gardinonursery.com/?p=45212"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {
@@ -1959,6 +1971,9 @@
         "titel": "Wikipedia – Marcgraviaceae",
         "url": "https://en.wikipedia.org/wiki/Marcgraviaceae"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {
@@ -2156,7 +2171,10 @@
         "url": "https://www.araflora.com/product/macodes-petola-jewel-orchid-care-buy/"
       }
     ],
-    "angelegt": "2026-10-31"
+    "angelegt": "2026-10-31",
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
+    ]
   },
   {
     "id": 54,
@@ -2205,7 +2223,10 @@
         "url": "https://reach.dog/shop/littleorchidannie/products/schoenorchis-juncifolia-mount"
       }
     ],
-    "angelegt": "2026-10-31"
+    "angelegt": "2026-10-31",
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
+    ]
   },
   {
     "id": 55,
@@ -2250,7 +2271,10 @@
         "url": "https://orchid.guru/content/orchids/s/schoenorchis/fragrans"
       }
     ],
-    "angelegt": "2026-10-31"
+    "angelegt": "2026-10-31",
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
+    ]
   },
   {
     "id": 56,
@@ -2299,7 +2323,10 @@
         "url": "https://en.wikipedia.org/wiki/Marcgraviaceae"
       }
     ],
-    "angelegt": "2026-10-31"
+    "angelegt": "2026-10-31",
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
+    ]
   },
   {
     "id": 57,
@@ -2344,7 +2371,10 @@
         "url": "https://powo.science.kew.org/taxon/20008194-1"
       }
     ],
-    "angelegt": "2026-10-31"
+    "angelegt": "2026-10-31",
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
+    ]
   },
   {
     "id": 58,
@@ -2405,6 +2435,9 @@
         "titel": "Wikipedia – Paphiopedilum micranthum",
         "url": "https://en.wikipedia.org/wiki/Paphiopedilum_micranthum"
       }
+    ],
+    "weitere_fotos": [
+      "fotos/kallax-terrarium.jpg"
     ]
   },
   {

@@ -2675,5 +2675,163 @@
       }
     ],
     "angelegt": "2026-11-05"
+  },
+  {
+    "id": 63,
+    "status": "wunsch",
+    "name": "Sonnentau (Woolly Sundew)",
+    "botanisch": "Drosera ordensis",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "",
+    "preis": "",
+    "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/287801324/large.jpeg",
+    "bildnachweis": {
+      "urheber": "Thilo Krueger",
+      "lizenz": "CC BY-NC 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "quelle_url": "https://www.inaturalist.org/photos/287801324",
+      "via": "iNaturalist",
+      "hinweis": "Naturstandort am Lake Argyle, Western Australia"
+    },
+    "notizen": "Tropischer Sonnentau aus dem Drosera-petiolaris-Komplex (Sektion Lasiocephala), 1994 von Allen Lowrie beschrieben (Nuytsia 9: 363–367); nächster Verwandter ist D. lanata. Heimat: Nordosten Western Australias um Kununurra und das angrenzende Northern Territory (Keep River NP), laut FloraBase in mehreren Kimberley-Regionen. Wächst in sandigen Böden aus Sandstein, oft in großen Kolonien nahe gebänderter Sandsteinfelsen, wo Abflusswasser den Boden länger feucht hält; offene Waldlandschaft, häufig zusammen mit Sorghum-Gräsern. Rosetten meist ca. 8 cm, selten bis 20 cm Durchmesser. Typisch sind die breiten, dicht silbrig-wollig behaarten Blattstiele; in der Trockenzeit bildet sie kleinere, besonders dicht behaarte Ruheblätter. Blüten rosa bis fast weiß, ca. 1,5 cm, am Naturstandort Dezember bis April. Im Handel meist mit Fundortangabe (z. B. 'Timber Creek', 'Kununurra', 'Mornington Station'). Passt von den Ansprüchen her zur vorhandenen D. paradoxa (#18) ins warme Gewächshaus Küche; gilt aber als heikler als paradoxa.",
+    "pflege": {
+      "licht": "Volle Sonne bzw. sehr starkes Kunstlicht (Wikipedia/Lowrie: offene, sonnige Standorte); Petiolaris-Arten brauchen im Sommer viel direkte Sonne (Giardino Carnivoro). Unter LED ca. 12–14 h. Bei zu wenig Licht kein Tau und gestreckte Blätter.",
+      "temperatur": "Ganzjährig warm: ideal ca. 27–35 °C (Carlton Carnivores: 80–95 °F ganzjährig), Händlerangaben 10–32 °C als Toleranzgrenzen (Rainbow Carnivorous Plants). Petiolaris-Komplex allgemein nicht dauerhaft unter ca. 21 °C, im Winter nicht unter 18 °C (FlytrapCare-Forum, Diflora). Warme Wurzeln wichtig – Heizmatte hilft (Curiousplant).",
+      "feuchte": "Ca. 50–80 % mit Luftbewegung: Rainbow Carnivorous Plants nennt 50–90 % mit Airflow, Curiousplant für die Hybride D. ordensis × falconeri 35–75 %. Die wollig behaarten Arten vertragen stehende, sehr feuchte Luft schlechter als paradoxa – im geschlossenen Becken lüften, sonst Fäulnis (TerraForums).",
+      "wasser": "In der Wachstumszeit im Anstau mit wenig Wasser (ca. 1 cm), Substrat dauerhaft feucht. Nur weiches Wasser (Regen, Osmose, destilliert). Bei kühleren Bedingungen oder Ruhephase deutlich trockener halten, sonst Fäulnisgefahr (Diflora).",
+      "substrat": "Sehr sandig: Torf mit viel Quarzsand, oder lockeres Sphagnum (Carlton Carnivores); Lowrie beschreibt sandige Böden aus verwittertem Sandstein. Torf-Perlite geht ebenfalls (Rainbow Carnivorous Plants).",
+      "duengen": "Füttern statt düngen: alle 2–4 Wochen Insekten, getrocknete Mückenlarven oder Fischfutter auf die Blätter (Curiousplant, Rainbow). Kein Dünger ins Substrat.",
+      "besonderheiten": "Gehört zu den schwierigeren Petiolaris-Arten (Carlton Carnivores: \"routinely given me significant trouble\"). Kann bei Stress (Versand, Kälte) in eine Trockenruhe gehen und kleine, stark behaarte Blätter bilden – dann wärmer und trockener halten, nicht aufgeben. Keine kalte Winterruhe."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau",
+      "kurz": "Flacher Anstau (ca. 1 cm), dauerhaft feucht und warm.",
+      "winter": "Warm halten (min. 18 °C); bei Ruhe/Kühle trockener."
+    },
+    "quellen": [
+      {
+        "titel": "Lowrie (1994): Drosera ordensis – Nuytsia 9(3): 363–367",
+        "url": "https://library.dbca.wa.gov.au/Journals/080057/080057-09.021.pdf"
+      },
+      {
+        "titel": "FloraBase (WA Herbarium) – Drosera ordensis",
+        "url": "https://florabase.dbca.wa.gov.au/browse/profile/14919"
+      },
+      {
+        "titel": "Wikipedia – Drosera ordensis",
+        "url": "https://en.wikipedia.org/wiki/Drosera_ordensis"
+      },
+      {
+        "titel": "Carlton Carnivores – Drosera ordensis",
+        "url": "https://www.carltoncarnivores.com/drosera-ordensis"
+      },
+      {
+        "titel": "Rainbow Carnivorous Plants – Drosera ordensis",
+        "url": "https://rainbowcarnivorousplants.com/products/copy-of-drosera-spatulata-beenak-victoria-au-live-carnivorous-plant"
+      },
+      {
+        "titel": "Curiousplant – Drosera ordensis × falconeri",
+        "url": "https://curiousplant.com/?p=15694"
+      },
+      {
+        "titel": "Diflora – Petiolaris-Drosera Pflege",
+        "url": "https://diflora.it/product/drosera-ordensis-x-falconeri/"
+      },
+      {
+        "titel": "Giardino Carnivoro – Drosera ordensis Mornington Station",
+        "url": "https://www.giardinocarnivoro.it/en/products/drosera-ordensis-mornington-station-kimberley-wa"
+      },
+      {
+        "titel": "TerraForums – D. ordensis/derbyensis help",
+        "url": "https://terraforums.com/forums/threads/d-ordensis-derbyensis-help.118591/"
+      },
+      {
+        "titel": "FlytrapCare Forum – Temperaturen Petiolaris-Komplex",
+        "url": "https://flytrapcare.com/phpBB3/post230430.html"
+      }
+    ],
+    "angelegt": "2026-11-05"
+  },
+  {
+    "id": 64,
+    "status": "wunsch",
+    "name": "Gabelblättriger Sonnentau",
+    "botanisch": "Drosera binata",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "",
+    "preis": "",
+    "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Drosera_binata_kz02.jpg/960px-Drosera_binata_kz02.jpg",
+    "bildnachweis": {
+      "urheber": "Krzysztof Ziarnek (Kenraiz)",
+      "lizenz": "CC BY-SA 4.0",
+      "lizenz_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "quelle_url": "https://commons.wikimedia.org/wiki/File:Drosera_binata_kz02.jpg",
+      "via": "Wikimedia Commons",
+      "hinweis": ""
+    },
+    "notizen": "Großer, ausdauernder Sonnentau aus den sandigen Sümpfen Süd- und Ostaustraliens, Tasmaniens und Neuseelands (ICPS); 1792 erstmals gesammelt, beschrieben von Labillardière. Unverwechselbar durch die schmalen, Y-förmig gegabelten Blätter auf langen Stielen; Sämlinge haben noch ungegabelte Blätter. Viele Formen: 'T-Form' (einfach gegabelt, typisch), var. dichotoma (bis 4 Spitzen, bis ca. 40 cm), var. multifida (bis 16 Spitzen, bis ca. 50 cm), 'Extrema', 'Octopus', 'Marston Dragon', Neuseeland-Formen wie 'Coromandel' (10–20 cm, in Sonne dunkelrot, selbstfertil) – kühlere Herkünfte bleiben kleiner. Dicke schwarze Wurzeln, aus denen sie nach Frost oder Rückschnitt oft wieder austreibt. Anders als paradoxa/ordensis warm-gemäßigt mit Winterruhe – passt also nicht ins warme Küchengewächshaus, sondern eher sommers draußen/Balkon und winters kühl. Einfache, robuste Art; Bezug z. B. bei Karnivores.com ca. 10 € (9-cm-Topf), Formen bei vielen Karnivorenhändlern.",
+    "pflege": {
+      "licht": "Volle Sonne bzw. sehr hell; draußen in voller Sonne möglich, im Sommer langsam an Sonne gewöhnen (California Carnivores). Ohne genug Licht kein Tau. Indoor unter starker LED; dort bleibt sie bei Wärme teils aktiv, geht aber oft trotzdem in Ruhe (ICPS).",
+      "temperatur": "Sommer bis ca. 30 °C, kurzzeitig mehr; Winter 0–15 °C (Karnivores.com). Verträgt kurz leichten Frost (ca. −6 °C laut California Carnivores), Wurzelballen aber nicht durchfrieren lassen – bei Frostgefahr in Garage oder kühlen hellen Raum (ICPS). Keimung bei 20–25 °C.",
+      "feuchte": "Mindestens ca. 40 % (California Carnivores), gut bei 40–70 %; normale Außenluft genügt, kein Terrarium nötig. Als Faustregel für Sonnentau in beheizten Räumen über 60 % (Gartenjournal) – im Winterquartier bei Kühle unkritisch.",
+      "wasser": "Sommer: Topf dauerhaft im Wasseruntersetzer (Anstau), gern hoher Wasserstand; große Töpfe bevorzugt (ICPS). Winter: Substrat nur feucht halten, nicht im Wasser stehen lassen (Karnivores.com). Ausschließlich weiches Wasser (Regen, Osmose, demineralisiert); hartes Wasser tötet sie innerhalb weniger Wochen.",
+      "substrat": "Anspruchslos: Torf-Sand 1:1 (Standard-Karnivorenmischung), obere Topfhälfte gern sandiger 1:2 (ICPS). Tiefe Töpfe für die langen Wurzeln. Alle ca. 3 Jahre in der Ruhezeit umtopfen (California Carnivores).",
+      "duengen": "Draußen fängt sie genug selbst. Drinnen gelegentlich füttern oder stark verdünnter Blattdünger (California Carnivores); nicht ins Substrat düngen.",
+      "besonderheiten": "Echte Winterruhe: Blätter sterben ab, Pflanze zieht bis auf Knospe/Wurzeln ein (ICPS) – das ist normal, nicht wegwerfen. Var. multifida bildet ein Hibernakel (Karnivores.com). Vermehrung leicht über Wurzelstecklinge oder Teilung; viele Kulturformen sind steril oder selbstinkompatibel. Neigt in kleinen Töpfen zum Auswuchern."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "nass",
+      "methode": "Anstau",
+      "kurz": "Im Sommer dauerhaft im Wasseruntersetzer.",
+      "winter": "Kühl (0–15 °C), Substrat nur feucht, kein Anstau."
+    },
+    "quellen": [
+      {
+        "titel": "International Carnivorous Plant Society – Growing Drosera binata",
+        "url": "https://www.carnivorousplants.org/grow/guides/Dbinata"
+      },
+      {
+        "titel": "Wikipedia – Drosera binata",
+        "url": "https://en.wikipedia.org/wiki/Drosera_binata"
+      },
+      {
+        "titel": "VicFlora – Drosera binata",
+        "url": "https://vicflora.rbg.vic.gov.au/flora/taxon/5a60308a-c936-416d-9742-1b7b0f40332e"
+      },
+      {
+        "titel": "California Carnivores – Drosera binata",
+        "url": "https://californiacarnivores.com/products/drosera-binata-deluxe-potted"
+      },
+      {
+        "titel": "California Carnivores – Drosera binata 'Octopus'",
+        "url": "https://www.californiacarnivores.com/products/drosera-binata-octopus-potted"
+      },
+      {
+        "titel": "Karnivores.com – Drosera binata",
+        "url": "https://www.karnivores.com/en/drosera/376-drosera-young-3760384036169.html"
+      },
+      {
+        "titel": "Karnivores.com – Drosera binata var. multifida",
+        "url": "https://www.karnivores.com/gb/drosera/366-drosera-binata-var-multifida-3760384031560.html"
+      },
+      {
+        "titel": "Carnivero – Drosera binata, Forked Sundew",
+        "url": "https://www.carnivero.com/products/drosera-binata-forked-sundew"
+      },
+      {
+        "titel": "Gartenjournal – Sonnentau überwintern",
+        "url": "https://www.gartenjournal.net/sonnentau-ueberwintern"
+      }
+    ],
+    "angelegt": "2026-11-05"
   }
 ]

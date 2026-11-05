@@ -2602,5 +2602,78 @@
       }
     ],
     "angelegt": "2026-11-03"
+  },
+  {
+    "id": 62,
+    "status": "besitz",
+    "name": "Buddhas Tempel",
+    "botanisch": "Crassula 'Buddha's Temple' (C. pyramidalis × C. perfoliata var. minor)",
+    "etikett": "#62 Crassula Buddha's Temple",
+    "herkunft": "Geschenk meiner Frau",
+    "kaufdatum": "05.11.2026",
+    "standort": "",
+    "shop_link": "",
+    "preis": "",
+    "foto": "fotos/62.jpg",
+    "notizen": "Am 05.11.2026 von meiner Frau geschenkt; zwei Säulen im kleinen Gärtnereitopf mit torfig-faseriger Erde. Hybride, 1959 von Myron Kimnach (Huntington Botanical Gardens) aus Crassula pyramidalis × C. perfoliata var. minor (syn. var. falcata) gezüchtet; beide Eltern aus Südafrika. Synonym im Handel: Crassula 'Kimnachii'. Bildet dicht gestapelte, nach oben gebogene Blätter zu quadratischen Säulen (von oben kreuzförmig), langsam wachsend, etwa 5–15 cm hoch. Wächst vor allem in der kühleren Jahreszeit (Frühjahr, Herbst, früher Winter) und ruht bei Sommerhitze. Umtopfen nicht dringend; Empfehlung: im Frühjahr in mineralisches Substrat, früher nur, wenn die Gärtnereierde nach dem Gießen lange nass bleibt. Ohne genug Licht vergeilt sie: Säulen strecken sich, die Pagodenform geht dauerhaft verloren.",
+    "pflege": {
+      "licht": "Sehr hell, gern einige Stunden direkte Sonne (RHS: bright, direct light); Morgen- oder Abendsonne ideal, an Hitze gewöhnen statt plötzlich in pralle Mittagssonne. Im Winter am Fenster meist zu dunkel – dann Pflanzenlampe; mit Kunstlicht bleibt sie auch im Winter aktiv und braucht entsprechend mehr Wasser (The Next Gardener). Richtwert für kompakten Wuchs: ca. 200–400 µmol/m²/s an der Pflanze, 12–14 h.",
+      "temperatur": "Wachstum bei etwa 15–24 °C (Planet Desert). Winter ideal 10–16 °C (RedCrocus) bzw. um 15 °C (Pasiora), Zimmertemperatur mit genug Licht geht ebenfalls. Nicht unter ca. 4–5 °C; trocken kurzzeitig auch kälter, aber kein Frost. Starke Temperatursprünge und Zugluft meiden.",
+      "feuchte": "Niedrig bis normal: ca. 30–50 % (Leaf & Clay nennt 40–50 %); normale Zimmerluft genügt (GrowUrban, GrowTropicals). Dauerhaft hohe Luftfeuchte und Sprühen fördern Fäulnis zwischen den dicht gestapelten Blättern – gute Luftbewegung wichtig, nicht im geschlossenen Terrarium halten.",
+      "wasser": "Soak and dry: durchdringend gießen, dann vollständig abtrocknen lassen (World of Succulents). In der Wachstumszeit etwa alle 1–2 Wochen, in der Ruhezeit alle 3–4 Wochen (Planet Desert). Bei 5–15 °C im Winter Abstände deutlich verlängern, unter 5 °C gar nicht gießen (The Next Gardener). Nie in die Rosetten gießen, kein Wasser im Übertopf stehen lassen.",
+      "substrat": "Sehr durchlässig und überwiegend mineralisch, z. B. Bims, Lava, Akadama oder Zeolith (2–6 mm) mit wenig Kakteenerde; Topf mit Abzugsloch. Mineralische Abdeckung hält den Stammansatz trocken. Umtopfen am besten im Frühjahr.",
+      "duengen": "Sparsam: in der Wachstumszeit 1–2× jährlich bis monatlich schwach dosierter Kakteendünger; in Ruhephasen (Sommerhitze, dunkler Winter) nicht düngen.",
+      "besonderheiten": "Fäulnisgefahr bei kalter, nasser Erde (Phoenix Perennials) – Hauptursache für Ausfälle. Vergeilung bei Lichtmangel ist irreversibel. Vermehrung am besten über Kindel oder Kopfstecklinge (antrocknen lassen); Blattstecklinge selten erfolgreich. Blüte klein, weiß bis rosa. Laut Coolings bei Verzehr für Mensch und Tier giftig – außer Reichweite von Haustieren."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "trocken",
+      "methode": "aufs Substrat oder von unten, nie in die Rosetten",
+      "kurz": "Durchdringend gießen, dann komplett austrocknen lassen (ca. alle 1–2 Wochen im Wachstum).",
+      "winter": "Alle 3–4 Wochen; bei unter 5 °C gar nicht."
+    },
+    "quellen": [
+      {
+        "titel": "LLIFLE – Crassula cv. Buddha's Temple",
+        "url": "https://www.llifle.com/Encyclopedia/SUCCULENTS/Family/Crassulaceae/15551/Crassula_cv._Buddha"
+      },
+      {
+        "titel": "Cactus Art – Crassula 'Buddha's Temple'",
+        "url": "https://cactus-art.biz/schede/CRASSULA/Crassula_cultivar/Crassula_buddha_temple/Crassula_buddah's_temple.htm"
+      },
+      {
+        "titel": "World of Succulents – Crassula 'Buddha's Temple'",
+        "url": "https://worldofsucculents.com/crassula-buddhas-temple/"
+      },
+      {
+        "titel": "RHS Plants – Crassula 'Buddha's Temple'",
+        "url": "https://www.rhsplants.co.uk/plants/_/crassula-buddhas-temple/classid.2000034446/sku.HP30000509"
+      },
+      {
+        "titel": "Planet Desert – Crassula Buddha's Temple Care Guide",
+        "url": "https://planetdesert.com/products/crassula-buddhas-temple"
+      },
+      {
+        "titel": "The Next Gardener – How to Care for Crassula 'Buddha's Temple'",
+        "url": "https://thenextgardener.com/blogs/news/how-to-care-for-crassula-buddhas-temple-succulent"
+      },
+      {
+        "titel": "RedCrocus – Crassula 'Buddha's Temple'",
+        "url": "https://redcrocus.com/products/beraff6-redcrocus"
+      },
+      {
+        "titel": "Leaf & Clay Encyclopedia – Crassula 'Buddha's Temple'",
+        "url": "https://encyclopedia.leafandclay.co/scientific-names/crassula-buddha-s-temple"
+      },
+      {
+        "titel": "Phoenix Perennials – Crassula 'Buddha's Temple'/'Kimnachi'",
+        "url": "https://www.phoenixperennials.com/?p=11074"
+      },
+      {
+        "titel": "Coolings – Crassula 'Buddha's Temple'",
+        "url": "https://www.coolings.co.uk/shop/products/crassula-buddhas-temple-6cm-pot.html"
+      }
+    ],
+    "angelegt": "2026-11-05"
   }
 ]

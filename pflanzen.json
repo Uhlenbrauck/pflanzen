@@ -2833,5 +2833,90 @@
       }
     ],
     "angelegt": "2026-11-05"
+  },
+  {
+    "id": 65,
+    "status": "wunsch",
+    "name": "Tillandsie 'Scaposa'",
+    "botanisch": "Tillandsia kolbii (Handel: T. scaposa)",
+    "etikett": "",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://karnivores.com/gb/tillandsia/978-tillandsia-scaposa-6-to-8-cm-3760384030785.html",
+    "preis": "ca. 5,50 € (6–8 cm, Karnivores.com); als „T. kolbii“ bei eBay-Händlern ab ca. 2,50 €",
+    "foto": "",
+    "notizen": "Namen: Im Handel meist als Tillandsia scaposa oder T. ionantha 'Scaposa' bzw. var. scaposa, seltener als 'Kolbii'. Gültiger Name laut IPNI/Kew ist Tillandsia kolbii W.Till & Schatzl (1981); T. ionantha var. scaposa L.B.Sm. (1941) und T. scaposa (L.B.Sm.) Ehlers (2000) gelten als Synonyme. Heimat Guatemala sowie Oaxaca und Chiapas (Südmexiko), epiphytisch in Bergwäldern auf ca. 1.500–1.950 m. Sieht aus wie eine größere, weichblättrige T. ionantha, wird ca. 6–15 cm hoch, mit graugrünen, leicht gebogenen Blättern. Unterschied zu ionantha: kurzer, aber deutlicher Blütenstiel (daher „scaposa“) und zweizeilig gestellte Blütenhüllblätter. Zur Blüte färbt sich der obere Teil karminrot, Blüten violett. Bildet rasch Kindel und mit der Zeit Gruppen. Passt als Ergänzung zur vorhandenen T. ionantha (#8), mag es aber schattiger und feuchter.",
+    "pflege": {
+      "licht": "Hell, aber halbschattiger als T. ionantha (Tropiflora: „grow shaded“; Travaldo: gedeiht im Halbschatten). Keine pralle Sommer-Mittagssonne (Karnivores.com), im Winter möglichst hell. Eignet sich daher auch für weniger lichtstarke Plätze im offenen Terrarium.",
+      "temperatur": "Durchschnittlich 10–30 °C (Karnivores.com). Als Bergwaldpflanze bei kühleren Temperaturen robuster (Lloyd Godman). Nicht frostfest; unter ca. 5 °C wird es kritisch (Planet Desert).",
+      "feuchte": "Ca. 50–70 % – Richtwert aus Händler- und Pflegeangaben (Terrarium Creations nennt 60–72 %; für Tillandsien allgemein 50 %+ laut WSU). Mag es feuchter als ionantha (Tropiflora, mybageecha), muss nach dem Wässern aber innerhalb weniger Stunden abtrocknen.",
+      "wasser": "Weiches Wasser (Regen- oder demineralisiertes Wasser). 1–2× pro Woche kräftig sprühen oder kurz tauchen (Tropiflora, Karnivores.com), im Sommer bei Wärme öfter. Etwas feuchter halten als andere graue Tillandsien, zwischen den Wassergaben aber abtrocknen lassen (Planet Desert). Ist sie grau und fühlt sich trocken an: über Nacht einweichen (mybageecha).",
+      "substrat": "Keines – Aufsitzerpflanze; lose aufsetzen oder auf Holz/Kork binden, Basis nicht einkleben.",
+      "duengen": "Frühjahr und Sommer 2× im Monat Orchideendünger in einem Viertel der Dosis ins Sprühwasser (Karnivores.com).",
+      "besonderheiten": "Wird oft einfach als ionantha-Form verkauft – auf den kurzen Blütenstiel achten. Vertrocknete Blätter und verblühte Blütenstände entfernen (Karnivores.com). Monokarp: die Mutterpflanze stirbt nach der Blüte langsam ab, die Kindel wachsen weiter."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "tauchen",
+      "methode": "sprühen oder kurz tauchen",
+      "kurz": "1–2× pro Woche kräftig sprühen oder kurz tauchen, etwas feuchter als ionantha, danach abtrocknen lassen.",
+      "winter": "Etwa 1× pro Woche, kühler Standort ist gut."
+    },
+    "quellen": [
+      {
+        "titel": "IPNI – Tillandsia kolbii W.Till & Schatzl",
+        "url": "https://www.ipni.org/n/urn:lsid:ipni.org:names:253963-2"
+      },
+      {
+        "titel": "Wikispecies – Tillandsia kolbii (Synonyme)",
+        "url": "https://species.wikimedia.org/wiki/Tillandsia_kolbii"
+      },
+      {
+        "titel": "Wikipedia – Tillandsia kolbii",
+        "url": "https://en.wikipedia.org/wiki/Tillandsia_kolbii"
+      },
+      {
+        "titel": "GBIF – Tillandsia kolbii",
+        "url": "https://gbif.org/species/2694997"
+      },
+      {
+        "titel": "Till & Schatzl 1981, Plant Systematics and Evolution 138: 259–262",
+        "url": "https://doi.org/10.1007/BF00985189"
+      },
+      {
+        "titel": "Lloyd Godman – A Lexicon of Bromeliads: Tillandsia scaposa",
+        "url": "https://www.lloydgodman.net/Photosynthesis/PHoToS/Tiians/scaposa.html"
+      },
+      {
+        "titel": "Tropiflora – Tillandsia scaposa",
+        "url": "https://tropiflora.com/collections/tillandsia-species/products/tillandsia-scaposa"
+      },
+      {
+        "titel": "Karnivores.com – Tillandsia scaposa 6–8 cm",
+        "url": "https://karnivores.com/gb/tillandsia/978-tillandsia-scaposa-6-to-8-cm-3760384030785.html"
+      },
+      {
+        "titel": "Travaldo – Tillandsia ionantha care and culture (var. scaposa)",
+        "url": "https://travaldo.blogspot.com/2018/02/tillandsia-ionantha-care-and-culture.html"
+      },
+      {
+        "titel": "Planet Desert – Tillandsia scaposa",
+        "url": "https://www.planetdesert.com/collections/air-plants-tillandsia/products/tillandsia-scaposa"
+      },
+      {
+        "titel": "mybageecha – Tillandsia kolbii",
+        "url": "https://www.mybageecha.com/products/tillandsia-kolbii-air-plant"
+      },
+      {
+        "titel": "Terrarium Creations – Tillandsia scaposa",
+        "url": "https://terrariumcreations.com/how-to-grow-and-care-for-tillandsia-scaposa-air-plants-in-terrariums/"
+      },
+      {
+        "titel": "WSU – Air plants (Luftfeuchte allgemein)",
+        "url": "https://dev.ficklinlab.cahnrs.wsu.edu/plants/CON-0144"
+      }
+    ],
+    "angelegt": "2026-11-07"
   }
 ]

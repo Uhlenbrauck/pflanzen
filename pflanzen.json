@@ -2918,5 +2918,78 @@
       }
     ],
     "angelegt": "2026-11-07"
+  },
+  {
+    "id": 66,
+    "status": "wunsch",
+    "name": "Sarcopyramis 'Sumatra'",
+    "botanisch": "Sarcopyramis sp. 'Sumatra'",
+    "etikett": "",
+    "herkunft": "Jungle Leaves",
+    "kaufdatum": "",
+    "standort": "",
+    "shop_link": "https://www.jungle-leaves.de/products/sarcopyramis-sp-sumatra",
+    "preis": "29,99 € (ca. 4–5 cm im 5-cm-Topf, Jungle Leaves; Lagerstand wechselt, zeitweise ausverkauft)",
+    "foto": "",
+    "notizen": "Unbestimmte, sehr kleine Sarcopyramis-Form (Schwarzmundgewächse, Melastomataceae), laut Jungle Leaves vermutlich aus Sumatra (Indonesien). Nah verwandt mit Sonerila. Wächst dort im tiefen, sehr schattigen und feuchten Unterwuchs des Regenwalds. Wird nur 5–10 cm hoch, verzweigt sich kaum und blüht schon ab ca. 5 cm (rosa Blüten). Blätter in passendem Licht vollständig metallisch-blau schimmernd mit grünen Adern und wenigen kurzen rosa Haaren; Stängel und Blattunterseiten rot bis violett. Laut Händler ist es nicht S. parvifolia (die hat rundere, dichter behaarte Blätter). Botanisch umfasst die Gattung laut POWO nur vier anerkannte Arten (S. napalensis, S. bodinieri, S. gracilis, S. subramanii); malesische Formen wie S. javanensis werden zu S. napalensis gestellt – die Sumatra-Form ist keiner Art sicher zugeordnet. Seltene Terrarienpflanze; passt von den Bedingungen her gut ins Kallax-Terrarium zu den Juwelorchideen (schattig, feucht, warm). Ähnliche Händlerformen: Sarcopyramis sp. 'Green Lime' (Borneo, Jungle Leaves) und 'Purple' (Kalimantan).",
+    "pflege": {
+      "licht": "Wenig bis mittleres, indirektes Licht; keine direkte Sonne (verbrennt die Blätter, Borneo Aquatic). Natürlicher Standort ist sehr schattiger Regenwald-Unterwuchs (Jungle Leaves). Laut Jungle Leaves hält die Blaufärbung auch bei recht starkem Licht; zu helles Licht zeigt sich bei verwandten Formen daran, dass sich die Blätter nach unten einrollen ('Green Lime', Jungle Leaves). Unter LED im Terrarium eher im unteren/schattigen Bereich platzieren.",
+      "temperatur": "Ca. 18–27 °C gleichmäßig warm, ganzjährig (Borneo Aquatic für Sarcopyramis 'Purple'; Sonerila als nahe Verwandte: ca. 18–27 °C, Carnivero). Keine Kälte und keine Hitzespitzen – Tieflandregenwald-Form, anders als die kühleren Himalaya-Arten (S. napalensis, 1.000–3.200 m).",
+      "feuchte": "80–95 % – Richtwert aus Händlerangaben: Borneo Aquatic empfiehlt für Sarcopyramis über 80 % im geschlossenen Terrarium; für die verwandte Sonerila nennt Carnivero 65–85 % als Untergrenze. Melastomes.com: Sonerila & Co. kommen mit normaler Zimmerluft nicht zurecht. Nur geschlossenes Terrarium/Glasgefäß geeignet.",
+      "wasser": "Gleichmäßig feucht, aber nie nass/staunass. Weiches Wasser (Regen- oder demineralisiertes Wasser). Borneo Aquatic: gießen, wenn die oberen ca. 2 cm leicht angetrocknet sind; im geschlossenen Terrarium entsprechend selten. Zu nasses Substrat → Wurzelfäule.",
+      "substrat": "Locker, luftig und gut durchlässig, z. B. Sphagnum oder Epiphyten-/Terrarienmischung (Borneo Aquatic); gut geeignet auch auf Moos oder Lavagestein mit dünner Substratschicht. Wegen der Winzigkeit kein großer Topf.",
+      "duengen": "In der Wachstumszeit etwa alle 2 Wochen Flüssigdünger in einem Viertel der Dosis (Borneo Aquatic); im Terrarium eher noch sparsamer.",
+      "besonderheiten": "Absolute Rarität, sehr klein (Daumengröße) – leicht von Moos oder Nachbarpflanzen überwuchert, daher Platz freihalten. Für offene Haltung ungeeignet. Vermehrung über Stecklinge möglich (in Norwegen wurden Stecklinge gehandelt, finn.no). Keine Pflanzen aus Wildentnahme kaufen."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "vorsichtig von oben/sprühen",
+      "kurz": "Gleichmäßig feucht, nicht nass; oben leicht antrocknen lassen, geschlossenes Terrarium.",
+      "winter": ""
+    },
+    "quellen": [
+      {
+        "titel": "Jungle Leaves – Sarcopyramis sp. Sumatra",
+        "url": "https://www.jungle-leaves.de/en/products/sarcopyramis-sp-sumatra"
+      },
+      {
+        "titel": "Jungle Leaves – Sarcopyramis sp. Green Lime (verwandte Form)",
+        "url": "https://www.jungle-leaves.de/en/products/sarcopyramis-sp-green-lime"
+      },
+      {
+        "titel": "Borneo Aquatic – Sarcopyramis Purple (Pflegeangaben)",
+        "url": "https://borneoaquatic.com/?p=27464"
+      },
+      {
+        "titel": "Carnivero – Sonerila aff. heterostamon (verwandte Gattung)",
+        "url": "https://www.carnivero.com/products/w079-sonerila-aff-heterostamon"
+      },
+      {
+        "titel": "Melastomes.com – Building a melastome terrarium",
+        "url": "https://melastomes.com/articles/building-a-melastome-terrarium.html"
+      },
+      {
+        "titel": "POWO (Kew) – Sarcopyramis Wall.",
+        "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:26580-1"
+      },
+      {
+        "titel": "Wikipedia – Sarcopyramis",
+        "url": "https://en.wikipedia.org/wiki/Sarcopyramis"
+      },
+      {
+        "titel": "Das & Nath 2026, Biodiversitas 27(1) – Sarcopyramis subramanii (Gattungsüberblick)",
+        "url": "https://doi.org/10.13057/biodiv/d270105"
+      },
+      {
+        "titel": "Flowers of India – Sarcopyramis napalensis (Höhenverbreitung)",
+        "url": "https://flowersofindia.net/catalog/slides/Persian%20Violet%20Melastome.html"
+      },
+      {
+        "titel": "finn.no – Steckling Sarcopyramis sp. Sumatra (Kleinanzeige)",
+        "url": "https://www.finn.no/recommerce/forsale/item/396538458"
+      }
+    ],
+    "angelegt": "2026-11-09"
   }
 ]

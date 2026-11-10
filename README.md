@@ -35,6 +35,12 @@ Pro Pflanze gibt es drei 3MF-Dateien: Klebeschild (1,6 mm), Stecker (2,4 mm) und
 
 Eigene Fotos liegen unter `fotos/`. Fremde Bilder nur mit freier Lizenz (Creative Commons): `foto` zeigt dann direkt auf die Quelle, und `bildnachweis` (Urheber, Lizenz, Link) wird unter dem Bild angezeigt. Shop-Fotos nicht kopieren.
 
+## Standorte und Tags
+
+In „Pflanzen“, „Wünsche“ und „Gießen“ lässt sich oben nach **Standort** und **Tag** filtern (z. B. nur das Kallax-Terrarium oder nur Juwelorchideen). In der Detailansicht führt ein Tipp auf einen Tag oder den Standort direkt zur gefilterten Liste.
+
+Tags stehen je Pflanze im Feld `tags` in `pflanzen.json` und werden im Formular mit Komma getrennt eingetragen („Orchideen, Juwelorchideen“). Beim Ändern ersetzt das Feld alle bisherigen Tags, „-“ entfernt sie. Eine Pflanze darf mehrere Tags haben; allgemeine und speziellere Gruppen ergänzen sich (Orchideen → Juwelorchideen, Karnivoren → Sonnentau).
+
 ## Merkliste
 
 Der Tab „Merkliste“ sammelt Zubehör, Händler, Veranstaltungen, Internetseiten und Sonstiges. Neuer Eintrag über „+ Eintrag“, abhaken oder löschen über „Erledigt / ändern“. Die Daten liegen in `merkliste.json`.

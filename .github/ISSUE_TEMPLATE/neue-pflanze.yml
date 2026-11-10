@@ -32,6 +32,12 @@ body:
       label: Standort
       placeholder: Wohnzimmer Fenster
   - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Optional, mit Komma getrennt, z. B. „Orchideen, Juwelorchideen“ oder „Karnivoren, Sonnentau“
+      placeholder: Orchideen, Juwelorchideen
+  - type: input
     id: herkunft
     attributes:
       label: Herkunft

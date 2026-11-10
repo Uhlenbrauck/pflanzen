@@ -8,6 +8,7 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "Drucker",
+    "tags": [],
     "shop_link": "",
     "preis": "",
     "foto": "",
@@ -24,6 +25,10 @@
     "herkunft": "mybotanica (Händler unbekannt)",
     "kaufdatum": "2026",
     "standort": "Wohnzimmer Hängetopf",
+    "tags": [
+      "Karnivoren",
+      "Bestimmung offen"
+    ],
     "shop_link": "",
     "preis": "20 €",
     "foto": "fotos/2.jpg",
@@ -68,6 +73,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
     "standort": "Terrarium (Nano Cube 20 L)",
+    "tags": [
+      "Begonien",
+      "Terrarium"
+    ],
     "shop_link": "",
     "preis": "10 €",
     "foto": "fotos/3.jpg",
@@ -108,6 +117,7 @@
     "herkunft": "mybotanica (Jungle Leaves)",
     "kaufdatum": "2026",
     "standort": "Küche Arbeitsplatte",
+    "tags": [],
     "shop_link": "",
     "preis": "29,99 €",
     "foto": "fotos/4.jpg",
@@ -139,6 +149,10 @@
     "herkunft": "mybotanica (exotic-flowers.de)",
     "kaufdatum": "2026",
     "standort": "Gewächshaus Küche",
+    "tags": [
+      "Aroideen",
+      "Alocasien"
+    ],
     "shop_link": "",
     "preis": "5 €",
     "foto": "fotos/5.jpg",
@@ -170,6 +184,10 @@
     "herkunft": "mybotanica (bangkogberlinbotanics.de)",
     "kaufdatum": "2026",
     "standort": "Küche Fenster",
+    "tags": [
+      "Caudexpflanzen",
+      "Kletterpflanzen"
+    ],
     "shop_link": "",
     "preis": "65 €",
     "foto": "fotos/6.jpg",
@@ -206,6 +224,11 @@
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium"
+    ],
     "shop_link": "",
     "preis": "19,95 €",
     "foto": "fotos/7.jpg",
@@ -249,6 +272,10 @@
     "herkunft": "mybotanica (Händler unbekannt)",
     "kaufdatum": "2026",
     "standort": "Badezimmer Fenster",
+    "tags": [
+      "Tillandsien",
+      "Bestimmung offen"
+    ],
     "shop_link": "",
     "preis": "30 €",
     "foto": "fotos/8.jpg",
@@ -285,6 +312,10 @@
     "herkunft": "mybotanica",
     "kaufdatum": "2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "ca. 10 €",
     "foto": "fotos/9.jpg",
@@ -316,6 +347,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Karnivoren"
+    ],
     "shop_link": "",
     "preis": "17,99 €",
     "foto": "fotos/10.jpg",
@@ -356,6 +390,10 @@
     "herkunft": "mybotanica",
     "kaufdatum": "2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "ca. 10 €",
     "foto": "fotos/11.jpg",
@@ -396,6 +434,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Karnivoren",
+      "Fettkraut"
+    ],
     "shop_link": "",
     "preis": "11,99 €",
     "foto": "fotos/12.jpg",
@@ -436,6 +478,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Wasserpflanzen"
+    ],
     "shop_link": "",
     "preis": "5,99 €",
     "foto": "fotos/13.jpg",
@@ -467,6 +512,9 @@
     "herkunft": "Garnelen-Guemmer",
     "kaufdatum": "September 2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Wasserpflanzen"
+    ],
     "shop_link": "",
     "preis": "ca. 6 €",
     "foto": "fotos/14.jpg",
@@ -498,6 +546,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "September 2026",
     "standort": "Carnivorenscape",
+    "tags": [
+      "Karnivoren"
+    ],
     "shop_link": "",
     "preis": "ca. 5 €",
     "foto": "fotos/15.jpg",
@@ -529,6 +580,9 @@
     "herkunft": "mybotanica (exotic-flowers.de)",
     "kaufdatum": "2026",
     "standort": "Gewächshaus Küche",
+    "tags": [
+      "Aroideen"
+    ],
     "shop_link": "",
     "preis": "5 €",
     "foto": "fotos/16.jpg",
@@ -565,6 +619,10 @@
     "herkunft": "mybotanica",
     "kaufdatum": "2026",
     "standort": "Gewächshaus Küche",
+    "tags": [
+      "Aroideen",
+      "Alocasien"
+    ],
     "shop_link": "",
     "preis": "8 €",
     "foto": "fotos/17.jpg",
@@ -601,6 +659,10 @@
     "herkunft": "carnivory.eu",
     "kaufdatum": "September 2026",
     "standort": "Gewächshaus Küche",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "11 €",
     "foto": "fotos/18.jpg",
@@ -640,6 +702,9 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Küche Fenster",
+    "tags": [
+      "Farne"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/19.jpg",
@@ -671,6 +736,9 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Küche Fenster",
+    "tags": [
+      "Begonien"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/20.jpg",
@@ -707,6 +775,10 @@
     "herkunft": "carnivory.eu",
     "kaufdatum": "September 2026",
     "standort": "Küche Fenster",
+    "tags": [
+      "Karnivoren",
+      "Fettkraut"
+    ],
     "shop_link": "",
     "preis": "15,99 €",
     "foto": "fotos/21.jpg",
@@ -747,6 +819,10 @@
     "herkunft": "carnivory.eu",
     "kaufdatum": "September 2026",
     "standort": "Küche Fenster",
+    "tags": [
+      "Karnivoren",
+      "Fettkraut"
+    ],
     "shop_link": "",
     "preis": "ca. 10 €",
     "foto": "fotos/22.jpg",
@@ -787,6 +863,10 @@
     "herkunft": "carnivory.eu",
     "kaufdatum": "September 2026",
     "standort": "Küche Fenster",
+    "tags": [
+      "Karnivoren",
+      "Fettkraut"
+    ],
     "shop_link": "",
     "preis": "ca. 10 €",
     "foto": "fotos/23.jpg",
@@ -827,6 +907,10 @@
     "herkunft": "carnivory.eu",
     "kaufdatum": "September 2026",
     "standort": "Gewächshaus Küche",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "5 €",
     "foto": "fotos/24.jpg",
@@ -867,6 +951,9 @@
     "herkunft": "Altbestand (Ableger)",
     "kaufdatum": "",
     "standort": "Küche Hängetopf",
+    "tags": [
+      "Kletterpflanzen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/25.jpg",
@@ -898,6 +985,10 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Wohnzimmer",
+    "tags": [
+      "Sukkulenten",
+      "Caudexpflanzen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/26.jpg",
@@ -937,6 +1028,9 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Wohnzimmer",
+    "tags": [
+      "Sukkulenten"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/27.jpg",
@@ -973,6 +1067,10 @@
     "herkunft": "Altbestand (Kleinanzeigen)",
     "kaufdatum": "",
     "standort": "Wohnzimmer",
+    "tags": [
+      "Sukkulenten",
+      "Caudexpflanzen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/28.jpg",
@@ -1009,6 +1107,10 @@
     "herkunft": "Geschenk von Emma",
     "kaufdatum": "",
     "standort": "Wohnzimmer Fensterbank",
+    "tags": [
+      "Sukkulenten",
+      "Bestimmung offen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/29.jpg",
@@ -1045,6 +1147,11 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Wohnzimmer Fensterbank",
+    "tags": [
+      "Sukkulenten",
+      "Kakteen",
+      "Bestimmung offen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/30.jpg",
@@ -1081,6 +1188,10 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Wohnzimmer Fensterbank",
+    "tags": [
+      "Sukkulenten",
+      "Kakteen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/31.jpg",
@@ -1117,6 +1228,10 @@
     "herkunft": "Altbestand",
     "kaufdatum": "",
     "standort": "Wohnzimmer Fensterbank",
+    "tags": [
+      "Sukkulenten",
+      "Bestimmung offen"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/32.jpg",
@@ -1153,6 +1268,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Tillandsien"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/tillandsia-aeranthos-tannengruen",
     "preis": "14,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/610195358/large.jpg",
@@ -1197,6 +1315,7 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [],
     "shop_link": "https://www.jungle-leaves.de/products/strobilanthes-auriculata-var-dyeriana-persian-shield",
     "preis": "19,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/258952807/large.jpg",
@@ -1245,6 +1364,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Moosfarne",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/selaginella-picta",
     "preis": "19,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/283304460/large.jpeg",
@@ -1293,6 +1416,9 @@
     "herkunft": "Plantaddiction",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Aroideen"
+    ],
     "shop_link": "https://plantaddiction.de/zamioculcas-zamiifolia-raven-gluecksfeder/527.102.100.0",
     "preis": "22,95 €",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Zamioculcas_zamiifolia_%27Dowon%27_vel_Raven_kz01.jpg/960px-Zamioculcas_zamiifolia_%27Dowon%27_vel_Raven_kz01.jpg",
@@ -1341,6 +1467,10 @@
     "herkunft": "Plantaddiction",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Aroideen",
+      "Alocasien"
+    ],
     "shop_link": "https://plantaddiction.de/alocasia-antoro-velvet-alocasia-chienlii/530.117.100.0",
     "preis": "39,95 €",
     "foto": "",
@@ -1381,6 +1511,11 @@
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium"
+    ],
     "shop_link": "",
     "preis": "12,95 €",
     "foto": "fotos/38.jpg",
@@ -1428,6 +1563,11 @@
     "herkunft": "Schwerter Orchideenhandel",
     "kaufdatum": "Oktober 2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium"
+    ],
     "shop_link": "",
     "preis": "12,95 €",
     "foto": "fotos/39.jpg",
@@ -1475,6 +1615,11 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Miniorchideen",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/schoenorchis-seidenfadenii",
     "preis": "24,99 €",
     "foto": "fotos/40.jpg",
@@ -1538,6 +1683,10 @@
     "herkunft": "Aquasabi",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Aroideen",
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://www.aquasabi.de/Anubias-barteri-var-nana-Petite",
     "preis": "8,90 € (Topf)",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/87709356/large.jpg",
@@ -1586,6 +1735,10 @@
     "herkunft": "Greenaqua (Stoffels, in vitro)",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Aroideen",
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://greenaqua.hu/en/stoffels-plant-bucephalandra-brownie-blue-in-vitro.html",
     "preis": "9,45 € ('Brownie Blue', in vitro)",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bluish_sheen_on_Bucephalandra.jpg",
@@ -1634,6 +1787,9 @@
     "herkunft": "Aquasabi",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://www.aquasabi.de/Vesicularia-Christmas-Moss_1",
     "preis": "ca. 6–10 € (1-2-GROW! bzw. in vitro XL)",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/78707093/large.jpg",
@@ -1682,6 +1838,10 @@
     "herkunft": "Aquasabi",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Aroideen",
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://www.aquasabi.de/Cryptocoryne-walkeri-Hobbit",
     "preis": "7,90 € (Topf)",
     "foto": "",
@@ -1722,6 +1882,9 @@
     "herkunft": "Aquasabi",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://www.aquasabi.de/Phyllanthus-fluitans_1",
     "preis": "ca. 6–9 € (in vitro / 1-2-GROW!)",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/29142129/large.jpeg",
@@ -1770,6 +1933,10 @@
     "herkunft": "Aquasabi",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Farne",
+      "Wasserpflanzen"
+    ],
     "shop_link": "https://www.aquasabi.de/Salvinia-minima",
     "preis": "7,90 € (1-2-GROW!)",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/101941898/large.jpeg",
@@ -1818,6 +1985,7 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [],
     "shop_link": "",
     "preis": "",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/248320166/large.jpg",
@@ -1870,6 +2038,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "Paludarium",
+    "tags": [
+      "Moosfarne",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/selaginella-uncinata",
     "preis": "8,99 € (Portion ca. 10 × 10 cm), große Pflanze 19,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/129229954/large.jpeg",
@@ -1922,6 +2094,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Kletterpflanzen",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/marcgravia-sp-peru",
     "preis": "11,99 €",
     "foto": "fotos/49.jpg",
@@ -1985,6 +2161,7 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [],
     "shop_link": "https://www.jungle-leaves.de/products/geogenanthus-ciliatus",
     "preis": "24,99 €",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/322624638/large.jpeg",
@@ -2041,6 +2218,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Maranten"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/goeppertia-warszewiczii",
     "preis": "14,99 € (14-cm-Topf) · 24,99 € (19-cm-Topf)",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/654041736/large.jpg",
@@ -2097,6 +2277,9 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Maranten"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "",
@@ -2141,6 +2324,11 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/en/products/macodes-petola",
     "preis": "14,99 €",
     "foto": "fotos/53.jpg",
@@ -2185,6 +2373,11 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Miniorchideen",
+      "Terrarium"
+    ],
     "shop_link": "",
     "preis": "24,99 €",
     "foto": "fotos/54.jpg",
@@ -2237,6 +2430,11 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Miniorchideen",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/schoenorchis-fragrans-aufgebunden",
     "preis": "24,99 €",
     "foto": "fotos/55.jpg",
@@ -2285,6 +2483,10 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Kletterpflanzen",
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/en/products/marcgravia-sp-iquitos-round",
     "preis": "19,99 € (Shop-Preis)",
     "foto": "fotos/56.jpg",
@@ -2337,6 +2539,12 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium",
+      "Bestimmung offen"
+    ],
     "shop_link": "https://www.jungle-leaves.de/en/products/macodes-petola",
     "preis": "",
     "foto": "fotos/57.jpg",
@@ -2385,6 +2593,11 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "Kallax-Terrarium",
+    "tags": [
+      "Orchideen",
+      "Terrarium",
+      "Bestimmung offen"
+    ],
     "shop_link": "https://www.jungle-leaves.de/en/products/paphiopedilum-micranthum-var-eburneum",
     "preis": "29,99 € (Shop-Preis)",
     "foto": "fotos/58.jpg",
@@ -2449,6 +2662,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "",
+    "tags": [
+      "Winterhart"
+    ],
     "shop_link": "",
     "preis": "5,99 €",
     "foto": "fotos/59.jpg",
@@ -2498,6 +2714,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "31.10.2026",
     "standort": "",
+    "tags": [
+      "Aroideen"
+    ],
     "shop_link": "",
     "preis": "9,99 € (Sonderpreis)",
     "foto": "fotos/60.jpg",
@@ -2551,6 +2770,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/biophytum-sensitivum-suedseepalme",
     "preis": "7,99 €",
     "foto": "",
@@ -2612,6 +2834,9 @@
     "herkunft": "Geschenk meiner Frau",
     "kaufdatum": "05.11.2026",
     "standort": "",
+    "tags": [
+      "Sukkulenten"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "fotos/62.jpg",
@@ -2685,6 +2910,10 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "https://inaturalist-open-data.s3.amazonaws.com/photos/287801324/large.jpeg",
@@ -2766,6 +2995,10 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Karnivoren",
+      "Sonnentau"
+    ],
     "shop_link": "",
     "preis": "",
     "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Drosera_binata_kz02.jpg/960px-Drosera_binata_kz02.jpg",
@@ -2843,6 +3076,9 @@
     "herkunft": "",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Tillandsien"
+    ],
     "shop_link": "https://karnivores.com/gb/tillandsia/978-tillandsia-scaposa-6-to-8-cm-3760384030785.html",
     "preis": "ca. 5,50 € (6–8 cm, Karnivores.com); als „T. kolbii“ bei eBay-Händlern ab ca. 2,50 €",
     "foto": "",
@@ -2928,6 +3164,9 @@
     "herkunft": "Jungle Leaves",
     "kaufdatum": "",
     "standort": "",
+    "tags": [
+      "Terrarium"
+    ],
     "shop_link": "https://www.jungle-leaves.de/products/sarcopyramis-sp-sumatra",
     "preis": "29,99 € (ca. 4–5 cm im 5-cm-Topf, Jungle Leaves; Lagerstand wechselt, zeitweise ausverkauft)",
     "foto": "",

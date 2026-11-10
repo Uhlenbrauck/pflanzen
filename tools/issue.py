@@ -17,8 +17,13 @@ FELDER = {
     "Status": "status", "Name": "name", "Deutscher Name": "name", "Botanischer Name": "botanisch", "Standort": "standort",
     "Herkunft": "herkunft", "Kaufdatum": "kaufdatum", "Shop-Link": "shop_link", "Preis": "preis",
     "Etikett-Text": "etikett", "Foto": "foto", "Neues Foto": "foto", "Notizen": "notizen",
-    "Notiz ergänzen": "notiz_neu", "Pflanzen-Nr.": "id",
+    "Notiz ergänzen": "notiz_neu", "Pflanzen-Nr.": "id", "Tags": "tags",
 }
+
+
+def tags_liste(text):
+    """„Karnivoren, Sonnentau“ → ["Karnivoren", "Sonnentau"]; „-“ leert die Tags."""
+    return [t.strip() for t in re.split(r"[,;\n]", text) if t.strip() and t.strip() != "-"]
 
 
 def parsen(body):
@@ -132,6 +137,8 @@ def main():
                     p["kaufdatum"] = heute[:7]
             if "foto" in w:
                 p["foto"] = foto_speichern(w.pop("foto"), pid) or p.get("foto", "")
+            if "tags" in w:
+                w["tags"] = tags_liste(w["tags"])
             if "notiz_neu" in w:
                 neu = f"{heute}: {w.pop('notiz_neu')}"
                 p["notizen"] = (p.get("notizen", "") + "\n\n" + neu).strip()
@@ -148,7 +155,7 @@ def main():
             "id": pid, "status": w.get("status", "Besitz").lower(), "name": w.get("name", ""),
             "botanisch": w.get("botanisch", ""), "etikett": w.get("etikett", ""),
             "herkunft": w.get("herkunft", ""), "kaufdatum": w.get("kaufdatum", ""),
-            "standort": w.get("standort", ""), "shop_link": w.get("shop_link", ""),
+            "standort": w.get("standort", ""), "tags": tags_liste(w.get("tags", "")), "shop_link": w.get("shop_link", ""),
             "preis": w.get("preis", ""), "foto": foto, "notizen": w.get("notizen", ""),
             "pflege": {}, "quellen": [], "angelegt": heute,
         }

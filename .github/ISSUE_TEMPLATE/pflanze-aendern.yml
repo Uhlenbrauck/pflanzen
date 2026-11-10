@@ -35,6 +35,11 @@ body:
     attributes:
       label: Standort
   - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Ersetzt alle bisherigen Tags. Mit Komma getrennt; „-“ entfernt alle Tags.
+  - type: input
     id: herkunft
     attributes:
       label: Herkunft

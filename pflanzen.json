@@ -3237,5 +3237,80 @@
       }
     ],
     "angelegt": "2026-11-09"
+  },
+  {
+    "id": 67,
+    "status": "wunsch",
+    "name": "Schwarze Juwelorchidee (Black Velvet)",
+    "botanisch": "Ludisia discolor var. nigrescens",
+    "etikett": "",
+    "herkunft": "Secret Garden",
+    "kaufdatum": "",
+    "standort": "",
+    "tags": [
+      "Orchideen",
+      "Juwelorchideen",
+      "Terrarium",
+      "Schwarz"
+    ],
+    "shop_link": "https://secretgarden.ro/en-de/products/ludisia-discolor-var-nigrescens",
+    "preis": "12,95 € (Secret Garden, Angebot, sonst 13,95 €; Lagerstand wechselt)",
+    "foto": "",
+    "notizen": "Dunkle Form der einzigen Art der Gattung Ludisia (Blutständel, Juwelorchidee), im Handel auch als var. nigricans, 'Nigrescens' oder „Black Velvet“. Samtige, fast schwarze bis dunkel olivgrüne Blätter mit einer einzelnen kupferfarbenen Mittelader; im Unterschied zur Normalform fehlt das Adernetz (orchidspecies.com). Erdorchidee mit kriechendem Rhizom, bildet mit der Zeit Horste; adult bis ca. 30–40 cm hoch. Weiße Blüten mit gelber Lippe an aufrechten Rispen, meist Herbst/Winter. Gilt als eine der einfachsten Juwelorchideen, verträgt sogar normale Zimmerluft und Kunstlicht – passt gut ins Kallax-Terrarium zu #39/#53/#57, braucht dort aber Platz in der Breite. Heimat: Südchina, Nordostindien und Südostasien, schattiger Unterwuchs, oft an Bachläufen im Tiefland bis ca. 1000 m. Ungiftig für Katzen und Hunde (NC State). Händlervariante: var. nigrescens 'Ambrosia' (Secret Garden).",
+    "pflege": {
+      "licht": "Gedämpftes bis helles indirektes Licht, Halbschatten; Nord- oder Ostfenster. Keine direkte Sonne – Nachmittagssonne macht blasse Flecken und trockene Blattränder (Orchids-Shop). Wächst gut unter LED.",
+      "temperatur": "Etwa 18–26 °C, nachts einige Grad kühler (Orchids-Shop); Araflora nennt 15–30 °C. Längere Zeit unter 15 °C vermeiden. Kühlere Nächte um 16–19 °C bei kürzeren Tagen fördern im Herbst die Blüte.",
+      "feuchte": "50–90 %: Orchids-Shop 50–70 % (für die Normalform, kommt damit auch im Wohnraum zurecht), Araflora für var. nigrescens tagsüber 60–90 %, nachts 70–90 %, Gartenjournal ca. 70 %. Im Terrarium gut lüften, sonst Schimmel und Stängelfäule.",
+      "wasser": "Gleichmäßig leicht feucht, oben leicht antrocknen lassen; weder ganz austrocknen noch nass stehen lassen. Weiches Wasser (Regen-/Osmosewasser) beugt Kalkflecken und braunen Blatträndern vor.",
+      "substrat": "Luftig, feinkörnig und feuchtigkeitshaltend: feine Rinde, Kokosfaser oder lockere Erde, Perlite, etwas feines Sphagnum. Grobe Rinde allein trocknet zu schnell aus (Orchids-Shop). pH leicht sauer bis neutral (Araflora: 6–7).",
+      "duengen": "In der Wachstumszeit alle 3–4 Wochen Orchideen- oder Zimmerpflanzendünger in etwa ¼ der Dosis; im Winter und während der Blüte reduzieren, Substrat gelegentlich durchspülen (Orchids-Shop).",
+      "besonderheiten": "Vermehrung leicht über Teilung oder Stängelstücke mit Knoten. Lange Blütenstiele können im Terrarium stören und dürfen abgeschnitten werden. Empfindlich gegen Stängelfäule bei stehender Nässe."
+    },
+    "giessen": {
+      "wasser": "weich",
+      "stufe": "feucht",
+      "methode": "von oben aufs Substrat",
+      "kurz": "Gleichmäßig leicht feucht, oben leicht antrocknen lassen; nie nass.",
+      "winter": "Etwas sparsamer, nicht unter 15 °C."
+    },
+    "quellen": [
+      {
+        "titel": "Orchids-Shop – Ludisia discolor (Pflegeangaben)",
+        "url": "https://orchids-shop.com/products/ludisia-discolor"
+      },
+      {
+        "titel": "Araflora – Ludisia discolor var. Nigrescens",
+        "url": "https://www.araflora.com/product/orchid-ludisia-discolor-var-nigrescens/"
+      },
+      {
+        "titel": "Secret Garden – Ludisia discolor var. nigrescens (Shop)",
+        "url": "https://secretgarden.ro/en-de/products/ludisia-discolor-var-nigrescens"
+      },
+      {
+        "titel": "Steve's Leaves – Ludisia discolor var. nigrescens",
+        "url": "https://stevesleaves.com/products/ludisia-discolor-var-nigrescens"
+      },
+      {
+        "titel": "orchidspecies.com – Ludisia discolor (mit Foto var. nigrescens)",
+        "url": "https://orchidspecies.com/ludiscolor.htm"
+      },
+      {
+        "titel": "Plant Lust – Ludisia discolor var. nigrescens",
+        "url": "https://plantlust.com/plants/55109/ludisia-discolor-var-nigrescens"
+      },
+      {
+        "titel": "Gartenjournal – Erdorchidee pflegen",
+        "url": "https://www.gartenjournal.net/zierpflanzen/zimmerpflanzen/orchideen/erdorchidee"
+      },
+      {
+        "titel": "NC State Extension – Ludisia discolor",
+        "url": "https://plants.ces.ncsu.edu/plants/ludisia-discolor"
+      },
+      {
+        "titel": "Wikipedia – Ludisia",
+        "url": "https://en.wikipedia.org/wiki/Ludisia"
+      }
+    ],
+    "angelegt": "2026-11-12"
   }
 ]

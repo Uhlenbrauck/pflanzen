@@ -3312,5 +3312,69 @@
       }
     ],
     "angelegt": "2026-11-12"
+  },
+  {
+    "id": 68,
+    "status": "besitz",
+    "name": "Welwitschie",
+    "botanisch": "Welwitschia mirabilis",
+    "etikett": "#68 Welwitschia",
+    "herkunft": "",
+    "kaufdatum": "",
+    "standort": "",
+    "tags": [
+      "Caudexpflanzen"
+    ],
+    "shop_link": "",
+    "preis": "",
+    "foto": "",
+    "notizen": "Wird erwartet (Nov 2026). Einzige Art der Familie Welwitschiaceae (Nacktsamer, Gnetales), aus der Nebelwüste Namib (Namibia, Südangola). Bildet zeitlebens nur zwei bandförmige Blätter, die aus der Basis nachwachsen, dazu eine schnell wachsende, tiefe Pfahlwurzel. Zweihäusig (männliche und weibliche Pflanzen). Keine echte Sukkulente – darf nicht wie ein Kaktus trocken gehalten werden; viele Pflanzen sterben in Kultur an zu wenig Wasser (LLIFLE). Hauptrisiko beim Umtopfen: verletzte Pfahlwurzelspitze.",
+    "pflege": {
+      "licht": "Sehr hell bis sonnig (LLIFLE). Kirstenbosch empfiehlt gefiltertes Sonnenlicht und warnt vor plötzlichem Lichtwechsel – nie aus dem Schatten direkt in volle Sonne, langsam gewöhnen (SANBI). UC Davis hält sie aus praller Sommersonne heraus; zu starkes Licht färbt die Blätter rot. Im Winter am Fenster zu dunkel: Pflanzenlampe.",
+      "temperatur": "Warm: Wachstum gut ab ca. 20–25 °C (Bihrmann); UC Davis kultiviert im Winter bei ca. 21–29 °C, im Sommer 27–35 °C. Kirstenbosch: Sommer 20–40 °C, im Winter Bodenheizung als Erfolgsfaktor (SANBI). Ein Halter berichtet von gutem Überwintern am Küchenfenster bis 12 °C (Bihrmann); Händlerangabe Mindesttemperatur 10–15 °C (Canarius). Frost meiden, kalte nasse Erde vermeiden.",
+      "feuchte": "30–60 % (Richtwert, keine geprüfte Quelle nennt eine Zahl). Normale Zimmerluft genügt; wichtig sind warme, gut belüftete Bedingungen (SANBI). Nicht unter Haube oder im geschlossenen Terrarium halten: UC Davis warnt, dass das Entfernen von Feuchtehauben schweren Stress bis zum Absterben auslöst. Leichtes Sprühen ist möglich (Nebelpflanze), Hauptwasserquelle bleibt das Substrat.",
+      "wasser": "Keine Sukkulente: Substrat im Topf nie ganz austrocknen lassen (SANBI, LLIFLE). Im Sommer durchdringend gießen, Oberfläche leicht antrocknen lassen. Kirstenbosch gießt Jungpflanzen anfangs wöchentlich, später etwa alle 2 Wochen; im Winter weniger, ab Spätfrühling wieder mehr (SANBI). In rein mineralischem Substrat (Bims) verträgt sie sehr häufiges Gießen (UC Davis). Zimmerwarmes Wasser.",
+      "substrat": "Sandig-mineralisch, wenig organisch – organikreiche Erde führt oft zu Pilzbefall (SANBI, World of Succulents). Kirstenbosch: ca. 2 Teile Sand, 1 Teil Lehm, 1 Teil Laubkompost plus Hornmehl/Knochenmehl, sterilisiert, Drainageschicht unten. UC Davis: reiner Bims 6 mm bzw. 4:1 mit 3 mm. Gefäß tief: mindestens 30 cm (SANBI), für Jungpflanzen 25–35 cm ideal (UC Davis); flachere Töpfe gehen auch, bremsen aber das Wachstum.",
+      "duengen": "Im Sommer etwa alle 3 Monate milder organischer Dünger (Algenbasis) ins Gießwasser, im Frühjahr einmal mineralisch (SANBI). In reinem Bims regelmäßig schwach düngen, da Bims kaum Nährstoffe hält (UC Davis).",
+      "besonderheiten": "Pfahlwurzel nicht verletzen: Eine beschädigte Wurzelspitze tötet Sämlinge (SANBI); Umtopfen geht, wenn die Pfahlwurzel intakt bleibt, bremst aber das Wachstum (UC Davis, LLIFLE). Zum Umtopfen den Topf in zimmerwarmes destilliertes Wasser tauchen, Wurzelballen behutsam lösen (UC Davis). Im ersten Jahr anfällig für Pilze; als Schädlinge vor allem Woll-/Schmierläuse (SANBI). Sehr langsam, kann Jahrhunderte alt werden."
+    },
+    "giessen": {
+      "wasser": "leitung",
+      "stufe": "antrocknen",
+      "methode": "durchdringend aufs Substrat, nicht in die Blattbasis",
+      "kurz": "Gründlich gießen, Oberfläche leicht antrocknen lassen – nie ganz austrocknen.",
+      "winter": "Seltener gießen, aber nicht trocken stehen lassen; warm halten (Bodenwärme)."
+    },
+    "quellen": [
+      {
+        "titel": "SANBI PlantZAfrica – Welwitschia mirabilis",
+        "url": "https://pza.sanbi.org/node/11111"
+      },
+      {
+        "titel": "UC Davis Botanical Conservatory – Welwitschia",
+        "url": "https://conservatory.ucdavis.edu/collections/notable/welwitschia"
+      },
+      {
+        "titel": "LLIFLE – Welwitschia mirabilis",
+        "url": "https://llifle.com/Encyclopedia/SUCCULENTS/Family/Welwitschiaceae/22991/Welwitschia_mirabilis"
+      },
+      {
+        "titel": "World of Succulents – How to Grow and Care for Welwitschia",
+        "url": "https://worldofsucculents.com/how-to-grow-and-care-for-welwitschia/"
+      },
+      {
+        "titel": "Bihrmann's Caudiciforms – Welwitschia mirabilis",
+        "url": "https://bihrmann.com/caudiciforms/subs/wel-mir-sub.asp"
+      },
+      {
+        "titel": "Canarius – Welwitschia mirabilis (Händlerangabe)",
+        "url": "https://canarius.com/de/pflanzen/welwitschia-mirabilis.html"
+      },
+      {
+        "titel": "Botanischer Garten Berlin – Welwitschia-Haus",
+        "url": "https://bo.berlin/en/welwitschia-annex-house"
+      }
+    ],
+    "angelegt": "2026-11-12"
   }
 ]

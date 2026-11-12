@@ -19,7 +19,7 @@ def main():
     if SITE.exists():
         shutil.rmtree(SITE)
     SITE.mkdir()
-    for datei in ("index.html", "pflanzen.json", "merkliste.json"):
+    for datei in ("index.html", "pflanzen.json", "merkliste.json", "ideen.json"):
         shutil.copy(ROOT / datei, SITE / datei)
     if (ROOT / "fotos").exists():
         shutil.copytree(ROOT / "fotos", SITE / "fotos")

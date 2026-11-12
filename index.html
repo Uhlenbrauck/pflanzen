@@ -112,6 +112,17 @@ section h2{font-size:1.2rem;margin-bottom:10px}
 .wish .pill{background:var(--wish-soft);color:var(--wish)}
 header .pills{margin-top:10px}
 header .pill{background:rgba(255,255,255,.14);color:#f1efe6;font-size:.8rem;padding:4px 10px}
+/* Ideen-Sammlungen (Übersichtsseiten zur Wunschliste) */
+.idee-link{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--wish-soft);color:var(--wish);border:1px solid var(--line);border-radius:12px;padding:11px 14px;margin-top:12px;text-decoration:none;font-weight:600}
+.idee-link small{font-weight:500;opacity:.8}
+.kd{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.kd h3{font-size:1.05rem}
+.kd .tags{display:flex;flex-wrap:wrap;gap:6px;margin:7px 0 4px}
+.kd p{margin:6px 0 0;font-size:.9rem}
+.kd .ek{color:var(--muted);font-size:.84rem}
+.kd ul{margin:6px 0 0;padding-left:18px;font-size:.82rem}
+.kd .foot{display:flex;justify-content:flex-end;margin-top:8px;font-size:.85rem}
+.an.leicht{--c:#8fbf6a}.an.mittel{--c:#d6a23c}.an.schwer{--c:#c0533a}
 </style>
 </head>
 <body>
@@ -124,7 +135,7 @@ const PFLEGE = [
 ];
 const STUFEN = {nass:"Nass / Anstau", feucht:"Gleichmäßig feucht", antrocknen:"Antrocknen lassen", trocken:"Durchtrocknen lassen", tauchen:"Tauchen / Sprühen"};
 const WASSER = {weich:"Kalkarmes Wasser", leitung:"Leitungswasser"};
-let merk = [], mKat = "";
+let merk = [], mKat = "", ideen = [];
 let daten = [], tab = "besitz", suche = "", ort = "", tagF = "", gWasser = "", gStufe = "";
 // Filter nach Standort und Tag (gelten für Pflanzen, Wünsche und Gießen)
 const OHNE_ORT = "–";
@@ -174,6 +185,7 @@ async function laden(){
     const r = await fetch("pflanzen.json", {cache:"no-cache"});
     daten = await r.json();
     try { merk = await (await fetch("merkliste.json", {cache:"no-cache"})).json(); } catch(e) { merk = []; }
+    try { ideen = await (await fetch("ideen.json", {cache:"no-cache"})).json(); } catch(e) { ideen = []; }
   }catch(e){ app.innerHTML = '<p class="empty">Daten konnten nicht geladen werden.</p>'; return; }
   zeigen();
 }
@@ -182,7 +194,8 @@ function zeigen(){
   const id = decodeURIComponent(location.hash.slice(1));
   const p = id && daten.find(x => String(x.id) === id);
   if (id === "giessen" || id === "merkliste") tab = id;
-  p ? detail(p) : ansicht();
+  const idee = id.startsWith("ideen-") && ideen.find(i => "ideen-" + i.id === id);
+  p ? detail(p) : idee ? ideeSeite(idee) : ansicht();
   window.scrollTo(0,0);
 }
 
@@ -277,6 +290,7 @@ function liste(){
   <main class="wrap">
     <div class="bar"><input class="search" type="search" placeholder="Suchen …" value="${esc(suche)}" aria-label="Suchen">${sortWahl(tab)}</div>
     ${filterWahl(daten.filter(p => p.status === tab))}
+    ${tab === "wunsch" ? ideen.map(i => `<a class="idee-link" href="#ideen-${esc(i.id)}"><span>Ideen: ${esc(i.titel)}</span><small>${i.gruppen.reduce((n,g) => n + g.kandidaten.length, 0)} Kandidaten →</small></a>`).join("") : ""}
     <div class="list"></div>
   </main>
   <a class="fab" href="${REPO}/issues/new?template=neue-pflanze.yml&status=${tab === "wunsch" ? "Wunsch" : "Besitz"}">+ ${tab === "wunsch" ? "Wunsch" : "Pflanze"}</a>`;
@@ -301,6 +315,40 @@ function treffer(){
       ${zusatz(p) ? `<div class="de">${esc(zusatz(p))}</div>` : ""}
       <div class="meta">${[p.standort, p.status==="wunsch" && p.preis].filter(Boolean).map(esc).join(" · ")}</div>${pills(p)}</div>
     </a>`).join("") : `<p class="empty">${daten.some(p=>p.status===tab) ? "Keine Treffer." + (ort || tagF ? " Filter prüfen." : "") : tab==="wunsch" ? "Noch keine Wünsche." : "Noch keine Pflanzen."}</p>`;
+}
+
+// Übersichtsseite einer Ideensammlung (ideen.json): Kandidaten, die noch keine Wünsche sind
+function ideeSeite(i){
+  tab = "wunsch";
+  const vorhanden = daten.filter(p => i.tag && tagsVon(p).includes(i.tag)).sort((a,b) => (a.status !== b.status) * (a.status === "besitz" ? -1 : 1) || abc(titel(a), titel(b)));
+  // Kandidat schon in der Datenbank? Vergleich über den Namen ohne Sortenzusatz in Klammern
+  const kern = s => String(s || "").toLowerCase().replace(/\(.*?\)/g, "").replace(/\s+/g, " ").trim();
+  const drin = k => daten.find(p => kern(p.botanisch) && kern(p.botanisch).startsWith(kern(k.botanisch).split(" / ")[0]));
+  const neu = k => `${REPO}/issues/new?template=neue-pflanze.yml&status=Wunsch&botanisch=${encodeURIComponent(k.botanisch)}&name=${encodeURIComponent(k.name || "")}&tags=${encodeURIComponent(i.tag || "")}&title=${encodeURIComponent("[Neu] " + k.botanisch)}`;
+  const karte = k => { const p = drin(k); return `<div class="kd">
+      <h3 class="sci">${esc(k.botanisch)}</h3>${k.name ? `<div class="de">${esc(k.name)}</div>` : ""}
+      <div class="tags">${k.anspruch ? `<span class="lv an ${esc(k.anspruch)}"><i></i>${esc(k.anspruch[0].toUpperCase() + k.anspruch.slice(1))}</span>` : ""}${k.haltung ? `<span class="wt leitung">${esc(k.haltung)}</span>` : ""}</div>
+      <p>${esc(k.kurz)}</p>${k.eckdaten ? `<p class="ek">${esc(k.eckdaten)}</p>` : ""}
+      ${(k.quellen || []).length ? `<ul class="src">${k.quellen.filter(q => url(q.url)).map(q => `<li><a href="${esc(q.url)}" target="_blank" rel="noopener">${esc(q.titel || q.url)}</a></li>`).join("")}</ul>` : ""}
+      <div class="foot">${p ? `<a href="#${p.id}">Schon drin: #${p.id} →</a>` : `<a href="${neu(k)}">Als Wunsch anlegen</a>`}</div>
+    </div>`; };
+  app.innerHTML = `
+  <header><div class="wrap" style="padding-bottom:18px">
+    <a class="back" href="#">← Wünsche</a><br>
+    <span class="badge w">Ideensammlung</span>
+    <h1>${esc(i.titel)}</h1>
+  </div></header>
+  <main class="wrap">
+    ${i.intro ? `<div class="note">${esc(i.intro)}</div>` : ""}
+    ${vorhanden.length ? `<h2 class="ort">Schon in der Datenbank<small>${vorhanden.length}</small></h2>` + vorhanden.map(p => `
+      <a class="item ${p.status==="wunsch"?"wish":""}" href="#${p.id}" style="margin-bottom:8px">
+        <div class="thumb">${url(p.foto) ? `<img src="${esc(p.foto)}" alt="" loading="lazy" onerror="this.replaceWith('#${p.id}')">` : "#"+p.id}</div>
+        <div><h3 class="sci">${esc(titel(p))}</h3><div class="meta">${p.status === "wunsch" ? "Wunsch" : "Im Besitz"} · #${p.id}</div></div>
+      </a>`).join("") : ""}
+    ${i.gruppen.map(g => `<h2 class="ort">${esc(g.titel)}<small>${g.kandidaten.length}</small></h2>` +
+      [...g.kandidaten].sort((a,b) => abc(a.botanisch, b.botanisch)).map(karte).join("")).join("")}
+    <p class="hint">Daten in ideen.json. Neue Kandidaten oder Sammlungen ergänzt Claude auf Zuruf.</p>
+  </main>`;
 }
 
 function detail(p){

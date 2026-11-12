@@ -25,6 +25,7 @@ Pro Pflanze gibt es drei 3MF-Dateien: Klebeschild (1,6 mm), Stecker (2,4 mm) und
 | Datei | Zweck |
 |---|---|
 | `pflanzen.json` | alle Daten |
+| `ideen.json` | Ideensammlungen zur Wunschliste |
 | `index.html` | Webseite |
 | `tools/etiketten.py` | erzeugt die 3MF-Etiketten |
 | `tools/build.py` | baut die Seite nach `_site/` |
@@ -44,6 +45,10 @@ Tags stehen je Pflanze im Feld `tags` in `pflanzen.json` und werden im Formular 
 ## Merkliste
 
 Der Tab „Merkliste“ sammelt Zubehör, Händler, Veranstaltungen, Internetseiten und Sonstiges. Neuer Eintrag über „+ Eintrag“, abhaken oder löschen über „Erledigt / ändern“. Die Daten liegen in `merkliste.json`.
+
+## Ideensammlungen
+
+Im Tab „Wünsche“ stehen über der Liste Ideensammlungen, z. B. „Schwarze Pflanzen“. Eine Sammlung ist eine Übersichtsseite mit Kandidaten, die noch keine Wünsche sind (Kurzbeschreibung, Eckdaten, Quellen). Oben zeigt sie alle Pflanzen und Wünsche mit dem passenden Tag. „Als Wunsch anlegen“ öffnet das Formular „Neue Pflanze“ vorausgefüllt. Die Daten liegen in `ideen.json`.
 
 ## Gießübersicht
 

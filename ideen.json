@@ -1,0 +1,158 @@
+[
+  {
+    "id": "schwarz",
+    "titel": "Schwarze Pflanzen",
+    "tag": "Schwarz",
+    "angelegt": "2026-11-12",
+    "intro": "Kandidaten mit schwarzen oder fast schwarzen Blättern bzw. Blüten. Noch keine Wünsche, nur eine Ideensammlung. Was in der Datenbank schon den Tag „Schwarz“ hat, steht oben. Über „Als Wunsch anlegen“ wird ein Kandidat zum richtigen Wunsch und dann vollständig recherchiert.",
+    "gruppen": [
+      {
+        "titel": "Schwarze Blätter",
+        "kandidaten": [
+          {
+            "botanisch": "Ludisia discolor 'Nigrescens'",
+            "name": "Schwarze Juwelorchidee",
+            "haltung": "Terrarium oder Zimmer",
+            "anspruch": "leicht",
+            "kurz": "Samtige, fast schwarze bis maronenfarbene Blätter mit feinen hellen bis rötlichen Adern. Weiße Blütenrispen im Herbst und Winter. Gilt als eine der einfachsten Juwelorchideen und würde ins Kallax-Terrarium passen.",
+            "eckdaten": "Etwa 8–30 cm hoch · gedämpftes bis helles indirektes Licht · Substrat gleichmäßig feucht, nie austrocknen lassen · hohe Luftfeuchte",
+            "quellen": [
+              {"titel": "Terrarium Tribe – Ludisia discolor", "url": "https://terrariumtribe.com/?p=4659"},
+              {"titel": "Plant Lust – Ludisia discolor var. nigrescens", "url": "https://plantlust.com/plants/55109/ludisia-discolor-var-nigrescens"},
+              {"titel": "MasterClass – Jewel orchid care", "url": "https://www.masterclass.com/articles/jewel-orchid-care-guide"}
+            ]
+          },
+          {
+            "botanisch": "Begonia darthvaderiana",
+            "name": "Darth-Vader-Begonie",
+            "haltung": "Geschlossenes Terrarium",
+            "anspruch": "schwer",
+            "kurz": "Fast schwarze, dicke, strukturierte Blätter, je nach Form mit grünem Rand oder grünen Punkten ('Green Spots'). Endemisch in Batang Ai, Sarawak (Borneo). Wächst langsam und bleibt kompakt.",
+            "eckdaten": "Konstant 20–27 °C · Luftfeuchte 90–100 %, unter 80–90 % schrumpeln die Blätter · wenig bis mäßiges Licht, keine direkte Sonne",
+            "quellen": [
+              {"titel": "Monsteraholic – Begonia darthvaderiana Care Guide", "url": "https://monsteraholic.com/?p=3898"},
+              {"titel": "Horizon Aquatics – Begonia darthvaderiana", "url": "https://www.horizonaquatics.co.uk/products/ada-begonia-darthvaderiana"}
+            ]
+          },
+          {
+            "botanisch": "Alocasia infernalis 'Black Magic'",
+            "name": "",
+            "haltung": "Terrarium oder Zimmer",
+            "anspruch": "mittel",
+            "kurz": "Eine der dunkelsten Jewel-Alocasien: kompakte, glänzende Blätter, jung violett-purpurn, ausgereift fast schwarz mit metallischem Schimmer. Art 2007 aus Nord-Borneo beschrieben (P. C. Boyce). Bei Jungle Leaves im Sortiment.",
+            "eckdaten": "Unter 30 cm hoch und 15 cm breit · hell indirekt (ca. 10.000–20.000 Lux) · gießen, wenn das Substrat teilweise abgetrocknet ist · luftiges Aroideen-Substrat",
+            "quellen": [
+              {"titel": "Foliage Factory – Alocasia infernalis 'Black Magic'", "url": "https://foliage-factory.com/en-de/products/alocasia-infernalis-black-magic"},
+              {"titel": "Araflora – Alocasia infernalis 'Black magic'", "url": "https://www.araflora.com/product/alocasia-infernalis-black-magic/"},
+              {"titel": "Jungle Leaves – Alocasia infernalis", "url": "https://www.jungle-leaves.de/en/products/alocasia-infernalis"}
+            ]
+          },
+          {
+            "botanisch": "Homalomena humilis 'Black'",
+            "name": "",
+            "haltung": "Terrarium",
+            "anspruch": "mittel",
+            "kurz": "Mini-Aroidee aus Borneo. Neue Blätter treiben burgunderrot aus und werden dann metallisch schwarz, unterseits tiefrot. Selten und teuer (GrowTropicals: 95 £).",
+            "eckdaten": "Klein bleibend · hohe Luftfeuchte · Terrarienpflanze",
+            "quellen": [
+              {"titel": "GrowTropicals – Homalomena humilis 'black'", "url": "https://growtropicals.com/products/homalomena-humilis-black"},
+              {"titel": "Sprout Home – Homalomena humilis 'Black Form'", "url": "https://sprouthome.com/products/homalomena-flaming-red-4"}
+            ]
+          },
+          {
+            "botanisch": "Homalomena rubescens 'Black' (auch 'Black Emerald')",
+            "name": "",
+            "haltung": "Zimmer",
+            "anspruch": "leicht",
+            "kurz": "Robust und schnellwüchsig, herzförmige, gesteppt wirkende, sehr dunkle Blätter. Verträgt auch wenig Licht. Eine Sorte 'Black Out' war nicht auffindbar, vermutlich ein Handelsname für diese oder eine ähnliche Form.",
+            "eckdaten": "Große Pflanzen über 60 cm · indirektes Licht, auch schattiger · giftig (Calciumoxalat)",
+            "quellen": [
+              {"titel": "Foliage Factory – Homalomena rubescens 'Black Emerald'", "url": "https://www.foliage-factory.com/homalomena-black-emerald-aka-dark"},
+              {"titel": "Plants for All Seasons – Homalomena rubescens 'Black'", "url": "https://plantsforallseasons.co.uk/products/15-20cm-homalomena-rubescens-black-house-plant-10-5-cm-pot"},
+              {"titel": "The Plant Boys – Homalomena Black", "url": "https://theplantboys.au/products/homalomena-black"}
+            ]
+          },
+          {
+            "botanisch": "Colocasia esculenta 'Black Coral' / 'Diamond Head' / 'Black Magic'",
+            "name": "Taro, Elefantenohr",
+            "haltung": "Fensterplatz oder Kübel (Sommer draußen)",
+            "anspruch": "mittel",
+            "kurz": "'Black Coral' (Universität Hawaii, US-Pflanzenpatent PP23896): große, glänzende, dunkelpurpurne bis schwarze Blätter mit bläulichen Adern; in voller Sonne schwarz. 'Diamond Head' ist ein Elternteil, glänzend tiefschwarz mit gewellter Struktur. 'Black Magic': matt purpurschwarz.",
+            "eckdaten": "Groß (Elefantenohr-Format) · volle Sonne bis Halbschatten, sonst vergrünt die Farbe · Erde dauerhaft feucht · nicht frosthart, Knolle frostfrei überwintern · giftig",
+            "quellen": [
+              {"titel": "US-Patent PP23896 – Colocasia 'Black Coral'", "url": "https://patents.google.com/patent/USPP23896P2/en"},
+              {"titel": "NC State Extension – Colocasia esculenta", "url": "https://plants.ces.ncsu.edu/plants/all/colocasia-esculenta/"},
+              {"titel": "Mississippi State Extension – Colocasia", "url": "https://extension.msstate.edu/node/37174"}
+            ]
+          },
+          {
+            "botanisch": "Aeonium 'Zwartkop'",
+            "name": "Schwarzes Rosettendickblatt",
+            "haltung": "Sonniges Fenster, Sommer draußen",
+            "anspruch": "leicht",
+            "kurz": "Sukkulente mit tief schwarzpurpurnen Rosetten auf verzweigten Stämmen, gelbe Blütenrispen im Vorfrühling. RHS Award of Garden Merit. Im Winter bei wenig Licht grüner.",
+            "eckdaten": "Bis 1–1,5 m hoch · volle Sonne · durchlässiges Substrat, trockenheitsverträglich · nicht frosthart",
+            "quellen": [
+              {"titel": "RHS – Aeonium 'Zwartkop'", "url": "https://www.rhs.org.uk/Plants/26342/Aeonium-Zwartkop/Details"}
+            ]
+          },
+          {
+            "botanisch": "Echeveria 'Black Prince'",
+            "name": "",
+            "haltung": "Wüstenterrarium, Sukkulentenschale",
+            "anspruch": "leicht",
+            "kurz": "Dunkle, fast schwarze Rosette, bleibt klein. Vermehrung über Ableger. Wäre ein dunkler Akzent im sandfarbenen Wüstenterrarium.",
+            "eckdaten": "Kompakt · sehr hell bis sonnig · mineralisches Substrat, durchtrocknen lassen",
+            "quellen": [
+              {"titel": "RHS – Echeveria 'Black Prince'", "url": "https://www.rhs.org.uk/plants/117272/echeveria-black-prince/details"}
+            ]
+          }
+        ]
+      },
+      {
+        "titel": "Schwarze Blüten",
+        "kandidaten": [
+          {
+            "botanisch": "Dracula vampira",
+            "name": "",
+            "haltung": "Kühles Orchideen-Terrarium, hängend",
+            "anspruch": "schwer",
+            "kurz": "Fast schwarze Blüten mit heller Aderung und weißer Lippe. Heimat: Bergregenwald in Ecuador (1800–2200 m, Westhänge des Pichincha). Blütenstiele wachsen nach unten, daher in offenen Körbchen oder aufgebunden.",
+            "eckdaten": "Kühl: Wichmann gibt 10–16 °C an, andere Quellen bis 22 °C, keine Hitze · Luftfeuchte nie unter 60 % (AOS), besser 75–80 % · viel Luftbewegung · schattig · bei Wichmann im Sortiment",
+            "quellen": [
+              {"titel": "American Orchid Society – Growing Draculas", "url": "https://www.aos.org/orchids/articles/growing-draculas"},
+              {"titel": "Orchideen Wichmann – Dracula", "url": "https://www.orchideen-wichmann.de/en/orchids-a-z/dracula.html?price=60-"},
+              {"titel": "Travaldo – Dracula vampira care and culture", "url": "https://travaldo.blogspot.com/2018/03/dracula-vampira-care-and-culture.html"}
+            ]
+          },
+          {
+            "botanisch": "Fredclarkeara After Dark 'SVO Black Pearl'",
+            "name": "",
+            "haltung": "Zimmer, hell",
+            "anspruch": "mittel",
+            "kurz": "Catasetinae-Hybride (Mormodes Painted Desert × Catasetum Donna Wise) von Fred Clarke, Sunset Valley Orchids. Gilt als schwärzeste Orchideenblüte. Epiphytisch mit fleischigen Pseudobulben. Bei Jungle Leaves gelistet.",
+            "eckdaten": "Bis 45 cm hoch · hell bis halbsonnig · wie alle Catasetinae mit Trockenruhe nach dem Laubfall, umtopfen bei neuem Austrieb",
+            "quellen": [
+              {"titel": "AOS – Fred Clarke", "url": "https://aos.org/community/speaker-center/fred-clarke"},
+              {"titel": "RHS – × Fredclarkeara After Dark gx", "url": "https://rhs.org.uk/plants/332265/-fredclarkeara-after-dark-gx/details"},
+              {"titel": "The Orchid Patio – Fdk. After Dark", "url": "https://theorchidpatio.com.au/products/catasetum-fdk-after-dark-bakers-black"}
+            ]
+          },
+          {
+            "botanisch": "Tacca chantrieri",
+            "name": "Fledermausblume",
+            "haltung": "Zimmer, hell und feucht",
+            "anspruch": "schwer",
+            "kurz": "Fast schwarz-purpurne Blütenstände mit langen, herabhängenden Fäden. Unterwuchs-Pflanze aus Südostasien. Große, glänzend grüne Blätter. Enthält Calciumoxalat.",
+            "eckdaten": "Bis etwa 1 m · etwa 18–26 °C, nicht unter 15 °C · Luftfeuchte 60–80 % · hell, keine direkte Sonne · gleichmäßig feucht, nicht nass",
+            "quellen": [
+              {"titel": "Gardenia – Tacca chantrieri", "url": "https://www.gardenia.net/plant/tacca-chantrieri-black-bat-flower-grow-care-guide"},
+              {"titel": "GrowTropicals – Tacca chantrieri", "url": "https://growtropicals.com/products/tacca-chantrieri-green-bat-flower"},
+              {"titel": "Araflora – Tacca chantrieri", "url": "https://www.araflora.com/product/tacca-chantrieri-aameyri/"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
